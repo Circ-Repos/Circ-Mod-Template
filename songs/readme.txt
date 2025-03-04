@@ -1,0 +1,1 @@
+The Songs Folder Is Like The Scripts Folder, These Scripts Only Run IN Song, However You Can Put A Scripts folder into The Folder Of A Song Aswell

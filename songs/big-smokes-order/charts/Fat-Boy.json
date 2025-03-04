@@ -1,0 +1,926 @@
+{
+	"events": [
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 0
+		},
+		{
+			"params": [
+				"Can I Take Your Order Please?",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 2850
+		},
+		{
+			"params": [
+				4
+			],
+			"time": 2850,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"Car, what'd you want? You gotta eat to keep your strength up, mayn",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 4350
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 4350,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 8400
+		},
+		{
+			"params": [
+				"Hey I'll take a number 9",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 8400
+		},
+		{
+			"params": [
+				"Fat Boy",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 10500
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 12000
+		},
+		{
+			"params": [
+				"Give me a number 9 just like his!",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 12000
+		},
+		{
+			"params": [
+				"Uh let me get a number 6 with extra dip",
+				""
+			],
+			"name": "Source Subtitles",
+			"time": 14100
+		},
+		{
+			"params": [
+				3
+			],
+			"time": 14100,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 16800
+		},
+		{
+			"params": [
+				"I’ll have two number 9s,",
+				""
+			],
+			"time": 16800,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"a number 9 large,",
+				""
+			],
+			"time": 19500,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"a number 6 with extra dip,",
+				""
+			],
+			"time": 21750,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"a number 7,",
+				""
+			],
+			"time": 24600,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"two number 45s,",
+				""
+			],
+			"time": 26550,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"one with cheese,",
+				""
+			],
+			"time": 28650,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"and a large soda.",
+				"1.3"
+			],
+			"time": 30300,
+			"name": "Source Subtitles"
+		}
+	],
+	"scrollSpeed": 3,
+	"strumLines": [
+		{
+			"strumScale": 0.25,
+			"position": "dad",
+			"notes": [
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 8410.71428571429,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 8571.42857142857,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 8732.14285714286,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 8892.85714285714,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 9000,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 9107.14285714286,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 9267.85714285714,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 10392.8571428571,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 10392.8571428571,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 10392.8571428571,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 10714.2857142857,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 10714.2857142857,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 10714.2857142857,
+					"type": 0
+				}
+			],
+			"characters": [
+				"dad"
+			],
+			"type": 0,
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
+		},
+		{
+			"strumScale": 1,
+			"position": "boyfriend",
+			"notes": [
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 4285,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 4285,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 4285,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 4714,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 4821,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 4928,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 5035,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 5035,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 5357,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 5464,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 5571,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 5714,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 5714,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 5892,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 5999,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 6142,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 214,
+					"time": 6357,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 6642,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 6857,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 6857,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 16821,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 17107,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 17499,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 17785,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 17999,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 393,
+					"time": 18214,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 19535,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 19714,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 19928,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 20142,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 428.000000000007,
+					"time": 20571,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 20678,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 20785,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 20892,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 21678,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 21857,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 22107,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 215.000000000022,
+					"time": 22249,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 22499,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 22821,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 23071,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 23285,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 23357,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 23642,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 23642,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 24607,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 24785,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 25071,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 179,
+					"time": 25142,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 25392,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 25607,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 26499,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 26499,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 26821,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 27107,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 27321,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 27535,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 27749,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 464.000000000025,
+					"time": 27785,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 28285,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 28642,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 28964,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 29214,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 322.000000000018,
+					"time": 29285,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 29678,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 30249,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 30357,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 464,
+					"time": 30571,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 30607,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 31107,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 31392,
+					"type": 0
+				}
+			],
+			"characters": [
+				"bf"
+			],
+			"type": 1,
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75
+		},
+		{
+			"notes": [
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 12000,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 12107.1428571429,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 12214.2857142857,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 12267.8571428571,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 12428.5714285714,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 12535.7142857143,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 12857.1428571429,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 13071.4285714286,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 13285.7142857143,
+					"type": 0
+				}
+			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 0.25,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
+			"type": 2,
+			"characters": [
+				"bf-pixel"
+			]
+		},
+		{
+			"strumScale": 0.25,
+			"position": "girlfriend",
+			"notes": [
+				{
+					"id": 1,
+					"sLen": 214.999999999998,
+					"time": 14100,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 14250,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 14400,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 14550,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 14700,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 14700,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 14850,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 108,
+					"time": 15000,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 15150,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 15300,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 15450,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 15600,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 15750,
+					"type": 0
+				}
+			],
+			"characters": [
+				"pico"
+			],
+			"type": 0,
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
+		},
+		{
+			"notes": [
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 2850,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 3000,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 3150,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 3300,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 3450,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 3600,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 3750,
+					"type": 0
+				}
+			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 0.25,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.13,
+			"type": 0,
+			"characters": [
+				"bf-christmas"
+			]
+		}
+	],
+	"codenameChart": true,
+	"stage": "stage",
+	"noteTypes": []
+}

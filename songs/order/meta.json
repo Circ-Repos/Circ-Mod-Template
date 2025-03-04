@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"STANDARD",
+		"BRUTAL",
+		"ULTRAKILL-MUST-DIE"
+	],
+	"icon": "face",
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Order",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100,
+	"name": "order"
+}
