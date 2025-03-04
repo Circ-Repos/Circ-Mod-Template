@@ -4,176 +4,160 @@
 			"params": [
 				1
 			],
-			"time": 0,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 0
 		},
 		{
 			"params": [
-				"Set Font",
-				"95",
-				-1,
-				false
+				"Can I Take Your Order Please?",
+				""
 			],
-			"name": "Lyrics",
-			"time": 150
-		},
-		{
-			"params": [
-				"Add Text",
-				"SPEAKER: Can I Take you order please?",
-				-1,
-				false
-			],
-			"name": "Lyrics",
+			"name": "Source Subtitles",
 			"time": 2850
 		},
 		{
 			"params": [
-				"Add Text",
-				"SMOKE: Carl, what'd you want? You gotta eat to keep your stength up, mayn",
-				-1,
-				false
+				4
 			],
-			"name": "Lyrics",
+			"time": 2850,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"Car, what'd you want? You gotta eat to keep your strength up, mayn",
+				""
+			],
+			"name": "Source Subtitles",
 			"time": 4350
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 4350,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 8357.14285714286,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"Add Text",
-				"Hey, I'll take a Number 9",
-				-1,
-				false
-			],
-			"name": "Lyrics",
+			"name": "Camera Movement",
 			"time": 8400
 		},
 		{
 			"params": [
-				"Add Text",
-				"Fat boy",
-				-1,
-				false
+				"Hey I'll take a number 9",
+				""
 			],
-			"name": "Lyrics",
+			"name": "Source Subtitles",
+			"time": 8400
+		},
+		{
+			"params": [
+				"Fat Boy",
+				""
+			],
+			"name": "Source Subtitles",
 			"time": 10500
 		},
 		{
 			"params": [
 				2
 			],
-			"time": 12000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				"Add Text",
-				"Give me a number 9 just like his!",
-				-1,
-				false
-			],
-			"name": "Lyrics",
+			"name": "Camera Movement",
 			"time": 12000
 		},
 		{
 			"params": [
-				"Add Text",
-				"Uh let me get a Number 6 with extra dip",
-				-1,
-				false
+				"Give me a number 9 just like his!",
+				""
 			],
-			"name": "Lyrics",
+			"name": "Source Subtitles",
+			"time": 12000
+		},
+		{
+			"params": [
+				"Uh let me get a number 6 with extra dip",
+				""
+			],
+			"name": "Source Subtitles",
 			"time": 14100
 		},
 		{
 			"params": [
-				"Add Text",
-				"I'll have two Number 9s...",
-				-1,
-				false
+				3
 			],
-			"name": "Lyrics",
-			"time": 16800
+			"time": 14100,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 16821.4285714286,
-			"name": "Camera Movement"
+			"name": "Camera Movement",
+			"time": 16800
 		},
 		{
 			"params": [
-				"Add Text",
-				"A Number 9 large...",
-				-1,
-				false
+				"I’ll have two number 9s,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 19500
+			"time": 16800,
+			"name": "Source Subtitles"
 		},
 		{
 			"params": [
-				"Add Text",
-				"A Number 6 with extra dip...",
-				-1,
-				false
+				"a number 9 large,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 21750
+			"time": 19500,
+			"name": "Source Subtitles"
 		},
 		{
 			"params": [
-				"Add Text",
-				"A Number 7...",
-				-1,
-				false
+				"a number 6 with extra dip,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 24600
+			"time": 21750,
+			"name": "Source Subtitles"
 		},
 		{
 			"params": [
-				"Add Text",
-				"Two Number 45s",
-				-1,
-				false
+				"a number 7,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 26550
+			"time": 24600,
+			"name": "Source Subtitles"
 		},
 		{
 			"params": [
-				"Add Text",
-				"One with cheese...",
-				-1,
-				false
+				"two number 45s,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 28650
+			"time": 26550,
+			"name": "Source Subtitles"
 		},
 		{
 			"params": [
-				"Add Text",
-				"... and a LARGE soda",
-				-1,
-				false
+				"one with cheese,",
+				""
 			],
-			"name": "Lyrics",
-			"time": 30300
+			"time": 28650,
+			"name": "Source Subtitles"
+		},
+		{
+			"params": [
+				"and a large soda.",
+				"1.3"
+			],
+			"time": 30300,
+			"name": "Source Subtitles"
 		}
 	],
 	"scrollSpeed": 3,
-	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
+			"strumScale": 0.25,
 			"position": "dad",
 			"notes": [
 				{
@@ -265,7 +249,7 @@
 				50
 			],
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.5
 		},
 		{
 			"strumScale": 1,
@@ -453,7 +437,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 428.000000000004,
+					"sLen": 428.000000000007,
 					"time": 20571,
 					"type": 0
 				},
@@ -495,7 +479,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 215.000000000004,
+					"sLen": 215.000000000022,
 					"time": 22249,
 					"type": 0
 				},
@@ -621,7 +605,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 464.000000000007,
+					"sLen": 464.000000000025,
 					"time": 27785,
 					"type": 0
 				},
@@ -651,7 +635,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 322.000000000007,
+					"sLen": 322.000000000018,
 					"time": 29285,
 					"type": 0
 				},
@@ -711,51 +695,7 @@
 			"strumLinePos": 0.75
 		},
 		{
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 2850,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 3000,
-					"type": 0
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 3150,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 3300,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 3450,
-					"type": 0
-				},
-				{
-					"id": 1,
-					"sLen": 0,
-					"time": 3600,
-					"type": 0
-				},
-				{
-					"id": 2,
-					"sLen": 0,
-					"time": 3750,
-					"type": 0
-				},
 				{
 					"id": 1,
 					"sLen": 0,
@@ -809,47 +749,66 @@
 					"sLen": 0,
 					"time": 13285.7142857143,
 					"type": 0
-				},
+				}
+			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 0.25,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25,
+			"type": 2,
+			"characters": [
+				"bf-pixel"
+			]
+		},
+		{
+			"strumScale": 0.25,
+			"position": "girlfriend",
+			"notes": [
 				{
 					"id": 1,
 					"sLen": 214.999999999998,
-					"time": 14142.8571428571,
+					"time": 14100,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 14357.1428571429,
+					"time": 14250,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 14464.2857142857,
+					"time": 14400,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 14571.4285714286,
-					"type": 0
-				},
-				{
-					"id": 3,
-					"sLen": 0,
-					"time": 14678.5714285714,
+					"time": 14550,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 14785.7142857143,
+					"time": 14700,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 14700,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 14892.8571428571,
+					"time": 14850,
 					"type": 0
 				},
 				{
@@ -861,47 +820,107 @@
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 15160.7142857143,
+					"time": 15150,
 					"type": 0
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 15321.4285714286,
+					"time": 15300,
 					"type": 0
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 15428.5714285714,
+					"time": 15450,
 					"type": 0
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 15589.2857142857,
+					"time": 15600,
 					"type": 0
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 15803.5714285714,
+					"time": 15750,
 					"type": 0
 				}
 			],
 			"characters": [
-				"gf"
+				"pico"
 			],
-			"type": 2,
-			"visible": false,
+			"type": 0,
+			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
 			"vocalsSuffix": "",
 			"strumLinePos": 0.25
+		},
+		{
+			"notes": [
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 2850,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 3000,
+					"type": 0
+				},
+				{
+					"id": 0,
+					"sLen": 0,
+					"time": 3150,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 3300,
+					"type": 0
+				},
+				{
+					"id": 3,
+					"sLen": 0,
+					"time": 3450,
+					"type": 0
+				},
+				{
+					"id": 1,
+					"sLen": 0,
+					"time": 3600,
+					"type": 0
+				},
+				{
+					"id": 2,
+					"sLen": 0,
+					"time": 3750,
+					"type": 0
+				}
+			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 0.25,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.13,
+			"type": 0,
+			"characters": [
+				"bf-christmas"
+			]
 		}
 	],
+	"codenameChart": true,
 	"stage": "stage",
 	"noteTypes": []
 }
