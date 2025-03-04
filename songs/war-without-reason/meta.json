@@ -1,15 +1,16 @@
 {
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
 	"difficulties": [
-		"7-4",
-        "Like-Attenas-To-Heaven"
+		"7-4 ...LIKE ANTENNAS TO HEAVEN",
+		"VIOLENCE-CLIMAX"
 	],
-	"needsVoices": true,
-	"parsedColor": -7179779,
-	"displayName": "War Without Reason",
 	"icon": "face",
-	"name": "war-without-reason",
-	"color": "#9271FD",
-	"customValues": {}
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "War Without Reason",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100,
+	"name": "war-without-reason"
 }

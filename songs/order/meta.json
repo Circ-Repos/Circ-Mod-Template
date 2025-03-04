@@ -1,19 +1,17 @@
 {
-	"beatsPerMeasure": 4,
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 100,
 	"difficulties": [
 		"STANDARD",
 		"BRUTAL",
 		"ULTRAKILL-MUST-DIE"
 	],
-	"needsVoices": true,
-	"parsedColor": -7179779,
-	"displayName": "order",
 	"icon": "face",
-	"name": "order",
-	"color": "#9271FD",
-	"customValues": {}
+	"parsedColor": -7179779,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Order",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100,
+	"name": "order"
 }
