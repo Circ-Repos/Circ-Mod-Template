@@ -1,1 +1,15 @@
-null
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"difficulties": [
+		"7-4",
+        "Like-Attenas-To-Heaven"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "War Without Reason",
+	"icon": "face",
+	"name": "war-without-reason",
+	"color": "#9271FD",
+	"customValues": {}
+}

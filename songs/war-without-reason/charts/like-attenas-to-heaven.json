@@ -4,28 +4,13 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 0
+			"time": 0,
+			"name": "Camera Movement"
 		}
 	],
 	"scrollSpeed": 3,
+	"codenameChart": true,
 	"strumLines": [
-		{
-			"notes": [],
-			"visible": true,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"dad"
-			]
-		},
 		{
 			"notes": [
 				{
@@ -6792,7 +6777,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1000.99999999997,
+					"sLen": 1000.99999999994,
 					"time": 261999,
 					"type": 0
 				},
@@ -9930,7 +9915,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 666,
+					"sLen": 666.000000000058,
 					"time": 368000,
 					"type": 0
 				},
@@ -10819,30 +10804,13 @@
 			"position": "boyfriend",
 			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75,
+			"strumLinePos": 0.5,
 			"type": 1,
 			"characters": [
 				"bf"
 			]
-		},
-		{
-			"notes": [],
-			"visible": false,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf"
-			]
 		}
 	],
-	"codenameChart": true,
 	"stage": "sammyparkfinalfinal",
 	"noteTypes": []
 }

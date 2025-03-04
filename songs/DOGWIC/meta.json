@@ -1,1 +1,14 @@
-null
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"difficulties": [
+		"ODE"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "Death Of Gods Will",
+	"icon": "face",
+	"name": "DOGWIC",
+	"color": "#9271FD",
+	"customValues": {}
+}

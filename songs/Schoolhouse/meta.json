@@ -1,1 +1,14 @@
-null
+{
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"difficulties": [
+		"Hard"
+	],
+	"needsVoices": true,
+	"parsedColor": -7179779,
+	"displayName": "Schoolhouse Trouble",
+	"icon": "face",
+	"name": "Schoolhouse",
+	"color": "#9271FD",
+	"customValues": {}
+}null

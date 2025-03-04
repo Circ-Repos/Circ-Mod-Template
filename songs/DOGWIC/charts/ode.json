@@ -4,28 +4,13 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 0
+			"time": 0,
+			"name": "Camera Movement"
 		}
 	],
 	"scrollSpeed": 3,
+	"codenameChart": true,
 	"strumLines": [
-		{
-			"notes": [],
-			"visible": true,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"dad"
-			]
-		},
 		{
 			"notes": [
 				{
@@ -1230,7 +1215,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 313,
+					"sLen": 313.000000000002,
 					"time": 10500,
 					"type": 0
 				},
@@ -1242,7 +1227,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 313,
+					"sLen": 313.000000000002,
 					"time": 10500,
 					"type": 0
 				},
@@ -1254,13 +1239,13 @@
 				},
 				{
 					"id": 1,
-					"sLen": 312,
+					"sLen": 312.000000000002,
 					"time": 10876,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 312,
+					"sLen": 312.000000000002,
 					"time": 10876,
 					"type": 0
 				},
@@ -1272,7 +1257,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 125,
+					"sLen": 125.000000000002,
 					"time": 11063,
 					"type": 0
 				},
@@ -1284,13 +1269,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 312,
+					"sLen": 312.000000000002,
 					"time": 11251,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 312,
+					"sLen": 312.000000000002,
 					"time": 11251,
 					"type": 0
 				},
@@ -11058,7 +11043,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 750.000000000015,
+					"sLen": 750.000000000029,
 					"time": 96759,
 					"type": 0
 				},
@@ -24870,7 +24855,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 749.999999999971,
+					"sLen": 749.999999999942,
 					"time": 216770,
 					"type": 0
 				},
@@ -30559,30 +30544,13 @@
 			"position": "boyfriend",
 			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75,
+			"strumLinePos": 0.5,
 			"type": 1,
 			"characters": [
 				"bf"
 			]
-		},
-		{
-			"notes": [],
-			"visible": false,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf"
-			]
 		}
 	],
-	"codenameChart": true,
 	"stage": "sammyparkfinalfinal",
 	"noteTypes": []
 }
