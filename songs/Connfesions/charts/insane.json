@@ -4,13 +4,40 @@
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				4444444,
+				1
+			],
+			"name": "Camera Modulo Change",
 			"time": 0
+		},
+		{
+			"params": [
+				"removeRetro",
+				""
+			],
+			"name": "HScript Call",
+			"time": 12812.75
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 12812.75
 		}
 	],
 	"scrollSpeed": 3,
+	"codenameChart": true,
 	"strumLines": [
 		{
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 0,
@@ -1670,13 +1697,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 87.9999999999964,
 					"time": 27294,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 88,
+					"sLen": 88.0000000000036,
 					"time": 27382,
 					"type": 0
 				},
@@ -1718,19 +1745,19 @@
 				},
 				{
 					"id": 2,
-					"sLen": 89,
+					"sLen": 89.0000000000036,
 					"time": 27823,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 87.9999999999964,
+					"sLen": 87.9999999999891,
 					"time": 27912,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 87.9999999999964,
+					"sLen": 87.9999999999891,
 					"time": 27912,
 					"type": 0
 				},
@@ -6542,19 +6569,19 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 88.0000000000146,
 					"time": 85441,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88,
+					"sLen": 88.0000000000146,
 					"time": 85441,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 88,
+					"sLen": 87.9999999999854,
 					"time": 85529,
 					"type": 0
 				},
@@ -11930,13 +11957,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1059,
+					"sLen": 1059.00000000003,
 					"time": 153911,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 1059,
+					"sLen": 1059.00000000003,
 					"time": 153911,
 					"type": 0
 				},
@@ -13274,19 +13301,19 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 87.9999999999709,
 					"time": 180116,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180204,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180204,
 					"type": 0
 				},
@@ -13298,19 +13325,19 @@
 				},
 				{
 					"id": 0,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180381,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180381,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 87.9999999999709,
 					"time": 180469,
 					"type": 0
 				},
@@ -14306,13 +14333,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88.9999999999709,
+					"sLen": 89,
 					"time": 191851,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88.9999999999709,
+					"sLen": 89,
 					"time": 191851,
 					"type": 0
 				},
@@ -14438,7 +14465,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 529,
+					"sLen": 529.000000000029,
 					"time": 193440,
 					"type": 0
 				},
@@ -14546,13 +14573,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 117.999999999942,
+					"sLen": 117.999999999913,
 					"time": 194851,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 117.999999999942,
+					"sLen": 117.999999999913,
 					"time": 194851,
 					"type": 0
 				},
@@ -14570,13 +14597,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 118,
+					"sLen": 118.000000000029,
 					"time": 195204,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 118,
+					"sLen": 118.000000000029,
 					"time": 195204,
 					"type": 0
 				},
@@ -14996,7 +15023,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 353,
+					"sLen": 353.000000000029,
 					"time": 201204,
 					"type": 0
 				},
@@ -15139,22 +15166,19 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"bf"
+			],
+			"type": 1,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5,
-			"type": 1,
-			"characters": [
-				"bf"
-			]
+			"strumLinePos": 0.5
 		}
 	],
-	"codenameChart": true,
 	"stage": "stage",
 	"noteTypes": []
 }

@@ -2,30 +2,48 @@
 	"events": [
 		{
 			"params": [
-				1
+				"removeRetro",
+				""
 			],
-			"name": "Camera Movement",
-			"time": 0
+			"time": 12812.75,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"rainbow",
+				""
+			],
+			"name": "HScript Call",
+			"time": 120000
+		},
+		{
+			"params": [
+				"unrainbow",
+				""
+			],
+			"name": "HScript Call",
+			"time": 141300
+		},
+		{
+			"params": [
+				"addRetro",
+				""
+			],
+			"name": "HScript Call",
+			"time": 155400
+		},
+		{
+			"params": [
+				"removeRetro",
+				""
+			],
+			"name": "HScript Call",
+			"time": 168900
 		}
 	],
-	"scrollSpeed": 3,
+	"scrollSpeed": 3.3,
+	"codenameChart": true,
 	"strumLines": [
-		{
-			"notes": [],
-			"visible": true,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "dad",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"sammy"
-			]
-		},
 		{
 			"notes": [
 				{
@@ -1476,13 +1494,13 @@
 				},
 				{
 					"id": 3,
-					"sLen": 88,
+					"sLen": 87.9999999999964,
 					"time": 27294,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 88.0000000000036,
 					"time": 27382,
 					"type": 0
 				},
@@ -1518,19 +1536,19 @@
 				},
 				{
 					"id": 3,
-					"sLen": 89,
+					"sLen": 89.0000000000036,
 					"time": 27823,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 87.9999999999964,
+					"sLen": 87.9999999999891,
 					"time": 27912,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 87.9999999999964,
+					"sLen": 87.9999999999891,
 					"time": 27912,
 					"type": 0
 				},
@@ -3834,13 +3852,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 353.000000000007,
+					"sLen": 353,
 					"time": 64265,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 353.000000000007,
+					"sLen": 353,
 					"time": 64265,
 					"type": 0
 				},
@@ -5238,19 +5256,19 @@
 				},
 				{
 					"id": 0,
-					"sLen": 88,
+					"sLen": 88.0000000000146,
 					"time": 85441,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88,
+					"sLen": 88.0000000000146,
 					"time": 85441,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 88,
+					"sLen": 87.9999999999854,
 					"time": 85529,
 					"type": 0
 				},
@@ -9540,13 +9558,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1059,
+					"sLen": 1059.00000000003,
 					"time": 153911,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 1059,
+					"sLen": 1059.00000000003,
 					"time": 153911,
 					"type": 0
 				},
@@ -10716,13 +10734,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 87.9999999999709,
 					"time": 180116,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180204,
 					"type": 0
 				},
@@ -10734,19 +10752,19 @@
 				},
 				{
 					"id": 0,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180381,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 88,
+					"sLen": 88.0000000000291,
 					"time": 180381,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 88,
+					"sLen": 87.9999999999709,
 					"time": 180469,
 					"type": 0
 				},
@@ -11658,7 +11676,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 529,
+					"sLen": 529.000000000029,
 					"time": 193440,
 					"type": 0
 				},
@@ -11760,13 +11778,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 177.000000000029,
+					"sLen": 177.000000000058,
 					"time": 195204,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 177.000000000029,
+					"sLen": 177.000000000058,
 					"time": 195204,
 					"type": 0
 				},
@@ -11868,7 +11886,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 176.000000000029,
+					"sLen": 176,
 					"time": 197322,
 					"type": 0
 				},
@@ -12024,7 +12042,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 176.000000000029,
+					"sLen": 176,
 					"time": 200322,
 					"type": 0
 				},
@@ -12060,7 +12078,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 176,
+					"sLen": 175.999999999971,
 					"time": 201028,
 					"type": 0
 				},
@@ -12072,7 +12090,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 353,
+					"sLen": 353.000000000029,
 					"time": 201204,
 					"type": 0
 				},
@@ -12102,7 +12120,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1059,
+					"sLen": 1059.00000000003,
 					"time": 201910,
 					"type": 0
 				},
@@ -12181,30 +12199,13 @@
 			"position": "boyfriend",
 			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75,
+			"strumLinePos": 0.5,
 			"type": 1,
 			"characters": [
 				"bf"
 			]
-		},
-		{
-			"notes": [],
-			"visible": false,
-			"strumPos": [
-				0,
-				50
-			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"alexsit"
-			]
 		}
 	],
-	"codenameChart": true,
 	"stage": "sammyparkfinalfinal",
 	"noteTypes": []
 }
