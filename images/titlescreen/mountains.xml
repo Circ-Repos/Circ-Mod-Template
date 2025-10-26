@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mountains.png">
+<SubTexture name="mountains0000" x="0" y="0" width="511" height="85" frameX="0" frameY="0" frameWidth="511" frameHeight="85" />
+<SubTexture name="mountains0001" x="0" y="85" width="511" height="85" frameX="0" frameY="0" frameWidth="511" frameHeight="85" />
+<SubTexture name="mountains0002" x="0" y="170" width="511" height="85" frameX="0" frameY="0" frameWidth="511" frameHeight="85" />
+<SubTexture name="mountains0003" x="0" y="255" width="511" height="85" frameX="0" frameY="0" frameWidth="511" frameHeight="85" />
+</TextureAtlas>

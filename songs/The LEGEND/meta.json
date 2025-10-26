@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "face",
+	"difficulties": [
+		"Legend"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "The LEGEND",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 110
+}

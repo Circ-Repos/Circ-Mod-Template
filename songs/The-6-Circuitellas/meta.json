@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "circuitella",
+	"difficulties": [
+		"circuitella"
+	],
+	"color": "#FF0000",
+	"coopAllowed": false,
+	"stepsPerBeat": 8,
+	"displayName": "NOOO YOU'RE SUPPOSED TO OBEY ME!!! The 6 Circuitellas:",
+	"needsVoices": true,
+	"beatsPerMeasure": 2,
+	"bpm": 95
+}

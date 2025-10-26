@@ -1,17 +1,17 @@
 {
+	"customValues": {},
+	"color": "#FFFFFF",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"STANDARD",
 		"BRUTAL",
 		"ULTRAKILL-MUST-DIE"
 	],
-	"icon": "face",
-	"parsedColor": -7179779,
+	"icon": "mprime",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Order",
-	"needsVoices": true,
-	"beatsPerMeasure": 4,
-	"bpm": 100,
-	"name": "order"
+	"needsVoices": false,
+	"beatsPerMeasure": 3,
+	"bpm": 100
 }

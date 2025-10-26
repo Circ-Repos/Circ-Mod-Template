@@ -1,0 +1,15 @@
+{
+	"color": "#000000",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "dad",
+	"difficulties": [
+		"Hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Hot D.I.L.F",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
+}

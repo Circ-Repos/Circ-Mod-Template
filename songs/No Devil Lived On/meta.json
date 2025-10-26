@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "ndlo",
+	"difficulties": [
+		"Fraud Second"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 2,
+	"displayName": "No Devil Lived On",
+	"needsVoices": true,
+	"beatsPerMeasure": 10,
+	"bpm": 185
+}

@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FFFF00",
+	"opponentModeAllowed": false,
+	"icon": "UKE",
+	"difficulties": [
+		"BRUTAL"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 2,
+	"displayName": "A Part Falling",
+	"needsVoices": true,
+	"beatsPerMeasure": 9,
+	"bpm": 150
+}

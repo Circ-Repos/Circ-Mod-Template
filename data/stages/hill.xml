@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosY="-500" folder="stages/hill/" startCamPosX="-400" zoom="0.4">
+	<gf scrolly="1" x="-523" camxoffset="-100" y="-290" camyoffset="-140" scale="0.9" scrollx="1"/>
+	<bf alpha="0.7" scale="1" x="500" y="-500"/>
+	<dad x="-480" y="-470" scale="1"/>
+	<combo x="696969" y="270"/>
+	<use-extension script="pixel"/>
+</stage>

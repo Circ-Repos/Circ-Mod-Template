@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "asgore",
+	"difficulties": [
+		"TRUCK"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Asgore TRUCK",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 115
+}

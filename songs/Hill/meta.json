@@ -1,0 +1,17 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "bf-pixel",
+	"difficulties": [
+		"Hill",
+		"Ultrakill-Must-Die"
+	],
+	"customValues": {},
+	"color": "#000000",
+	"name": "Hill",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Hill Zone Act 1",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 60
+}

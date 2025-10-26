@@ -1,0 +1,11 @@
+{
+	"events": [
+		{
+			"params": [
+				173
+			],
+			"time": 47400,
+			"name": "BPM Change"
+		}
+	]
+}

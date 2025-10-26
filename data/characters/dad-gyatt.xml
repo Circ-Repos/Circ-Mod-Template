@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="525" y="475" sprite="DADDY_GYATTEST" camx="-300" camy="-100" icon="dad" color="#AE66CE" holdTime="6.1">
+	<anim name="idle" anim="Dad idle dance" indices="2..12,0,1"/>
+	<anim name="singUP" anim="Dad Sing Note UP"/>
+	<anim name="singRIGHT" anim="Dad Sing Note RIGHT" x="379" y="463"/>
+	<anim name="singLEFT" anim="Dad Sing Note LEFT" x="419" y="481"/>
+	<anim name="singDOWN" anim="Dad Sing Note DOWN" x="381" y="448"/>
+	<anim name="idle-loop" anim="Dad idle dance" loop="true" indices="10..12,12"/>
+	<anim name="hey" anim="WhatYouKnowAboutRollingDownInTheDeep" x="451" y="233"/>
+</character>

@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Little-minos.png" width="8673" height="8597">
+	<SubTexture name="Boxing Combo 001" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0010" x="4684" y="0" width="198" height="462" frameX="-648" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00100" x="4228" y="5189" width="438" height="253" rotated="true" frameX="-544" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00101" x="884" y="5401" width="435" height="256" rotated="true" frameX="-547" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00102" x="1782" y="5762" width="432" height="254" rotated="true" frameX="-556" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00103" x="4826" y="5769" width="429" height="251" rotated="true" frameX="-565" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00104" x="5532" y="5494" width="250" height="426" frameX="-571" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00105" x="5255" y="5755" width="249" height="424" frameX="-574" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00106" x="414" y="6480" width="403" height="276" rotated="true" frameX="-566" frameY="-174" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00107" x="6843" y="2360" width="400" height="343" frameX="-552" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00108" x="1939" y="7888" width="317" height="245" rotated="true" frameX="-546" frameY="-255" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00109" x="5476" y="7907" width="318" height="245" rotated="true" frameX="-546" frameY="-254" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0011" x="4615" y="4224" width="194" height="456" frameX="-652" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00110" x="5794" y="7907" width="318" height="245" rotated="true" frameX="-546" frameY="-254" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00111" x="4519" y="7907" width="319" height="245" rotated="true" frameX="-546" frameY="-253" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00112" x="4838" y="7907" width="319" height="245" rotated="true" frameX="-546" frameY="-253" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00113" x="4199" y="7907" width="320" height="245" rotated="true" frameX="-546" frameY="-252" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00114" x="5183" y="6179" width="321" height="245" rotated="true" frameX="-546" frameY="-251" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00115" x="3878" y="7907" width="321" height="245" rotated="true" frameX="-546" frameY="-251" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00116" x="3556" y="7907" width="322" height="245" rotated="true" frameX="-546" frameY="-250" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00117" x="1298" y="7907" width="323" height="245" rotated="true" frameX="-546" frameY="-249" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00118" x="650" y="7908" width="324" height="245" rotated="true" frameX="-546" frameY="-248" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00119" x="974" y="7907" width="324" height="245" rotated="true" frameX="-546" frameY="-248" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0012" x="4986" y="3309" width="448" height="186" rotated="true" frameX="-656" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00120" x="0" y="7910" width="325" height="245" rotated="true" frameX="-546" frameY="-247" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00121" x="325" y="7910" width="325" height="245" rotated="true" frameX="-546" frameY="-247" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00122" x="7935" y="7420" width="245" height="326" frameX="-546" frameY="-246" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00123" x="7880" y="2674" width="245" height="326" frameX="-546" frameY="-246" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00124" x="7880" y="3 00" width="245" height="326" frameX="-546" frameY="-246" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00125" x="7935" y="7091" width="245" height="329" frameX="-545" frameY="-246" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00126" x="5254" y="7683" width="367" height="214" rotated="true" frameX="-576" frameY="-223" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00127" x="2238" y="5076" width="445" height="165" rotated="true" frameX="-650" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00128" x="3705" y="0" width="190" height="484" frameX="-671" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00129" x="2320" y="4706" width="452" height="194" rotated="true" frameX="-647" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0013" x="5434" y="1332" width="184" height="441" frameX="-655" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00130" x="3348" y="5189" width="440" height="248" rotated="true" frameX="-612" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00131" x="1782" y="5507" width="436" height="255" rotated="true" frameX="-605" frameY="-138" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00132" x="2214" y="5762" width="432" height="260" rotated="true" frameX="-600" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00133" x="2646" y="5757" width="429" height="262" rotated="true" frameX="-598" frameY="-145" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00134" x="5838" y="889" width="428" height="264" rotated="true" frameX="-596" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00135" x="5782" y="5618" width="426" height="267" rotated="true" frameX="-593" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00136" x="5782" y="5885" width="425" height="269" rotated="true" frameX="-591" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00137" x="2487" y="6179" width="423" height="271" rotated="true" frameX="-589" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00138" x="3257" y="6179" width="422" height="273" rotated="true" frameX="-587" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00139" x="4763" y="6179" width="420" height="274" rotated="true" frameX="-586" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0014" x="3348" y="5437" width="437" height="186" rotated="true" frameX="-649" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00140" x="5758" y="6154" width="420" height="276" rotated="true" frameX="-584" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00141" x="4062" y="0" width="220" height="476" frameX="-641" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00142" x="3562" y="7511" width="368" height="340" frameX="-708" frameY="-260" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00143" x="4617" y="3767" width="345" height="457" rotated="true" frameX="-717" frameY="-321" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00144" x="1867" y="4533" width="453" height="353" frameX="-719" frameY="-323" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00145" x="3335" y="4528" width="452" height="355" frameX="-720" frameY="-324" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00146" x="4962" y="3767" width="358" height="449" rotated="true" frameX="-722" frameY="-325" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00147" x="4964" y="899" width="448" height="360" frameX="-723" frameY="-326" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00148" x="2903" y="5143" width="445" height="363" frameX="-725" frameY="-326" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00149" x="4684" y="5111" width="443" height="365" frameX="-726" frameY="-327" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0015" x="4690" y="4680" width="186" height="431" frameX="-643" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00150" x="5127" y="5111" width="440" height="367" frameX="-728" frameY="-328" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00151" x="447" y="5401" width="437" height="368" frameX="-730" frameY="-329" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00152" x="3090" y="5623" width="434" height="369" frameX="-732" frameY="-330" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00153" x="5834" y="4223" width="429" height="370" frameX="-736" frameY="-331" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00154" x="1295" y="6022" width="370" height="424" rotated="true" frameX="-740" frameY="-332" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00155" x="6266" y="2193" width="418" height="370" frameX="-745" frameY="-334" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00156" x="5707" y="6430" width="370" height="412" rotated="true" frameX="-750" frameY="-335" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00157" x="1219" y="6857" width="405" height="370" frameX="-755" frameY="-334" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00158" x="4511" y="6855" width="402" height="370" frameX="-757" frameY="-333" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00159" x="6847" y="420" width="401" height="371" frameX="-758" frameY="-331" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0016" x="5618" y="3095" width="187" height="426" frameX="-638" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00160" x="6843" y="2703" width="400" height="372" frameX="-758" frameY="-329" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00161" x="6544" y="6857" width="398" height="372" frameX="-759" frameY="-327" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00162" x="2487" y="6450" width="396" height="372" frameX="-760" frameY="-326" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00163" x="6778" y="6463" width="395" height="373" frameX="-761" frameY="-324" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00164" x="7248" y="0" width="376" height="393" rotated="true" frameX="-762" frameY="-323" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00165" x="7243" y="2360" width="380" height="391" rotated="true" frameX="-763" frameY="-321" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00166" x="7174" y="6354" width="389" height="384" frameX="-764" frameY="-319" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00167" x="0" y="7524" width="387" height="386" rotated="true" frameX="-765" frameY="-318" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00168" x="7242" y="3436" width="382" height="390" frameX="-767" frameY="-318" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00169" x="2004" y="7141" width="394" height="378" rotated="true" frameX="-768" frameY="-317" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0017" x="6266" y="0" width="187" height="420" frameX="-634" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00170" x="3060" y="6452" width="397" height="374" rotated="true" frameX="-769" frameY="-317" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00171" x="6843" y="3436" width="399" height="367" rotated="true" frameX="-772" frameY="-318" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00172" x="6843" y="3075" width="400" height="361" rotated="true" frameX="-775" frameY="-313" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00173" x="6847" y="791" width="401" height="353" rotated="true" frameX="-779" frameY="-309" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00174" x="6847" y="1144" width="401" height="344" rotated="true" frameX="-783" frameY="-301" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00175" x="6843" y="3803" width="399" height="335" rotated="true" frameX="-791" frameY="-288" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00176" x="7242" y="4510" width="370" height="341" rotated="true" frameX="-794" frameY="-263" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00177" x="7243" y="2906" width="378" height="301" rotated="true" frameX="-806" frameY="-236" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00178" x="1300" y="570" width="146" height="552" frameX="-803" frameY="-56" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00179" x="0" y="1501" width="517" height="225" rotated="true" frameX="-701" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0018" x="6595" y="2961" width="183" height="416" frameX="-632" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00180" x="3799" y="2899" width="226" height="479" frameX="-677" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00181" x="4460" y="0" width="224" height="469" frameX="-661" frameY="-108" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00182" x="4541" y="2840" width="463" height="227" rotated="true" frameX="-648" frameY="-112" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00183" x="4725" y="2327" width="234" height="456" frameX="-637" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00184" x="2772" y="4706" width="452" height="241" rotated="true" frameX="-628" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00185" x="4986" y="3495" width="448" height="246" rotated="true" frameX="-622" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00186" x="4237" y="4938" width="447" height="251" rotated="true" frameX="-617" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00187" x="3224" y="4883" width="445" height="257" rotated="true" frameX="-613" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00188" x="5554" y="3732" width="264" height="442" frameX="-609" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00189" x="5449" y="2657" width="270" height="438" frameX="-607" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0019" x="6661" y="4624" width="182" height="411" frameX="-631" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00190" x="4662" y="5494" width="435" height="275" rotated="true" frameX="-606" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00191" x="0" y="5507" width="438" height="270" rotated="true" frameX="-603" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00192" x="2238" y="5241" width="445" height="266" rotated="true" frameX="-601" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00193" x="4239" y="4680" width="451" height="258" rotated="true" frameX="-604" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00194" x="0" y="4708" width="456" height="246" rotated="true" frameX="-610" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00195" x="4680" y="932" width="231" height="460" frameX="-618" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00196" x="2870" y="4450" width="465" height="214" rotated="true" frameX="-629" frameY="-105" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00197" x="4346" y="1428" width="199" height="469" frameX="-638" frameY="-101" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00198" x="2874" y="4145" width="472" height="183" rotated="true" frameX="-648" frameY="-97" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00199" x="4001" y="964" width="164" height="476" frameX="-660" frameY="-93" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 002" x="3122" y="0" width="148" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0020" x="1274" y="6446" width="181" height="405" frameX="-630" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00200" x="3846" y="968" width="155" height="479" frameX="-663" frameY="-89" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00201" x="3415" y="3416" width="480" height="153" rotated="true" frameX="-662" frameY="-86" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00202" x="0" y="3855" width="482" height="149" rotated="true" frameX="-662" frameY="-83" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00203" x="3404" y="3673" width="484" height="146" rotated="true" frameX="-662" frameY="-80" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00204" x="488" y="3664" width="485" height="143" rotated="true" frameX="-662" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00205" x="1464" y="3625" width="485" height="139" rotated="true" frameX="-662" frameY="-76" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00206" x="973" y="3675" width="485" height="137" rotated="true" frameX="-661" frameY="-75" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00207" x="3557" y="1463" width="136" height="486" frameX="-658" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00208" x="2441" y="3520" width="487" height="139" rotated="true" frameX="-652" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00209" x="3122" y="488" width="144" height="488" frameX="-644" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0021" x="1639" y="6819" width="182" height="403" frameX="-629" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 00210" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0022" x="817" y="6886" width="402" height="182" rotated="true" frameX="-629" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0023" x="6847" y="1488" width="401" height="183" rotated="true" frameX="-628" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0024" x="4108" y="7003" width="402" height="183" rotated="true" frameX="-628" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0025" x="1821" y="6819" width="183" height="403" frameX="-628" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0026" x="5324" y="6843" width="404" height="184" rotated="true" frameX="-628" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0027" x="1455" y="6446" width="184" height="405" frameX="-628" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0028" x="5732" y="7055" width="406" height="185" rotated="true" frameX="-628" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0029" x="6592" y="6449" width="186" height="408" frameX="-628" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 003" x="2928" y="3520" width="487" height="153" rotated="true" frameX="-640" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0030" x="6264" y="3784" width="189" height="406" frameX="-626" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0031" x="1639" y="6480" width="404" height="193" rotated="true" frameX="-623" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0032" x="6138" y="7200" width="394" height="200" rotated="true" frameX="-612" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0033" x="4503" y="7453" width="383" height="206" rotated="true" frameX="-601" frameY="-177" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0034" x="7402" y="6738" width="216" height="369" frameX="-595" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0035" x="5621" y="7683" width="366" height="224" rotated="true" frameX="-586" frameY="-191" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0036" x="5987" y="7678" width="365" height="224" rotated="true" frameX="-587" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0037" x="7624" y="1304" width="225" height="363" frameX="-588" frameY="-194" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0038" x="7618" y="6719" width="225" height="362" frameX="-588" frameY="-195" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0039" x="7624" y="2030" width="225" height="362" frameX="-588" frameY="-195" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 004" x="1949" y="3648" width="485" height="166" rotated="true" frameX="-639" frameY="-77" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0040" x="7624" y="2392" width="225" height="362" frameX="-588" frameY="-195" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0041" x="6942" y="6836" width="225" height="395" frameX="-641" frameY="-188" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0042" x="0" y="6480" width="414" height="363" rotated="true" frameX="-690" frameY="-174" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0043" x="5851" y="0" width="414" height="429" rotated="true" frameX="-686" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0044" x="5834" y="1332" width="432" height="415" frameX="-684" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0045" x="1344" y="5361" width="438" height="416" frameX="-684" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0046" x="5434" y="445" width="416" height="444" rotated="true" frameX="-683" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0047" x="5434" y="0" width="417" height="445" rotated="true" frameX="-683" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0048" x="4996" y="4664" width="417" height="447" rotated="true" frameX="-682" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0049" x="5010" y="450" width="418" height="449" rotated="true" frameX="-681" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 005" x="3693" y="1936" width="177" height="483" frameX="-639" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0050" x="5010" y="1259" width="419" height="448" rotated="true" frameX="-681" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0051" x="5004" y="2184" width="420" height="448" rotated="true" frameX="-680" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0052" x="5004" y="2632" width="420" height="448" rotated="true" frameX="-680" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0053" x="4996" y="4216" width="421" height="448" rotated="true" frameX="-679" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0054" x="5010" y="0" width="424" height="450" rotated="true" frameX="-679" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0055" x="5006" y="1734" width="428" height="450" rotated="true" frameX="-679" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0056" x="1792" y="5069" width="446" height="431" frameX="-676" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0057" x="5434" y="889" width="404" height="443" frameX="-687" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0058" x="4617" y="3309" width="369" height="458" frameX="-688" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0059" x="4545" y="1408" width="465" height="326" rotated="true" frameX="-687" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 006" x="968" y="3819" width="481" height="185" rotated="true" frameX="-640" frameY="-85" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0060" x="4424" y="472" width="255" height="469" frameX="-695" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0061" x="2373" y="4503" width="463" height="203" rotated="true" frameX="-699" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0062" x="3787" y="4680" width="452" height="180" rotated="true" frameX="-680" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0063" x="5449" y="1773" width="169" height="441" frameX="-663" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0064" x="5838" y="1153" width="428" height="158" rotated="true" frameX="-649" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0065" x="6585" y="420" width="165" height="419" frameX="-637" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0066" x="850" y="6161" width="424" height="167" rotated="true" frameX="-626" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0067" x="5413" y="4664" width="180" height="440" frameX="-610" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0068" x="5834" y="3071" width="430" height="236" rotated="true" frameX="-590" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0069" x="2004" y="6857" width="403" height="284" rotated="true" frameX="-580" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 007" x="482" y="4002" width="478" height="191" rotated="true" frameX="-642" frameY="-91" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0070" x="7570" y="7107" width="308" height="363" frameX="-576" frameY="-199" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0071" x="7884" y="0" width="308" height="358" frameX="-576" frameY="-204" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0072" x="7884" y="358" width="307" height="353" frameX="-577" frameY="-209" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0073" x="7880" y="2013" width="308" height="351" frameX="-576" frameY="-212" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0074" x="7843" y="3474" width="349" height="308" rotated="true" frameX="-576" frameY="-214" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0075" x="7843" y="3782" width="348" height="307" rotated="true" frameX="-577" frameY="-215" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0076" x="7581" y="7470" width="354" height="357" rotated="true" frameX="-527" frameY="-209" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0077" x="7248" y="1171" width="374" height="256" rotated="true" frameX="-628" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0078" x="3177" y="7471" width="385" height="242" rotated="true" frameX="-642" frameY="-178" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0079" x="395" y="7522" width="238" height="387" frameX="-646" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 008" x="1926" y="4135" width="474" height="198" rotated="true" frameX="-641" frameY="-97" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0080" x="6923" y="7231" width="388" height="236" rotated="true" frameX="-648" frameY="-175" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0081" x="7167" y="6836" width="235" height="388" frameX="-649" frameY="-175" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0082" x="7248" y="393" width="234" height="388" frameX="-650" frameY="-175" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0083" x="2788" y="7240" width="389" height="233" rotated="true" frameX="-651" frameY="-174" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0084" x="3177" y="7239" width="389" height="232" rotated="true" frameX="-652" frameY="-174" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0085" x="4915" y="6453" width="232" height="390" frameX="-652" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0086" x="4894" y="7236" width="390" height="231" rotated="true" frameX="-653" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0087" x="2398" y="7240" width="390" height="230" rotated="true" frameX="-654" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0088" x="6532" y="7229" width="391" height="229" rotated="true" frameX="-655" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0089" x="4503" y="7225" width="391" height="228" rotated="true" frameX="-656" frameY="-172" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 009" x="1905" y="4333" width="468" height="200" rotated="true" frameX="-644" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0090" x="7215" y="5901" width="392" height="227" rotated="true" frameX="-657" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0091" x="7215" y="6128" width="392" height="226" rotated="true" frameX="-658" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0092" x="7229" y="5077" width="393" height="225" rotated="true" frameX="-659" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0093" x="7229" y="5302" width="393" height="224" rotated="true" frameX="-660" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0094" x="5324" y="7200" width="394" height="223" rotated="true" frameX="-661" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0095" x="7226" y="5526" width="393" height="224" rotated="true" frameX="-660" frameY="-169" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0096" x="6077" y="6841" width="408" height="214" rotated="true" frameX="-661" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0097" x="1345" y="5165" width="446" height="196" rotated="true" frameX="-652" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0098" x="1102" y="1266" width="490" height="204" rotated="true" frameX="-604" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Boxing Combo 0099" x="4541" y="3067" width="463" height="242" rotated="true" frameX="-555" frameY="-135" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 001" x="3121" y="976" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0010" x="5834" y="2412" width="431" height="269" rotated="true" frameX="-592" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00100" x="7245" y="2069" width="378" height="155" rotated="true" frameX="-602" frameY="-136" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00101" x="7248" y="781" width="376" height="156" rotated="true" frameX="-602" frameY="-137" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00102" x="7248" y="1427" width="374" height="156" rotated="true" frameX="-603" frameY="-138" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00103" x="7248" y="1847" width="372" height="157" rotated="true" frameX="-603" frameY="-139" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00104" x="7242" y="4851" width="370" height="157" rotated="true" frameX="-604" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00105" x="1394" y="7519" width="157" height="369" frameX="-605" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00106" x="4108" y="7461" width="367" height="158" rotated="true" frameX="-605" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00107" x="7563" y="6354" width="158" height="365" frameX="-606" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00108" x="7721" y="1667" width="159" height="363" frameX="-606" frameY="-143" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00109" x="7721" y="2754" width="159" height="361" frameX="-607" frameY="-144" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0011" x="6264" y="4209" width="281" height="414" frameX="-579" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00110" x="7721" y="3115" width="159" height="359" frameX="-607" frameY="-145" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00111" x="7849" y="1304" width="159" height="357" frameX="-608" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00112" x="3045" y="7731" width="355" height="159" rotated="true" frameX="-608" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00113" x="4662" y="7727" width="354" height="159" rotated="true" frameX="-609" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00114" x="8008" y="711" width="159" height="352" frameX="-609" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00115" x="8008" y="1063" width="159" height="350" frameX="-609" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00116" x="5728" y="6842" width="349" height="158" rotated="true" frameX="-609" frameY="-148" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00117" x="7843" y="4089" width="347" height="157" rotated="true" frameX="-609" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00118" x="7843" y="4246" width="346" height="156" rotated="true" frameX="-610" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00119" x="7843" y="4402" width="345" height="155" rotated="true" frameX="-610" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0012" x="6942" y="5077" width="287" height="397" frameX="-570" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00120" x="7849" y="2364" width="343" height="155" rotated="true" frameX="-610" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00121" x="7849" y="2519" width="342" height="155" rotated="true" frameX="-610" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00122" x="7843" y="4557" width="341" height="154" rotated="true" frameX="-611" frameY="-150" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00123" x="7843" y="4952" width="339" height="155" rotated="true" frameX="-611" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00124" x="7843" y="5107" width="337" height="155" rotated="true" frameX="-611" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00125" x="7843" y="5262" width="335" height="155" rotated="true" frameX="-611" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00126" x="7843" y="5417" width="334" height="155" rotated="true" frameX="-612" frameY="-152" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00127" x="7843" y="6295" width="332" height="155" rotated="true" frameX="-612" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00128" x="7843" y="6450" width="331" height="155" rotated="true" frameX="-612" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00129" x="7843" y="6605" width="330" height="156" rotated="true" frameX="-612" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0013" x="6942" y="5474" width="284" height="397" frameX="-572" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00130" x="7624" y="736" width="328" height="156" rotated="true" frameX="-612" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00131" x="7624" y="3474" width="155" height="327" frameX="-613" frameY="-154" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00132" x="7581" y="7827" width="156" height="325" frameX="-613" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00133" x="3400" y="7713" width="156" height="323" frameX="-613" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00134" x="7737" y="7827" width="156" height="324" frameX="-613" frameY="-155" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00135" x="3045" y="7890" width="323" height="156" rotated="true" frameX="-614" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00136" x="2321" y="7881" width="323" height="156" rotated="true" frameX="-614" frameY="-156" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00137" x="7624" y="3801" width="156" height="322" frameX="-614" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00138" x="7622" y="4123" width="156" height="322" frameX="-614" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00139" x="2903" y="4947" width="321" height="157" rotated="true" frameX="-614" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0014" x="0" y="7241" width="395" height="283" rotated="true" frameX="-573" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00140" x="7622" y="4767" width="156" height="321" frameX="-615" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00141" x="7622" y="5088" width="156" height="320" frameX="-615" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00142" x="7622" y="5408" width="157" height="320" frameX="-615" frameY="-159" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00143" x="7619" y="5728" width="157" height="319" frameX="-615" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00144" x="2644" y="7893" width="319" height="157" rotated="true" frameX="-615" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00145" x="6112" y="7902" width="318" height="158" rotated="true" frameX="-615" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00146" x="1621" y="7888" width="318" height="157" rotated="true" frameX="-616" frameY="-161" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00147" x="6430" y="7852" width="317" height="157" rotated="true" frameX="-616" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00148" x="6747" y="7852" width="317" height="157" rotated="true" frameX="-616" frameY="-162" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00149" x="7064" y="7852" width="316" height="158" rotated="true" frameX="-616" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0015" x="395" y="7241" width="395" height="281" rotated="true" frameX="-574" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00150" x="0" y="8155" width="316" height="158" rotated="true" frameX="-616" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00151" x="316" y="8155" width="316" height="158" rotated="true" frameX="-616" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00152" x="632" y="8155" width="315" height="157" rotated="true" frameX="-617" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00153" x="947" y="8153" width="315" height="157" rotated="true" frameX="-617" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00154" x="5157" y="8146" width="315" height="157" rotated="true" frameX="-617" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00155" x="1262" y="8152" width="314" height="157" rotated="true" frameX="-617" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00156" x="1937" y="8152" width="314" height="158" rotated="true" frameX="-617" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00157" x="5472" y="8152" width="314" height="158" rotated="true" frameX="-617" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00158" x="6427" y="8152" width="313" height="158" rotated="true" frameX="-617" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00159" x="5786" y="8152" width="312" height="158" rotated="true" frameX="-617" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0016" x="790" y="7241" width="395" height="277" rotated="true" frameX="-576" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00160" x="2564" y="8152" width="312" height="158" rotated="true" frameX="-617" frameY="-166" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00161" x="2251" y="8152" width="313" height="158" rotated="true" frameX="-617" frameY="-165" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00162" x="7622" y="4445" width="158" height="322" frameX="-615" frameY="-158" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00163" x="7843" y="5868" width="333" height="157" rotated="true" frameX="-611" frameY="-149" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00164" x="2689" y="7731" width="356" height="162" rotated="true" frameX="-604" frameY="-141" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00165" x="5718" y="7240" width="391" height="179" rotated="true" frameX="-591" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00166" x="5850" y="445" width="198" height="427" frameX="-573" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00167" x="456" y="4708" width="453" height="235" rotated="true" frameX="-533" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00168" x="4725" y="1868" width="274" height="459" frameX="-485" frameY="-97" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00169" x="3787" y="4860" width="450" height="283" rotated="true" frameX="-457" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0017" x="4108" y="7186" width="395" height="275" rotated="true" frameX="-577" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00170" x="5097" y="5494" width="435" height="261" rotated="true" frameX="-461" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00171" x="6077" y="6623" width="411" height="218" rotated="true" frameX="-480" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00172" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00173" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00174" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00175" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00176" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00177" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00178" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00179" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0018" x="1185" y="7240" width="395" height="274" rotated="true" frameX="-577" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00180" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00181" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00182" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00183" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00184" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00185" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00186" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00187" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00188" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00189" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0019" x="6942" y="5871" width="273" height="396" frameX="-576" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00190" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00191" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00192" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00193" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00194" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00195" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00196" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00197" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00198" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00199" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 002" x="3121" y="976" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0020" x="6843" y="4346" width="399" height="270" rotated="true" frameX="-577" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00200" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00201" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00202" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00203" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00204" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00205" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00206" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00207" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00208" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00209" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0021" x="6843" y="2093" width="402" height="267" rotated="true" frameX="-578" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00210" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00211" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00212" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00213" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00214" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00215" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00216" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00217" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00218" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00219" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0022" x="6266" y="849" width="264" height="409" frameX="-579" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00220" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00221" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00222" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00223" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00224" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00225" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00226" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00227" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00228" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00229" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0023" x="6178" y="6154" width="417" height="261" rotated="true" frameX="-580" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00230" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00231" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00232" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00233" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00234" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00235" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00236" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00237" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00238" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00239" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0024" x="5504" y="5920" width="254" height="424" frameX="-585" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00240" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00241" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00242" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00243" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00244" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00245" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00246" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00247" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00248" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00249" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0025" x="5834" y="3307" width="430" height="249" rotated="true" frameX="-587" frameY="-106" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00250" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 00251" x="6843" y="4138" width="399" height="208" rotated="true" frameX="-488" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0026" x="0" y="5777" width="435" height="245" rotated="true" frameX="-588" frameY="-103" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0027" x="5593" y="4616" width="241" height="439" frameX="-589" frameY="-101" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0028" x="5554" y="4174" width="238" height="442" frameX="-589" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0029" x="5320" y="3741" width="234" height="444" frameX="-590" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 003" x="1592" y="490" width="149" height="489" frameX="-643" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0030" x="898" y="5170" width="446" height="231" rotated="true" frameX="-590" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0031" x="451" y="4954" width="447" height="226" rotated="true" frameX="-591" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0032" x="898" y="4947" width="447" height="223" rotated="true" frameX="-591" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0033" x="1345" y="4947" width="447" height="218" rotated="true" frameX="-592" frameY="-100" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0034" x="451" y="5180" width="446" height="213" rotated="true" frameX="-593" frameY="-102" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0035" x="5004" y="3080" width="445" height="208" rotated="true" frameX="-594" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0036" x="5618" y="1332" width="204" height="442" frameX="-595" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0037" x="5593" y="5055" width="199" height="439" frameX="-596" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0038" x="3785" y="5571" width="436" height="195" rotated="true" frameX="-597" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0039" x="870" y="5792" width="433" height="191" rotated="true" frameX="-597" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 004" x="3705" y="484" width="161" height="484" frameX="-651" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0040" x="5834" y="2681" width="431" height="188" rotated="true" frameX="-597" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0041" x="5834" y="4593" width="429" height="184" rotated="true" frameX="-597" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0042" x="6048" y="429" width="181" height="427" frameX="-597" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0043" x="870" y="5983" width="425" height="178" rotated="true" frameX="-597" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0044" x="2910" y="6020" width="175" height="423" frameX="-597" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0045" x="3085" y="6020" width="172" height="423" frameX="-597" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0046" x="3257" y="5992" width="421" height="168" rotated="true" frameX="-597" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0047" x="6585" y="839" width="165" height="419" frameX="-597" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0048" x="6685" y="1676" width="162" height="417" frameX="-597" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0049" x="6684" y="2510" width="159" height="416" frameX="-597" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 005" x="4059" y="480" width="170" height="476" frameX="-648" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0050" x="4418" y="4267" width="156" height="413" frameX="-597" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0051" x="6595" y="6034" width="152" height="415" frameX="-597" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0052" x="6595" y="3377" width="149" height="416" frameX="-597" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0053" x="6685" y="1258" width="147" height="418" frameX="-596" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0054" x="2487" y="6022" width="421" height="144" rotated="true" frameX="-596" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0055" x="850" y="6328" width="424" height="143" rotated="true" frameX="-595" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0056" x="0" y="6022" width="426" height="142" rotated="true" frameX="-595" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0057" x="1319" y="5777" width="427" height="141" rotated="true" frameX="-595" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0058" x="5834" y="3556" width="430" height="141" rotated="true" frameX="-594" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0059" x="5834" y="1747" width="432" height="139" rotated="true" frameX="-594" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 006" x="471" y="4533" width="465" height="174" rotated="true" frameX="-639" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0060" x="3524" y="5817" width="434" height="138" rotated="true" frameX="-594" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0061" x="4221" y="5680" width="435" height="137" rotated="true" frameX="-593" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0062" x="5417" y="4185" width="136" height="436" frameX="-593" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0063" x="884" y="5657" width="435" height="135" rotated="true" frameX="-593" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0064" x="2218" y="5623" width="436" height="134" rotated="true" frameX="-593" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0065" x="2654" y="5623" width="436" height="134" rotated="true" frameX="-593" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0066" x="3958" y="5817" width="434" height="134" rotated="true" frameX="-593" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0067" x="4392" y="5817" width="434" height="134" rotated="true" frameX="-594" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0068" x="5834" y="1886" width="432" height="134" rotated="true" frameX="-594" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0069" x="5834" y="2020" width="432" height="135" rotated="true" frameX="-594" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 007" x="1390" y="4726" width="453" height="207" rotated="true" frameX="-628" frameY="-94" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0070" x="5834" y="3697" width="430" height="135" rotated="true" frameX="-594" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0071" x="5834" y="3832" width="430" height="136" rotated="true" frameX="-594" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0072" x="5834" y="5052" width="428" height="136" rotated="true" frameX="-594" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0073" x="5792" y="5188" width="427" height="135" rotated="true" frameX="-595" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0074" x="426" y="6022" width="425" height="135" rotated="true" frameX="-595" frameY="-119" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0075" x="1665" y="6344" width="424" height="136" rotated="true" frameX="-595" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0076" x="4281" y="4257" width="137" height="423" frameX="-595" frameY="-120" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0077" x="4415" y="6020" width="138" height="421" frameX="-595" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0078" x="4763" y="6020" width="420" height="138" rotated="true" frameX="-596" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0079" x="6266" y="1258" width="419" height="139" rotated="true" frameX="-596" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 008" x="4226" y="5442" width="436" height="238" rotated="true" frameX="-617" frameY="-107" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0080" x="6685" y="2093" width="140" height="417" frameX="-596" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0081" x="6595" y="3793" width="141" height="416" frameX="-596" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0082" x="6606" y="4209" width="142" height="415" frameX="-596" frameY="-122" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0083" x="5183" y="6430" width="142" height="413" frameX="-597" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0084" x="6263" y="5039" width="412" height="143" rotated="true" frameX="-597" frameY="-123" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0085" x="6606" y="5593" width="144" height="410" frameX="-597" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0086" x="5324" y="7055" width="408" height="145" rotated="true" frameX="-597" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0087" x="6138" y="7055" width="406" height="145" rotated="true" frameX="-598" frameY="-125" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0088" x="1639" y="6673" width="404" height="146" rotated="true" frameX="-598" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0089" x="4108" y="6855" width="403" height="148" rotated="true" frameX="-598" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 009" x="5834" y="3968" width="430" height="255" rotated="true" frameX="-604" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0090" x="817" y="7068" width="400" height="149" rotated="true" frameX="-598" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0091" x="2910" y="6443" width="150" height="398" frameX="-598" frameY="-128" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0092" x="6778" y="5593" width="149" height="396" frameX="-599" frameY="-129" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0093" x="7226" y="5750" width="393" height="151" rotated="true" frameX="-599" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0094" x="1580" y="7227" width="391" height="152" rotated="true" frameX="-599" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0095" x="3457" y="6452" width="152" height="389" frameX="-600" frameY="-131" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0096" x="3955" y="7239" width="153" height="387" frameX="-600" frameY="-132" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0097" x="2398" y="7470" width="384" height="153" rotated="true" frameX="-601" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0098" x="7242" y="3826" width="382" height="154" rotated="true" frameX="-601" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Die 0099" x="7243" y="2751" width="380" height="155" rotated="true" frameX="-601" frameY="-135" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 001" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0010" x="3566" y="7239" width="389" height="272" rotated="true" frameX="-554" frameY="-170" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00100" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00101" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00102" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00103" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00104" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00105" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00106" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00107" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00108" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00109" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0011" x="862" y="7519" width="273" height="383" frameX="-540" frameY="-175" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00110" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00111" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00112" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00113" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00114" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00115" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00116" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00117" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00118" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00119" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0012" x="7242" y="3980" width="378" height="269" rotated="true" frameX="-532" frameY="-177" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00120" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00121" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00122" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00123" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00124" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00125" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00126" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00127" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00128" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00129" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0013" x="7248" y="1583" width="374" height="264" rotated="true" frameX="-525" frameY="-178" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00130" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00131" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00132" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00133" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00134" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00135" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00136" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00137" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00138" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00139" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0014" x="7242" y="4249" width="371" height="261" rotated="true" frameX="-520" frameY="-180" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00140" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00141" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00142" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00143" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00144" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00145" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00146" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00147" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00148" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00149" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0015" x="1135" y="7519" width="259" height="370" frameX="-516" frameY="-180" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00150" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00151" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00152" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00153" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00154" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00155" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00156" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00157" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00158" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00159" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0016" x="1551" y="7519" width="258" height="369" frameX="-515" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00160" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00161" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00162" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00163" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00164" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00165" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00166" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00167" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00168" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00169" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0017" x="2064" y="7519" width="257" height="368" frameX="-515" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00170" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00171" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00172" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00173" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00174" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00175" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00176" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00177" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00178" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00179" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0018" x="3930" y="7626" width="368" height="258" rotated="true" frameX="-514" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00180" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00181" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00182" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00183" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00184" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00185" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00186" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00187" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00188" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00189" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0019" x="2782" y="7473" width="368" height="258" rotated="true" frameX="-513" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00190" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00191" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00192" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00193" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00194" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00195" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00196" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00197" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00198" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00199" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 002" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0020" x="2321" y="7623" width="368" height="258" rotated="true" frameX="-513" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00200" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00201" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00202" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00203" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00204" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00205" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00206" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00207" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00208" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00209" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0021" x="6109" y="7400" width="368" height="258" rotated="true" frameX="-512" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00210" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00211" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00212" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00213" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00214" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00215" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00216" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00217" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00218" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00219" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0022" x="5718" y="7419" width="368" height="259" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00220" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00221" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00222" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00223" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00224" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00225" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00226" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00227" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00228" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00229" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0023" x="7311" y="7224" width="259" height="368" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00230" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00231" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00232" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00233" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00234" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00235" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00236" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00237" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00238" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00239" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0024" x="6477" y="7592" width="368" height="259" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00240" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00241" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00242" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00243" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00244" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00245" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00246" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00247" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00248" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00249" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0025" x="6845" y="7592" width="368" height="259" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00250" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 00251" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0026" x="7213" y="7592" width="368" height="260" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0027" x="5284" y="7423" width="368" height="260" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0028" x="4886" y="7467" width="368" height="260" rotated="true" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0029" x="7624" y="0" width="260" height="368" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 003" x="3497" y="2439" width="155" height="486" frameX="-636" frameY="-75" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0030" x="7623" y="937" width="261" height="367" frameX="-511" frameY="-182" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0031" x="7624" y="368" width="259" height="368" frameX="-511" frameY="-181" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0032" x="6265" y="2961" width="300" height="416" frameX="-555" frameY="-178" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0033" x="6178" y="6415" width="414" height="208" rotated="true" frameX="-711" frameY="-185" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0034" x="6847" y="1671" width="401" height="398" frameX="-730" frameY="-188" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0035" x="6851" y="0" width="397" height="403" rotated="true" frameX="-731" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0036" x="3704" y="6841" width="404" height="398" frameX="-732" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0037" x="2894" y="6841" width="405" height="398" frameX="-733" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0038" x="3299" y="6841" width="405" height="398" frameX="-735" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0039" x="2487" y="6841" width="407" height="399" frameX="-736" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 004" x="2434" y="3804" width="481" height="196" rotated="true" frameX="-621" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0040" x="409" y="6843" width="408" height="398" frameX="-737" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0041" x="0" y="6843" width="409" height="398" frameX="-738" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0042" x="2089" y="6446" width="398" height="411" rotated="true" frameX="-739" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0043" x="4093" y="6442" width="412" height="399" frameX="-740" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0044" x="3679" y="6442" width="414" height="398" frameX="-741" frameY="-191" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0045" x="6263" y="4624" width="398" height="415" rotated="true" frameX="-742" frameY="-191" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0046" x="6208" y="5618" width="398" height="416" rotated="true" frameX="-743" frameY="-191" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0047" x="6265" y="2563" width="418" height="398" frameX="-744" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0048" x="6266" y="1397" width="419" height="398" frameX="-745" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0049" x="6453" y="0" width="398" height="420" rotated="true" frameX="-746" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 005" x="4037" y="3844" width="242" height="474" frameX="-605" frameY="-98" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0050" x="3679" y="6020" width="399" height="422" rotated="true" frameX="-747" frameY="-192" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0051" x="2089" y="6022" width="398" height="424" rotated="true" frameX="-748" frameY="-193" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0052" x="6266" y="1795" width="419" height="398" frameX="-747" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0053" x="4505" y="6453" width="410" height="402" frameX="-745" frameY="-185" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0054" x="817" y="6480" width="402" height="406" frameX="-744" frameY="-180" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0055" x="4915" y="6843" width="409" height="393" rotated="true" frameX="-743" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0056" x="5325" y="6430" width="382" height="413" frameX="-742" frameY="-171" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0057" x="6219" y="5188" width="370" height="416" frameX="-741" frameY="-167" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0058" x="6229" y="429" width="356" height="420" frameX="-740" frameY="-163" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0059" x="4078" y="6020" width="337" height="422" frameX="-735" frameY="-157" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 006" x="4679" y="469" width="285" height="463" frameX="-592" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0060" x="0" y="6164" width="425" height="316" rotated="true" frameX="-730" frameY="-151" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0061" x="5792" y="5323" width="427" height="295" rotated="true" frameX="-726" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0062" x="5834" y="4777" width="429" height="275" rotated="true" frameX="-721" frameY="-140" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0063" x="5834" y="2155" width="432" height="257" rotated="true" frameX="-717" frameY="-134" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0064" x="435" y="5777" width="435" height="239" rotated="true" frameX="-712" frameY="-127" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0065" x="3788" y="5349" width="438" height="222" rotated="true" frameX="-708" frameY="-121" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0066" x="3788" y="5143" width="440" height="206" rotated="true" frameX="-704" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0067" x="5618" y="1774" width="191" height="442" frameX="-700" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0068" x="5434" y="3288" width="184" height="444" frameX="-696" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0069" x="2290" y="4900" width="446" height="176" rotated="true" frameX="-692" frameY="-99" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 007" x="0" y="5192" width="447" height="315" rotated="true" frameX="-581" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0070" x="2736" y="4947" width="167" height="446" frameX="-688" frameY="-95" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0071" x="4281" y="3809" width="157" height="448" frameX="-684" frameY="-91" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0072" x="3787" y="4528" width="451" height="145" rotated="true" frameX="-685" frameY="-87" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0073" x="4545" y="1734" width="461" height="134" rotated="true" frameX="-686" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0074" x="2874" y="4328" width="470" height="122" rotated="true" frameX="-688" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0075" x="3934" y="2416" width="114" height="477" frameX="-688" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0076" x="3668" y="2419" width="118" height="483" frameX="-676" frameY="-76" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0077" x="488" y="3543" width="487" height="121" rotated="true" frameX="-666" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0078" x="3058" y="2445" width="125" height="488" frameX="-656" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0079" x="0" y="3252" width="488" height="136" rotated="true" frameX="-648" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 008" x="425" y="6164" width="425" height="312" rotated="true" frameX="-575" frameY="-146" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0080" x="1467" y="3191" width="488" height="142" rotated="true" frameX="-642" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0081" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0082" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0083" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0084" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0085" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0086" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0087" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0088" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0089" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 009" x="6264" y="3377" width="289" height="407" frameX="-570" frameY="-160" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0090" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0091" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0092" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0093" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0094" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0095" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0096" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0097" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0098" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Projectile Throw 0099" x="3122" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 001" x="8125" y="3062" width="304" height="154" rotated="true" frameX="-628" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0010" x="8190" y="4089" width="151" height="303" frameX="-625" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0011" x="4409" y="8152" width="302" height="151" rotated="true" frameX="-625" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0012" x="4711" y="8152" width="302" height="150" rotated="true" frameX="-625" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0013" x="7970" y="8151" width="302" height="150" rotated="true" frameX="-625" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0014" x="8272" y="4707" width="150" height="302" frameX="-625" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0015" x="8272" y="5009" width="150" height="302" frameX="-625" frameY="-115" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0016" x="8272" y="5311" width="150" height="301" frameX="-625" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0017" x="8272" y="5612" width="150" height="301" frameX="-625" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0018" x="8272" y="5913" width="150" height="301" frameX="-625" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0019" x="8272" y="6214" width="151" height="301" frameX="-624" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 002" x="8125" y="3216" width="304" height="153" rotated="true" frameX="-628" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0020" x="8272" y="6515" width="150" height="301" frameX="-625" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0021" x="7380" y="7852" width="150" height="300" frameX="-625" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0022" x="8272" y="6816" width="150" height="300" frameX="-625" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0023" x="8272" y="7116" width="150" height="300" frameX="-625" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0024" x="8272" y="7416" width="150" height="300" frameX="-625" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0025" x="8272" y="7716" width="150" height="300" frameX="-625" frameY="-117" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0026" x="8083" y="6761" width="150" height="299" frameX="-625" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0027" x="8191" y="358" width="150" height="299" frameX="-625" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0028" x="8175" y="1659" width="150" height="299" frameX="-625" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0029" x="8048" y="7746" width="151" height="299" frameX="-624" frameY="-118" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 003" x="7607" y="6047" width="153" height="304" frameX="-627" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0030" x="8125" y="2674" width="306" height="150" rotated="true" frameX="-625" frameY="-111" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0031" x="7893" y="7827" width="155" height="324" frameX="-620" frameY="-96" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0032" x="6778" y="6267" width="396" height="196" rotated="true" frameX="-633" frameY="-70" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0033" x="4809" y="4224" width="187" height="456" frameX="-685" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0034" x="7243" y="3207" width="378" height="229" rotated="true" frameX="-693" frameY="-190" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0035" x="8167" y="711" width="262" height="300" frameX="-693" frameY="-229" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0036" x="299" y="8313" width="274" height="283" frameX="-693" frameY="-234" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0037" x="4225" y="8303" width="277" height="279" rotated="true" frameX="-693" frameY="-236" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0038" x="3954" y="8303" width="271" height="283" rotated="true" frameX="-693" frameY="-238" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0039" x="5258" y="8310" width="266" height="287" rotated="true" frameX="-693" frameY="-238" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 004" x="3499" y="8152" width="304" height="153" rotated="true" frameX="-627" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0040" x="2876" y="8305" width="262" height="291" rotated="true" frameX="-693" frameY="-238" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0041" x="4711" y="8302" width="256" height="295" rotated="true" frameX="-693" frameY="-239" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0042" x="8167" y="1011" width="251" height="299" rotated="true" frameX="-693" frameY="-239" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0043" x="8008" y="1413" width="302" height="246" frameX="-693" frameY="-239" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0044" x="8188" y="4402" width="243" height="305" rotated="true" frameX="-693" frameY="-239" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0045" x="8192" y="0" width="239" height="308" rotated="true" frameX="-693" frameY="-240" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0046" x="3188" y="8046" width="311" height="236" frameX="-693" frameY="-240" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0047" x="2876" y="8050" width="312" height="233" frameX="-693" frameY="-240" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0048" x="6740" y="8009" width="313" height="228" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0049" x="6112" y="8060" width="315" height="227" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 005" x="7363" y="8152" width="304" height="152" rotated="true" frameX="-627" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0050" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0051" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0052" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0053" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0054" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0055" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0056" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0057" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0058" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0059" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 006" x="8191" y="3782" width="152" height="303" frameX="-626" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 0060" x="1621" y="8045" width="316" height="225" frameX="-693" frameY="-241" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 007" x="3803" y="8152" width="303" height="151" rotated="true" frameX="-626" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 008" x="7667" y="8152" width="303" height="151" rotated="true" frameX="-626" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Swing Down 009" x="4106" y="8152" width="303" height="151" rotated="true" frameX="-626" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 001" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0010" x="1809" y="7519" width="255" height="369" frameX="-646" frameY="-202" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0011" x="7843" y="6025" width="333" height="270" rotated="true" frameX="-641" frameY="-236" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0012" x="7053" y="8010" width="310" height="279" rotated="true" frameX="-637" frameY="-259" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0013" x="0" y="8313" width="299" height="284" rotated="true" frameX="-634" frameY="-269" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0014" x="4967" y="8310" width="291" height="287" rotated="true" frameX="-631" frameY="-273" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0015" x="1262" y="8309" width="281" height="288" rotated="true" frameX="-628" frameY="-279" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0016" x="947" y="8310" width="280" height="287" rotated="true" frameX="-626" frameY="-279" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0017" x="6072" y="8310" width="281" height="286" rotated="true" frameX="-626" frameY="-282" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0018" x="6353" y="8310" width="280" height="286" rotated="true" frameX="-626" frameY="-284" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0019" x="1813" y="8310" width="280" height="287" rotated="true" frameX="-625" frameY="-285" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 002" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0020" x="5524" y="8310" width="278" height="287" rotated="true" frameX="-625" frameY="-287" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0021" x="2093" y="8310" width="276" height="287" rotated="true" frameX="-625" frameY="-289" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0022" x="3407" y="8305" width="275" height="286" rotated="true" frameX="-625" frameY="-290" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0023" x="3682" y="8305" width="272" height="286" rotated="true" frameX="-625" frameY="-292" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0024" x="7002" y="8304" width="272" height="286" rotated="true" frameX="-625" frameY="-294" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0025" x="632" y="8312" width="271" height="285" rotated="true" frameX="-626" frameY="-296" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0026" x="7274" y="8304" width="271" height="286" rotated="true" frameX="-626" frameY="-298" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0027" x="5802" y="8310" width="270" height="287" rotated="true" frameX="-626" frameY="-300" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0028" x="2369" y="8310" width="271" height="287" rotated="true" frameX="-627" frameY="-301" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0029" x="1543" y="8309" width="270" height="288" rotated="true" frameX="-627" frameY="-303" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 003" x="3497" y="2925" width="147" height="486" frameX="-638" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0030" x="3138" y="8305" width="269" height="289" rotated="true" frameX="-627" frameY="-306" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0031" x="6740" y="8304" width="262" height="293" rotated="true" frameX="-630" frameY="-308" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0032" x="7970" y="8301" width="272" height="296" rotated="true" frameX="-632" frameY="-304" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0033" x="7843" y="5572" width="334" height="296" rotated="true" frameX="-644" frameY="-281" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0034" x="0" y="4954" width="451" height="238" rotated="true" frameX="-659" frameY="-194" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0035" x="1448" y="0" width="144" height="519" frameX="-672" frameY="-130" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0036" x="572" y="1266" width="530" height="170" rotated="true" frameX="-686" frameY="-114" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0037" x="0" y="1350" width="531" height="151" rotated="true" frameX="-684" frameY="-113" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0038" x="0" y="0" width="106" height="580" frameX="-674" frameY="-64" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0039" x="106" y="0" width="109" height="580" frameX="-670" frameY="-64" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 004" x="3895" y="0" width="167" height="480" frameX="-636" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0040" x="215" y="0" width="111" height="580" frameX="-667" frameY="-64" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0041" x="326" y="0" width="112" height="579" frameX="-665" frameY="-65" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0042" x="438" y="0" width="113" height="579" frameX="-664" frameY="-65" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0043" x="551" y="0" width="115" height="579" frameX="-662" frameY="-65" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0044" x="0" y="580" width="579" height="117" rotated="true" frameX="-660" frameY="-65" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0045" x="666" y="0" width="118" height="578" frameX="-659" frameY="-66" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0046" x="0" y="697" width="578" height="120" rotated="true" frameX="-657" frameY="-66" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0047" x="784" y="0" width="121" height="578" frameX="-656" frameY="-66" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0048" x="0" y="817" width="577" height="123" rotated="true" frameX="-654" frameY="-67" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0049" x="905" y="0" width="125" height="577" frameX="-652" frameY="-67" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 005" x="4192" y="2867" width="184" height="471" frameX="-636" frameY="-93" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0050" x="0" y="940" width="576" height="127" rotated="true" frameX="-650" frameY="-68" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0051" x="1030" y="0" width="129" height="576" frameX="-648" frameY="-68" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0052" x="579" y="579" width="576" height="131" rotated="true" frameX="-646" frameY="-68" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0053" x="578" y="710" width="575" height="134" rotated="true" frameX="-643" frameY="-69" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0054" x="577" y="844" width="575" height="136" rotated="true" frameX="-641" frameY="-69" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0055" x="0" y="1067" width="574" height="138" rotated="true" frameX="-639" frameY="-70" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0056" x="576" y="980" width="574" height="139" rotated="true" frameX="-638" frameY="-70" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0057" x="1159" y="0" width="141" height="573" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0058" x="1155" y="576" width="143" height="572" frameX="-634" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0059" x="0" y="1205" width="572" height="145" rotated="true" frameX="-632" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 006" x="1411" y="4526" width="456" height="200" rotated="true" frameX="-637" frameY="-109" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0060" x="574" y="1119" width="571" height="147" rotated="true" frameX="-630" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0061" x="1300" y="0" width="148" height="570" frameX="-629" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0062" x="1300" y="0" width="148" height="570" frameX="-629" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0063" x="1300" y="0" width="148" height="570" frameX="-629" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0064" x="1300" y="0" width="148" height="570" frameX="-629" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 0065" x="1300" y="0" width="148" height="570" frameX="-629" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 007" x="5618" y="2216" width="215" height="441" frameX="-637" frameY="-126" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 008" x="1665" y="6016" width="424" height="226" rotated="true" frameX="-645" frameY="-147" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="Uppercut 009" x="6843" y="4616" width="399" height="237" rotated="true" frameX="-651" frameY="-173" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 001" x="978" y="3217" width="488" height="144" rotated="true" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0010" x="8422" y="6769" width="251" height="252" rotated="true" frameX="-622" frameY="-328" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0011" x="8242" y="8301" width="252" height="253" rotated="true" frameX="-622" frameY="-328" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0012" x="8422" y="4707" width="251" height="254" rotated="true" frameX="-622" frameY="-329" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0013" x="8422" y="6515" width="251" height="254" rotated="true" frameX="-622" frameY="-330" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0014" x="8423" y="4961" width="250" height="254" rotated="true" frameX="-622" frameY="-331" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0015" x="8418" y="1041" width="255" height="249" frameX="-622" frameY="-331" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0016" x="8418" y="1290" width="255" height="248" frameX="-622" frameY="-332" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0017" x="8423" y="5215" width="247" height="254" rotated="true" frameX="-623" frameY="-333" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0018" x="8423" y="5469" width="247" height="254" rotated="true" frameX="-623" frameY="-334" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0019" x="8423" y="5723" width="247" height="254" rotated="true" frameX="-623" frameY="-334" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 002" x="8431" y="4337" width="241" height="247" frameX="-636" frameY="-335" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0020" x="8423" y="5977" width="246" height="254" rotated="true" frameX="-623" frameY="-335" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0021" x="8423" y="6231" width="246" height="254" rotated="true" frameX="-623" frameY="-335" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0022" x="8430" y="2824" width="243" height="255" rotated="true" frameX="-623" frameY="-334" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0023" x="8430" y="1538" width="243" height="254" rotated="true" frameX="-625" frameY="-333" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0024" x="8430" y="1792" width="243" height="250" rotated="true" frameX="-629" frameY="-333" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0025" x="8429" y="3079" width="244" height="246" rotated="true" frameX="-635" frameY="-332" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0026" x="8431" y="784" width="240" height="257" frameX="-641" frameY="-327" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0027" x="8431" y="262" width="241" height="261" frameX="-641" frameY="-323" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0028" x="8431" y="523" width="242" height="261" frameX="-641" frameY="-319" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0029" x="8431" y="0" width="242" height="262" frameX="-642" frameY="-315" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 003" x="8422" y="7021" width="249" height="252" frameX="-626" frameY="-329" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0030" x="8192" y="1958" width="238" height="270" frameX="-644" frameY="-308" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0031" x="8192" y="3369" width="236" height="278" frameX="-644" frameY="-300" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0032" x="2640" y="8310" width="236" height="286" frameX="-644" frameY="-292" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0033" x="7667" y="8303" width="237" height="294" frameX="-645" frameY="-283" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0034" x="8125" y="2824" width="305" height="238" rotated="true" frameX="-645" frameY="-271" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0035" x="5157" y="7907" width="319" height="239" rotated="true" frameX="-645" frameY="-258" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0036" x="7843" y="6761" width="240" height="330" frameX="-645" frameY="-247" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0037" x="7843" y="4711" width="341" height="241" rotated="true" frameX="-645" frameY="-236" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0038" x="7935" y="1661" width="240" height="352" frameX="-646" frameY="-225" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0039" x="4298" y="7659" width="364" height="237" rotated="true" frameX="-647" frameY="-213" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 004" x="8422" y="7273" width="247" height="252" frameX="-622" frameY="-325" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0040" x="7248" y="937" width="375" height="234" rotated="true" frameX="-648" frameY="-201" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0041" x="633" y="7522" width="229" height="386" frameX="-650" frameY="-189" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0042" x="6843" y="4853" width="399" height="224" rotated="true" frameX="-651" frameY="-176" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0043" x="6589" y="5182" width="217" height="411" frameX="-653" frameY="-164" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0044" x="4553" y="6020" width="210" height="421" frameX="-654" frameY="-153" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0045" x="5834" y="2869" width="431" height="202" rotated="true" frameX="-656" frameY="-142" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0046" x="5424" y="2214" width="193" height="439" frameX="-658" frameY="-133" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0047" x="1843" y="4886" width="447" height="183" rotated="true" frameX="-660" frameY="-124" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0048" x="936" y="4698" width="454" height="173" rotated="true" frameX="-662" frameY="-116" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0049" x="936" y="4533" width="457" height="165" rotated="true" frameX="-662" frameY="-110" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 005" x="8422" y="7525" width="247" height="252" frameX="-622" frameY="-325" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0050" x="4565" y="2365" width="160" height="461" frameX="-658" frameY="-104" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0051" x="4525" y="941" width="155" height="467" frameX="-654" frameY="-96" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0052" x="475" y="4193" width="472" height="155" rotated="true" frameX="-649" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0053" x="4048" y="2392" width="151" height="475" frameX="-648" frameY="-86" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0054" x="3786" y="2419" width="148" height="480" frameX="-647" frameY="-82" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0055" x="3652" y="2902" width="147" height="483" frameX="-646" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0056" x="2434" y="3659" width="485" height="145" rotated="true" frameX="-645" frameY="-76" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0057" x="3561" y="0" width="144" height="487" frameX="-644" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0058" x="3556" y="976" width="142" height="487" frameX="-643" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0059" x="1955" y="3216" width="488" height="140" rotated="true" frameX="-643" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 006" x="8422" y="7777" width="248" height="252" frameX="-622" frameY="-325" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 0060" x="2443" y="3234" width="488" height="141" rotated="true" frameX="-642" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 007" x="8272" y="8029" width="249" height="252" frameX="-622" frameY="-326" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 008" x="8341" y="4085" width="250" height="252" frameX="-622" frameY="-326" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="fall recover 009" x="8343" y="3647" width="252" height="251" rotated="true" frameX="-622" frameY="-327" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 001" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0010" x="3265" y="976" width="147" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00100" x="1592" y="979" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00101" x="0" y="1726" width="489" height="148" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00102" x="489" y="1726" width="489" height="148" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00103" x="978" y="1656" width="489" height="148" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00104" x="1744" y="0" width="147" height="489" frameX="-640" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00105" x="3266" y="488" width="147" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00106" x="3270" y="0" width="147" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00107" x="3266" y="1464" width="147" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00108" x="3206" y="1952" width="147" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00109" x="3206" y="2440" width="146" height="488" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0011" x="0" y="3388" width="488" height="147" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00110" x="489" y="3251" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00111" x="1466" y="3333" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00112" x="1954" y="3356" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00113" x="977" y="3361" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00114" x="2442" y="3375" width="488" height="145" rotated="true" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00115" x="3183" y="2928" width="145" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00116" x="2934" y="2934" width="145" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00117" x="3412" y="976" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00118" x="3413" y="488" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00119" x="3417" y="0" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0012" x="1744" y="489" width="147" height="489" frameX="-640" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 00120" x="1448" y="519" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0013" x="1741" y="978" width="148" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0014" x="0" y="1874" width="489" height="148" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0015" x="1741" y="1467" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0016" x="1592" y="1468" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0017" x="978" y="1804" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0018" x="1889" y="978" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0019" x="1891" y="0" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 002" x="3413" y="1464" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0020" x="1891" y="489" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0021" x="489" y="1874" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0022" x="0" y="2022" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0023" x="978" y="1957" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0024" x="1467" y="1957" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0025" x="2040" y="0" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0026" x="2038" y="978" width="152" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0027" x="1890" y="1467" width="152" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0028" x="489" y="2025" width="489" height="152" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0029" x="978" y="2108" width="489" height="153" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 003" x="3353" y="1952" width="144" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0030" x="1467" y="2108" width="489" height="153" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0031" x="2040" y="489" width="153" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0032" x="2190" y="978" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0033" x="2042" y="1467" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0034" x="0" y="2173" width="489" height="154" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0035" x="489" y="2177" width="489" height="154" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0036" x="1956" y="1956" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0037" x="2110" y="1956" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0038" x="978" y="2261" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0039" x="1467" y="2261" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 004" x="3352" y="2440" width="145" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0040" x="2191" y="0" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0041" x="2196" y="1467" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0042" x="2193" y="489" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0043" x="2266" y="1956" width="157" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0044" x="0" y="2327" width="489" height="157" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0045" x="489" y="2331" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0046" x="978" y="2445" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0047" x="1467" y="2417" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0048" x="1956" y="2445" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0049" x="2344" y="978" width="159" height="489" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 005" x="3328" y="2928" width="145" height="488" frameX="-641" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0050" x="2347" y="0" width="159" height="489" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0051" x="2352" y="1467" width="159" height="489" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0052" x="2349" y="489" width="159" height="489" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0053" x="2423" y="1956" width="158" height="489" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0054" x="0" y="2484" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0055" x="1467" y="2575" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0056" x="489" y="2489" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0057" x="978" y="2603" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0058" x="1956" y="2603" width="489" height="158" rotated="true" frameX="-635" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0059" x="2503" y="978" width="157" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 006" x="0" y="3535" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0060" x="2506" y="0" width="157" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0061" x="2511" y="1467" width="157" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0062" x="2508" y="489" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0063" x="2660" y="978" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0064" x="2581" y="1956" width="156" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0065" x="0" y="2642" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0066" x="1467" y="2733" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0067" x="489" y="2647" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0068" x="978" y="2761" width="489" height="156" rotated="true" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0069" x="2445" y="2445" width="155" height="489" frameX="-636" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 007" x="488" y="3397" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0070" x="1956" y="2761" width="489" height="154" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0071" x="2600" y="2445" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0072" x="2663" y="0" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0073" x="2668" y="1467" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0074" x="2664" y="489" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0075" x="2737" y="1956" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0076" x="2816" y="978" width="154" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0077" x="2817" y="0" width="153" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0078" x="2754" y="2445" width="153" height="489" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0079" x="0" y="2798" width="489" height="153" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 008" x="1465" y="3479" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0080" x="1467" y="2889" width="489" height="153" rotated="true" frameX="-637" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0081" x="2818" y="489" width="152" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0082" x="489" y="2803" width="489" height="152" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0083" x="1956" y="2915" width="489" height="152" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0084" x="0" y="2951" width="489" height="152" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0085" x="978" y="2917" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0086" x="2445" y="2934" width="489" height="151" rotated="true" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0087" x="2822" y="1467" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0088" x="2891" y="1956" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0089" x="2970" y="0" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 009" x="1953" y="3502" width="488" height="146" rotated="true" frameX="-640" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0090" x="2907" y="2445" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0091" x="2970" y="489" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0092" x="2970" y="978" width="151" height="489" frameX="-638" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0093" x="489" y="2955" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0094" x="1467" y="3042" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0095" x="0" y="3103" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0096" x="1956" y="3067" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0097" x="978" y="3068" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0098" x="2445" y="3085" width="489" height="149" rotated="true" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="idle 0099" x="2973" y="1467" width="149" height="489" frameX="-639" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 001" x="4199" y="2392" width="189" height="471" frameX="-639" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0010" x="3042" y="1956" width="164" height="489" frameX="-649" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0011" x="1009" y="1470" width="490" height="159" rotated="true" frameX="-651" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0012" x="517" y="1501" width="492" height="155" rotated="true" frameX="-653" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0013" x="1592" y="0" width="152" height="490" frameX="-654" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0014" x="489" y="3104" width="489" height="147" rotated="true" frameX="-656" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0015" x="3561" y="487" width="144" height="487" frameX="-657" frameY="-75" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0016" x="2919" y="3673" width="485" height="140" rotated="true" frameX="-659" frameY="-76" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0017" x="3705" y="968" width="141" height="484" frameX="-660" frameY="-77" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0018" x="2915" y="3813" width="481" height="142" rotated="true" frameX="-662" frameY="-79" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0019" x="3875" y="1447" width="142" height="479" frameX="-664" frameY="-80" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 002" x="4199" y="2392" width="189" height="471" frameX="-639" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0020" x="3895" y="3378" width="142" height="477" frameX="-666" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0021" x="1930" y="3994" width="475" height="141" rotated="true" frameX="-667" frameY="-83" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0022" x="2405" y="4 00" width="475" height="145" rotated="true" frameX="-662" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0023" x="1433" y="4193" width="472" height="149" rotated="true" frameX="-658" frameY="-86" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0024" x="4279" y="3338" width="159" height="471" frameX="-654" frameY="-87" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0025" x="4376" y="2863" width="165" height="469" frameX="-651" frameY="-89" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0026" x="3813" y="4347" width="468" height="169" rotated="true" frameX="-648" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0027" x="0" y="4535" width="466" height="173" rotated="true" frameX="-645" frameY="-91" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0028" x="4388" y="2372" width="177" height="468" frameX="-642" frameY="-91" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0029" x="4449" y="1897" width="177" height="468" frameX="-640" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 003" x="2400" y="4145" width="474" height="186" rotated="true" frameX="-640" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0030" x="1411" y="4348" width="469" height="178" rotated="true" frameX="-638" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0031" x="3346" y="4170" width="472" height="177" rotated="true" frameX="-636" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0032" x="4282" y="0" width="178" height="472" frameX="-634" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0033" x="4165" y="956" width="186" height="472" frameX="-632" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0034" x="4229" y="476" width="195" height="472" frameX="-630" frameY="-87" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0035" x="4037" y="3369" width="194" height="475" frameX="-628" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0036" x="1449" y="4 00" width="477" height="193" rotated="true" frameX="-626" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0037" x="0" y="4004" width="479" height="189" rotated="true" frameX="-624" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0038" x="3875" y="484" width="184" height="480" frameX="-623" frameY="-75" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0039" x="3396" y="3819" width="481" height="182" rotated="true" frameX="-620" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 004" x="960" y="4004" width="477" height="183" rotated="true" frameX="-641" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0040" x="1449" y="3814" width="481" height="185" rotated="true" frameX="-617" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0041" x="486" y="3814" width="482" height="188" rotated="true" frameX="-614" frameY="-70" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0042" x="3870" y="1936" width="177" height="480" frameX="-618" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0043" x="2915" y="3955" width="479" height="170" rotated="true" frameX="-623" frameY="-71" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0044" x="3394" y="4001" width="477" height="169" rotated="true" frameX="-627" frameY="-72" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0045" x="4025" y="2893" width="167" height="476" frameX="-632" frameY="-73" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0046" x="4017" y="1440" width="164" height="476" frameX="-637" frameY="-74" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0047" x="4047" y="1916" width="162" height="476" frameX="-642" frameY="-75" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0048" x="0" y="4193" width="475" height="156" rotated="true" frameX="-651" frameY="-77" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0049" x="3877" y="3855" width="157" height="473" frameX="-652" frameY="-79" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 005" x="1930" y="3814" width="481" height="180" rotated="true" frameX="-642" frameY="-87" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0050" x="960" y="4187" width="473" height="161" rotated="true" frameX="-651" frameY="-80" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0051" x="4181" y="1428" width="165" height="472" frameX="-649" frameY="-82" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0052" x="4279" y="1900" width="170" height="472" frameX="-647" frameY="-83" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0053" x="2400" y="4331" width="470" height="172" rotated="true" frameX="-646" frameY="-85" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0054" x="4351" y="948" width="174" height="469" frameX="-645" frameY="-86" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0055" x="4438" y="3800" width="177" height="467" frameX="-644" frameY="-88" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0056" x="4438" y="3332" width="179" height="468" frameX="-643" frameY="-89" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0057" x="3344" y="4347" width="469" height="181" rotated="true" frameX="-642" frameY="-90" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0058" x="471" y="4349" width="470" height="183" rotated="true" frameX="-641" frameY="-91" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0059" x="941" y="4348" width="470" height="184" rotated="true" frameX="-641" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 006" x="3698" y="1452" width="177" height="484" frameX="-644" frameY="-84" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 0060" x="0" y="4349" width="471" height="186" rotated="true" frameX="-640" frameY="-92" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 007" x="0" y="3681" width="486" height="174" rotated="true" frameX="-645" frameY="-81" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 008" x="3497" y="1952" width="171" height="487" frameX="-646" frameY="-78" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="walk 009" x="976" y="3507" width="488" height="168" rotated="true" frameX="-647" frameY="-76" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

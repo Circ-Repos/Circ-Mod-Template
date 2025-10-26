@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="fuckatoriam" zoom="0.2">
+	<use-extension script="pixel"/>
+	<sprite antialiasing="false" x="-174.419672692411" sprite="fuckatoriam" y="67.1751442127062" type="none" scale="4.32755982140572" name="bg"/>
+	<girlfriend x="384.761896215572" y="-75.7142943028273" scroll="1"/>
+	<dad scale="2" x="600.360209617543" y="-300.439393000736"/>
+	<boyfriend x="1223.33333333333" y="-75.2380952380954"/>
+</stage>

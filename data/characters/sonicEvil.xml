@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="320" antialiasing="false" camx="-110" y="-40" sprite="Sonic_EXE_Pixel" icon="sonicEXE" scale="10" camy="210" color="#4040A0">
+	<anim x="0" loop="false" anim="Sonic_EXE_Pixel idle0" y="-55" fps="12" name="idle"/>
+
+	<anim x="-1" loop="false" anim="Sonic_EXE_Pixel Sonic_EXE_Pixel NOTE LEFT0" y="-55" fps="12" name="singLEFT"/>
+
+	<anim x="0" loop="false" anim="Sonic_EXE_Pixel NOTE RIGHT0" y="-55" fps="12" name="singRIGHT"/>
+
+	<anim x="0" loop="false" anim="Sonic_EXE_Pixel Sonic_EXE_Pixel NOTE DOWN0" y="-56" fps="12" name="singDOWN"/>
+
+	<anim x="0" loop="false" anim="Sonic_EXE_Pixel NOTE UP0" y="-55" fps="12" name="singUP"/>
+</character>

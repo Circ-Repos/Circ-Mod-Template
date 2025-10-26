@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="Little-minos" antialiasing="false" camx="-800" camy="100" icon="mprime" color="#FFFFFF" holdTime="64">
+	<anim name="idle" anim="idle" x="600" y="-91" fps="30" loop="true"/>
+	<anim name="Die" anim="Die" x="608" y="-91" fps="30"/>
+	<anim name="walk" anim="walk" x="608" y="-91" fps="30" loop="true"/>
+	<anim name="singUP" anim="Uppercut" x="608" y="-91" fps="30"/>
+	<anim name="singDOWN" anim="Swing Down" x="608" y="-91" fps="30"/>
+	<anim name="singRIGHT" anim="Boxing Combo" x="608" y="-91" fps="30"/>
+	<anim name="fall recover" anim="fall recover" x="608" y="-91" fps="30"/>
+	<anim name="singLEFT" anim="Projectile Throw" x="608" y="-91" fps="30"/>
+</character>
