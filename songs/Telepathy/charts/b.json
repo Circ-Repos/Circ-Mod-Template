@@ -8,20 +8,22 @@
 			"name": "Camera Movement"
 		}
 	],
-	"stage": "stage",
 	"codenameChart": true,
+	"stage": "stage",
 	"scrollSpeed": 3,
+	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "girlfriend",
+			"keyCount": 4,
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"visible": false,
+			"scrollSpeed": null,
+			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"type": 2,
-			"scrollSpeed": null,
-			"visible": false,
 			"strumPos": [
 				0,
 				50
@@ -29,8 +31,7 @@
 			"strumLinePos": 0.5
 		},
 		{
-			"strumScale": 1,
-			"position": "boyfriend",
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 1,
@@ -106,7 +107,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 219.512195121949,
+					"sLen": 219.512195121948,
 					"time": 5268.29268292683,
 					"type": 0
 				},
@@ -220,7 +221,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 365.853658536593,
+					"sLen": 365.853658536595,
 					"time": 10975.6097560976,
 					"type": 0
 				},
@@ -1936,19 +1937,19 @@
 				},
 				{
 					"id": 0,
-					"sLen": 219.51219512197,
+					"sLen": 219.512195121977,
 					"time": 47414.6341463415,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 219.51219512197,
+					"sLen": 219.512195121977,
 					"time": 47414.6341463415,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 219.51219512197,
+					"sLen": 219.512195121977,
 					"time": 47414.6341463415,
 					"type": 0
 				},
@@ -2044,13 +2045,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 219.512195121933,
+					"sLen": 219.512195121926,
 					"time": 49024.3902439024,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 219.512195121933,
+					"sLen": 219.512195121926,
 					"time": 49024.3902439024,
 					"type": 0
 				},
@@ -2494,19 +2495,19 @@
 				},
 				{
 					"id": 1,
-					"sLen": 219.512195121933,
+					"sLen": 219.512195121926,
 					"time": 56487.8048780488,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 219.512195121933,
+					"sLen": 219.512195121926,
 					"time": 56487.8048780488,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 219.512195121933,
+					"sLen": 219.512195121926,
 					"time": 56487.8048780488,
 					"type": 0
 				},
@@ -2806,7 +2807,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 365.853658536565,
+					"sLen": 365.853658536558,
 					"time": 62487.8048780488,
 					"type": 0
 				},
@@ -5974,13 +5975,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 219.512195122006,
+					"sLen": 219.512195122021,
 					"time": 128487.804878049,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 219.512195122006,
+					"sLen": 219.512195122021,
 					"time": 128487.804878049,
 					"type": 0
 				},
@@ -6525,17 +6526,19 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf"
 			],
-			"type": 1,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.5
+			"strumLinePos": 0.5,
+			"vocalsSuffix": ""
 		}
 	],
 	"noteTypes": []

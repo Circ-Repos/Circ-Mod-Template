@@ -1,9 +1,7 @@
 {
-	"beatsPerMeasure": 4,
+	"customValues": {},
+	"color": "#9271FD",
 	"opponentModeAllowed": false,
-	"coopAllowed": false,
-	"stepsPerBeat": 4,
-	"bpm": 100,
 	"difficulties": [
 		"BEGINNER",
 		"EASY",
@@ -12,11 +10,11 @@
 		"ADVANCED",
 		"INSANE"
 	],
-	"needsVoices": true,
-	"parsedColor": -7179779,
+	"icon": "rotten-miku",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
 	"displayName": "Confessions Of A Rotten Girl",
-	"icon": "face",
-	"name": "Connfesions",
-	"color": "#9271FD",
-	"customValues": {}
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
 }

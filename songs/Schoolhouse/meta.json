@@ -1,15 +1,15 @@
 {
+	"customValues": {},
+	"color": "#9271FD",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"Null"
 	],
-	"icon": "face",
-	"parsedColor": -7179779,
+	"icon": "null",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Schoolhouse Trouble",
-	"needsVoices": true,
+	"needsVoices": false,
 	"beatsPerMeasure": 4,
-	"bpm": 100,
-	"name": "Schoolhouse"
+	"bpm": 100
 }

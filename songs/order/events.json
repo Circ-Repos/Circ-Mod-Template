@@ -2,6 +2,54 @@
 	"events": [
 		{
 			"params": [
+				true,
+				2,
+				24,
+				"sine",
+				"Out",
+				false
+			],
+			"time": 2400,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				3,
+				8,
+				"sine",
+				"Out",
+				false
+			],
+			"time": 7050,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				2,
+				32,
+				"quint",
+				"Out",
+				false
+			],
+			"time": 36900,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				5,
+				1,
+				"linear",
+				"In",
+				false
+			],
+			"time": 46050,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				173
 			],
 			"time": 47400,

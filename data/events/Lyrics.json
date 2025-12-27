@@ -1,24 +1,14 @@
 {
-    "params": [
-        {
-            "name": "Action",
-            "type": "DropDown('Add Text', 'Force remove all text', 'Set Color', 'Set Border Color', 'Set Size', 'Set Font', 'Center', 'Enable text history (On, Off)')",
-            "defaultValue": "Add Text"
-        },
-        {
-            "name": "Value",
-            "type": "String",
-            "defaultValue": ""
-        },
-        {
-            "name": "Color (for 'Set Color')",
-            "type": "ColorWheel",
-            "defaultValue": "#FFFFFF"
-        },
-        {
-            "name": "On or Off, (For any 'On, Off' actions)",
-            "type": "Bool",
-            "defaultValue": "false"
-        }
-    ]
+	"params": [
+		{
+			"name": "Lyrics/Subtitles thingy",
+			"type": "String",
+			"defaultValue": ""
+		},
+		{
+			"name": "a V2 Subsitute",
+			"type": "String",
+			"defaultValue": ""
+		}
+	]
 }

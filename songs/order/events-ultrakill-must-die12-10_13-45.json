@@ -1,0 +1,23 @@
+{
+	"events": [
+		{
+			"params": [
+				true,
+				2,
+				24,
+				"sine",
+				"Out",
+				false
+			],
+			"time": 2400,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				173
+			],
+			"time": 47400,
+			"name": "BPM Change"
+		}
+	]
+}

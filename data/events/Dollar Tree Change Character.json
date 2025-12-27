@@ -1,0 +1,34 @@
+{
+	"params": [
+		{
+			"name": "Dad 1 Visible?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "BF 1 Visible?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "Dad 2 Visible?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "BF 2 Visible?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "Dad 3 Visible?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "BF 3 Visible?",
+			"type": "Bool",
+			"defaultValue": false
+		}
+	]
+}

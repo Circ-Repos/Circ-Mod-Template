@@ -1,0 +1,16 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"7-4 ...LIKE ANTENNAS TO HEAVEN",
+		"VIOLENCE-CLIMAX"
+	],
+	"icon": "face",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "War Without Reason",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}

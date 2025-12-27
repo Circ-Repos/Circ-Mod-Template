@@ -1,0 +1,14 @@
+{
+	"params": [
+        {
+            "name": "Where Strums Go To?",
+            "type": "DropDown('Swap (Left To Right)', 'Swap (Right To Left)', 'To Middlescroll', 'Middlescroll (Edges)')",
+            "defaultValue": "Add"
+        },
+		{
+			"name": "Movement Speed",
+      		"type": "String",
+			"defaultValue": "0.67"
+		}
+	]
+}

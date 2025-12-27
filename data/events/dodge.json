@@ -1,0 +1,13 @@
+{
+	"params": [
+		{
+			"name": "Beats Per Sound",
+			"type": "String",
+			"defaultValue": "1"
+		}, {
+			"name": "Tutorial",
+			"type": "Bool",
+			"defaultValue": false
+		}
+	]
+}

@@ -1,17 +1,15 @@
 {
+	"color": "#9271FD",
+	"customValues": {},
 	"opponentModeAllowed": false,
-	"icon": "face",
+	"icon": "b",
 	"difficulties": [
 		"B"
 	],
-	"parsedColor": -7179779,
-	"customValues": {},
-	"color": "#9271FD",
-	"name": "Telepathy",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Telepathy",
 	"beatsPerMeasure": 4,
-	"needsVoices": true,
+	"needsVoices": false,
 	"bpm": 205
 }

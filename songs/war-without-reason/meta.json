@@ -6,11 +6,11 @@
 		"7-4 ...LIKE ANTENNAS TO HEAVEN",
 		"VIOLENCE-CLIMAX"
 	],
-	"icon": "face",
+	"icon": "benjamin",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "War Without Reason",
-	"needsVoices": true,
+	"needsVoices": false,
 	"beatsPerMeasure": 4,
 	"bpm": 100
 }

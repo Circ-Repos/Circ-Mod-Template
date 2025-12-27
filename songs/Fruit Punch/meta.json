@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "clown",
+	"difficulties": [
+		"lemonade-for-everyone",
+		"fruit-punch-for-everyone"
+	],
+	"color": "#005EFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Fruit Punch Clown (Insanity)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}

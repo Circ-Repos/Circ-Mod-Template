@@ -1,63 +1,76 @@
 import flixel.text.FlxTextBorderStyle;
 import flixel.text.FlxText;
 import flixel.text.FlxTextAlign;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
 
-var subtitles:FlxText;
+var lyrics:FlxText;
+var subtitleCam:FlxCamera;
 
-function onSongStart() {
+var mid:Bool = false;
+var moving:Bool = false;
+var targetY:Float = 600;
+var fontt:String = 'VCR.ttf';
+function postCreate() {
+    subtitleCam = new FlxCamera();
+    subtitleCam.bgColor = 0;
+    FlxG.cameras.add(subtitleCam, false); // seperate cam so camHUD can fade without affecting lyrics
 
-	subtitles = new FlxText(0, 600, 0, "");
-	subtitles.alignment = FlxTextAlign.CENTER;
-	subtitles.setFormat(Paths.font("VCR.ttf"), 36, FlxColor.WHITE, FlxTextAlign.center);
-	subtitles.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 2, 4);
-	
-	subtitles.antialiasing = false;
-	subtitles.scrollFactor.set(0, 0);
-	subtitles.cameras = [camHUD];
-	add(subtitles);
-	remove(subtitles,true);
-	insert(99, subtitles);
-    subtitles.screenCenter(FlxAxes.X);
-	    for (i in subtitles) {
-        i.size *= 3;
-		i.pixelPerfectRender = true;
-        i.scale.x /= 3;
-        i.scale.y /= 3;
-        i.antialiasing = true;
-        i.y -= 21;
-        i.borderSize *= 3;
-        i.fieldWidth += 1000;
-        i.x -= 1000/2;
-        i.borderQuality = 100;
-    }
+    lyrics = new FlxText(0, 600, 0, "");
+    lyrics.setFormat(Paths.font(fontt), 36, FlxColor.WHITE, FlxTextAlign.CENTER);
+    lyrics.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 2, 4);
+    lyrics.antialiasing = false;
+    lyrics.scrollFactor.set();
+    lyrics.cameras = [subtitleCam];
+    lyrics.alpha = 0;
+    lyrics.screenCenter(FlxAxes.X);
+    add(lyrics);
+}
+//might expand upon later
+function setLyricsText(text:String, size:Int, centerY:Bool) {
+    lyrics.text = text;
+    lyrics.setFormat(Paths.font(fontt), size, FlxColor.WHITE, FlxTextAlign.CENTER);
+    if(fontt != 'VCR.ttf') lyrics.antialiasing = true;
+    lyrics.setBorderStyle(FlxTextBorderStyle.OUTLINE, FlxColor.BLACK, 2, 4);
+    lyrics.updateHitbox();
+    lyrics.screenCenter(FlxAxes.X);
+    if (centerY)
+        lyrics.y = FlxG.height * 0.45;
 }
 
-function onEvent(event)
-{
-	trace(event);
-	if(event.event.name != "CLyrics") return;
+function onEvent(event) {
+    if (event.event.name != "CLyrics") return;
 
-	var value1 = event.event.params[0];
+    var value1 = event.event.params[0];
     var value2 = event.event.params[1];
-	if(value2 != 'mid' && subtitles.y != 600){
-		subtitles.x = 0;
-		subtitles.y = 600;
-		subtitles.setFormat(Paths.font("VCR.ttf"), 36, FlxColor.WHITE, FlxTextAlign.center);
-	}
-    if (event.event.name == 'CLyrics' && value1 != '')
-    {
-		remove(subtitles,true);
-		insert(99, subtitles);	
-		subtitles.alpha = 1;
-		subtitles.text = value1;
-    }
-	switch(value2){
-		default:
-			subtitles.screenCenter(FlxAxes.X);
-		case 'mid':
-			subtitles.screenCenter();
-			subtitles.setFormat(Paths.font("VCR.ttf"), 72, FlxColor.WHITE, FlxTextAlign.center);
 
-	}
-	if(value1 == '') FlxTween.tween(subtitles, {alpha: 0},0.8, {ease: FlxEase.linear});
+    // empty v1 = fade out
+    if (value1 == '' || value1 == null) {
+        FlxTween.tween(lyrics, {alpha: 0}, 0.5, {ease: FlxEase.linear});
+        moving = false;
+        return;
+    }
+
+    // mid or not
+    mid = (value2 == 'mid');
+    lyrics.y = mid ? 290: 590;
+    targetY = mid ? 300 : 600;
+
+    setLyricsText(value1, mid ? 72 : 36, mid);
+	lyrics.alpha = 1;
+    lyrics.scale.set(1.1, 1.1);
+    FlxTween.tween(lyrics.scale, {x: 1, y: 1}, 0.2, {ease: FlxEase.quadOut});
+
+    moving = true;
+}
+
+function update(elapsed:Float) {
+    if (moving) {
+        // lerp my beloved
+        lyrics.y = lerp(lyrics.y, targetY, elapsed * 32);
+        if (Math.abs(lyrics.y - targetY) < 0.5) {
+            lyrics.y = targetY;
+            moving = false;
+        }
+    }
 }

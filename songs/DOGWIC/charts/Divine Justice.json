@@ -8,10 +8,11 @@
 			"name": "Camera Movement"
 		}
 	],
-	"scrollSpeed": 3,
-	"codenameChart": true,
 	"strumLines": [
 		{
+			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -11043,7 +11044,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 750.000000000029,
+					"sLen": 750.000000000044,
 					"time": 96759,
 					"type": 0
 				},
@@ -24855,7 +24856,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 749.999999999942,
+					"sLen": 749.999999999913,
 					"time": 216770,
 					"type": 0
 				},
@@ -30536,21 +30537,22 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"bf"
+			],
+			"type": 1,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5,
-			"type": 1,
-			"characters": [
-				"bf"
-			]
+			"strumLinePos": 0.5
 		}
 	],
-	"stage": "sammyparkfinalfinal",
+	"codenameChart": true,
+	"scrollSpeed": 4,
+	"chartVersion": "1.6.0",
+	"stage": "stage",
 	"noteTypes": []
 }

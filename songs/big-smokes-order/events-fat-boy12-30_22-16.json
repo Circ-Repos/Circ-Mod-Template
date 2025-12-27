@@ -1,0 +1,14 @@
+{
+	"events": [
+		{
+			"params": [
+				15,
+				"hey",
+				false,
+				"LOCK"
+			],
+			"time": 0,
+			"name": "Play Animation"
+		}
+	]
+}

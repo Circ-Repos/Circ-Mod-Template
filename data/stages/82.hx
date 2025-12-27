@@ -6,9 +6,6 @@ import funkin.backend.system.Conductor;
 var timeSigText:FlxText;
 
 function postCreate() {
-	iconP1.alpha = 0;
-    iconP2.alpha = 0;
-
     timeSigText = new FlxText(420, 600, 0, "");
     timeSigText.text = Conductor.beatsPerMeasure + "/" + Conductor.denominator;
 	timeSigText.alignment = FlxTextAlign.CENTER;
@@ -20,6 +17,13 @@ function postCreate() {
 	timeSigText.cameras = [camHUD];
     timeSigText.screenCenter(FlxAxes.X);
 	add(timeSigText);
+
+	iconArray.push(iconP3 = new HealthIcon(strumLines.members[1].characters[0] != null ? strumLines.members[1].characters[0].getIcon() : Flags.DEFAULT_HEALTH_ICON, true));
+	iconP3.camera = camHUD;
+	iconP3.y = healthBar.y - (iconP3.height / 2);
+	iconP3.alpha = 0;
+	iconP3.flipX = true;
+	add(iconP3);
 }
 // var downscrollTweening = false;
 // function tweenDownscroll(toDown:Bool, duration:Float = 1)
@@ -92,14 +96,15 @@ function stepHit(curStep:Int) {
 			for(i in [scoreTxt, missesTxt, accuracyTxt]){
 				FlxTween.tween(i, {y: 45}, 0.7, {ease: FlxEase.circOut});
 			}
-            for(i in playerStrums.members){
-            if(i.ID == 0)  FlxTween.tween(i, {x: 50}, 0.7, {ease: FlxEase.circOut});
-            if(i.ID == 1)  FlxTween.tween(i, {x: 200}, 0.7, {ease: FlxEase.circOut});
-            if(i.ID == 2)  FlxTween.tween(i, {x: 950}, 0.7, {ease: FlxEase.circOut});
-            if(i.ID == 3)  FlxTween.tween(i, {x: 1100}, 0.7, {ease: FlxEase.circOut});
-            FlxTween.tween(i, {angle: 360}, 0.7, {ease: FlxEase.circOut});
-            //trace(i.ID);
+            // for(i in playerStrums.members){
+            // if(i.ID == 0)  FlxTween.tween(i, {x: 50}, 0.7, {ease: FlxEase.circOut});
+            // if(i.ID == 1)  FlxTween.tween(i, {x: 200}, 0.7, {ease: FlxEase.circOut});
+            // if(i.ID == 2)  FlxTween.tween(i, {x: 950}, 0.7, {ease: FlxEase.circOut});
+            // if(i.ID == 3)  FlxTween.tween(i, {x: 1100}, 0.7, {ease: FlxEase.circOut});
+            // FlxTween.tween(i, {angle: 360}, 0.7, {ease: FlxEase.circOut});
+            // //trace(i.ID);
             
-            }
+            // }
 		}
+		
 }

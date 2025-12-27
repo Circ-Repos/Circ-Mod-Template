@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="bb.png" width="1252" height="642">
+	<SubTexture name="BalloonBoyScared0000" x="5" y="5" width="178" height="195" frameX="-4" frameY="-16" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyIdle0000" x="188" y="5" width="173" height="214" frameX="-12" frameY="-21" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0001" x="188" y="5" width="173" height="214" frameX="-12" frameY="-21" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0002" x="183" y="224" width="172" height="213" frameX="-12" frameY="-15" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0003" x="544" y="5" width="172" height="214" frameX="-12" frameY="-11" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0004" x="5" y="424" width="172" height="213" frameX="-12" frameY="-18" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0005" x="721" y="5" width="172" height="213" frameX="-12" frameY="-25" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0006" x="898" y="5" width="172" height="213" frameX="-12" frameY="-18" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0007" x="366" y="223" width="172" height="214" frameX="-12" frameY="-11" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0008" x="1075" y="5" width="172" height="213" frameX="-12" frameY="-15" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk0009" x="5" y="205" width="173" height="214" frameX="-12" frameY="-21" frameWidth="200" frameHeight="240"/>
+	<SubTexture name="BalloonBoyWalk00010" x="366" y="5" width="173" height="213" frameX="-12" frameY="-25" frameWidth="200" frameHeight="240"/>
+
+</TextureAtlas>

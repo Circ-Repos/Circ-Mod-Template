@@ -1,0 +1,17 @@
+{
+	"customValues": {},
+	"color": "#FFFFFF",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"STANDARD",
+		"BRUTAL",
+		"ULTRAKILL-MUST-DIE"
+	],
+	"icon": "mprime",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Order",
+	"needsVoices": false,
+	"beatsPerMeasure": 3,
+	"bpm": 100
+}

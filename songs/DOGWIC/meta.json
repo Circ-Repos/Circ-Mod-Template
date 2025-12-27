@@ -1,15 +1,15 @@
 {
+	"customValues": {},
+	"color": "#9271FD",
 	"opponentModeAllowed": false,
 	"difficulties": [
 		"Divine Justice"
 	],
-	"icon": "face",
-	"parsedColor": -7179779,
+	"icon": "gabriel-uk",
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
 	"displayName": "Death Of Gods Will",
-	"needsVoices": true,
+	"needsVoices": false,
 	"beatsPerMeasure": 4,
-	"bpm": 100,
-	"name": "DOGWIC"
+	"bpm": 100
 }

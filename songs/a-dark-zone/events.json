@@ -1,0 +1,25 @@
+{
+	"events": [
+		{
+			"params": [
+				4,
+				4,
+				true
+			],
+			"time": 19800,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				true,
+				4,
+				32,
+				"bounce",
+				"Out",
+				false
+			],
+			"time": 19800,
+			"name": "Scroll Speed Change"
+		}
+	]
+}
