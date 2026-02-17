@@ -1,7 +1,3 @@
-// import funkin.game.shaders.HSLColorSwap;
-// import openfl.filters.ShaderFilter;
-// import funkin.backend.Conductor;
-// import funkin.objects.Bopper;
 import openfl.display.BlendMode;
 import funkin.backend.FunkinSprite;
 import haxe.Json;
@@ -15,22 +11,21 @@ import flixel.text.FlxTextBorderStyle;
 import funkin.backend.utils.DiscordUtil;
 importScript('data/scripts/NoteWarning');
 
-var evilness:FlxSprite;
-var blackFG:FlxSprite;
+var evilness:FunkinSprite;
+var blackFG:FunkinSprite;
 
 var introcc = new CustomShader('colorcorrection');
 
 var fogshader = new CustomShader('fog epic');
 var cloud_shader = new CustomShader('cloud');
-var cooleffect:FlxSprite;
-var fogtuah:FlxSprite;
+var cooleffect:FunkinSprite;
+var fogtuah:FunkinSprite;
 var melt = new CustomShader('melt');
 
 var snow = new CustomShader('snowfall');
 var atotalElapsed:Float = 0;
-// var intro:Bool = false;
 var intro = true;
-var intro_camera:Bool = false;
+var intro_camera = false;
 var pov = false;
 
 var snowStorm:Float = 0;
@@ -49,11 +44,10 @@ var fog2;
 
 var bust;
 var snowAtlas;
-//misc script
 
 var iconY: Float = 0;
-var textevil = new FlxText();
-var screen:Array<FlxSprite> = [];
+var textevil = new FunkinText();
+var screen:Array<FunkinSprite> = [];
 
 var displacementx:Float;
 var displacementy:Float;
@@ -67,7 +61,7 @@ var colorcorrection = new CustomShader('colorcorrection');
 
 
 function makeSpr(x, y, name, folder) {
-	var sprite = new FlxSprite(x, y);
+	var sprite = new FunkinSprite(x, y);
 	sprite.setFrames(Paths.getSparrowAtlas('backgrounds/exe/zeph/try-harder/' + folder));
 	sprite.animation.addByPrefix(name, name, 24, false);
 	sprite.animation.play(name);
@@ -92,18 +86,18 @@ function create() {
 
 	PlayState.instance.introLength = 0.5;
 
-	var bg:FlxSprite = makeSpr(-900, -1100, 'background ladders', 'try-harder-1');
+	var bg:FunkinSprite = makeSpr(-900, -1100, 'background ladders', 'try-harder-1');
 
 	bg.scrollFactor.set(0.42, 0.65);
 
-	var ice:FlxSprite = makeSpr(-121, -345, 'icicles background', 'try-harder-1');
+	var ice = makeSpr(-121, -345, 'icicles background', 'try-harder-1');
 
 	ice.scrollFactor.set(0.75, 1);
 
-	var fog:FlxSprite = makeSpr(-590, -36, 'poop', 'try-harder-1');
+	var fog = makeSpr(-590, -36, 'poop', 'try-harder-1');
 	fog.scrollFactor.set(0.6, 0.9);
 
-	var ground:FlxSprite = makeSpr(-666, 96, 'main stage', 'try-harder-1');
+	var ground = makeSpr(-666, 96, 'main stage', 'try-harder-1');
 	ground.scrollFactor.set(1, 1);
 
 	evilness = makeSpr(ground.x + 325, ground.y, 'spoopy main stage', 'try-harder-1');
@@ -121,11 +115,9 @@ function create() {
 	fgIce = makeSpr( -570, -500, 'icicles foreground', 'try-harder-1');
 	fgIce.scrollFactor.set(2, 2);
 
-	blackFG = new FlxSprite(-800, -400).makeGraphic(FlxG.width * 3, FlxG.height * 2.2, FlxColor.BLACK);
+	blackFG = new FunkinSprite(-800, -400).makeGraphic(FlxG.width * 3, FlxG.height * 2.2, FlxColor.BLACK);
 	blackFG.scrollFactor.set(0, 0);
 	blackFG.alpha = 1;
-
-	//blackFG.camera = camOther;
 
 	orgh = makeSpr(-620, -400, 'orgh', 'try-harder-1');
 	orgh.scrollFactor.set(1, 0.1);
@@ -133,16 +125,18 @@ function create() {
 	orgh.updateHitbox();
 	orgh.visible = true;
 
-	fog1 = new FlxBackdrop(null, FlxAxes.X, 0, 9999);
+	fog1 = new FlxBackdrop(null, FlxAxes.XY, 0, 0);
 	fog1.setPosition(-200, 100);
+	fog1.screenCenter(FlxAxes.Y);
 	fog1.loadGraphic(Paths.image("backgrounds/exe/zeph/try-harder/fog1"));
 	fog1.scrollFactor.set(1.3, 1);
 	fog1.setGraphicSize(Std.int(fog1.width * 1.4));
 
 	fog1.alpha = 0;
 
-	fog2 = new FlxBackdrop(null, FlxAxes.X, 0, 9999);
+	fog2 = new FlxBackdrop(null, FlxAxes.XY, 0, 0);
 	fog2.setPosition(-200, 100);
+	fog2.screenCenter(FlxAxes.Y);
 	fog2.loadGraphic(Paths.image("backgrounds/exe/zeph/try-harder/fog2"));
 	fog2.scrollFactor.set(0.5, 0.5);
 	fog2.scale.set(1.5,1);
@@ -184,68 +178,46 @@ function create() {
 
 	icefront = makeSpr(-1280,-720, 'ice front', 'try-harder-2');
 	icefront.scrollFactor.set(2,2);
-	//icefront.zIndex = 999;
 	icefront.alpha = 0.8;
 	add(icefront);
 	p2 = [bg2, iceback, plat, floor, icefront];
 	for(i in p2) i.visible = false;
-
-	// relayer(fog2, members.indexOf(ground) - 2);
-	// relayer(fog, members.indexOf(ground) + 20);
-	// relayer(fog1, members.indexOf(ground) - 1);
-
-	// for(i in [dad, gf, boyfriend]){
-	// 	relayer(i, 28);
-	// }
 }
 function miscpostCreate() {
-    bg = new FlxSprite(0, 0);
+    bg = new FunkinSprite(0, 0);
 	bg.loadGraphic(Paths.image("backgrounds/exe/zeph/try-harder/Transition"));
-    //bg.cameras = [camHUD];
     bg.scrollFactor.set(0, 0);
     bg.setGraphicSize(Std.int(bg.width * 2.0));
-    //bg.blend = BlendMode.ADD;
-    //bg.alpha = 0.5;
     screen.push(bg);
 
-    transition = new FlxSprite(-200, -10);
+    transition = new FunkinSprite(-200, -10);
 	transition.loadGraphic(Paths.image("backgrounds/exe/zeph/try-harder/snow transition"));
-    //bg.cameras = [camHUD];
     transition.scrollFactor.set(0, 0);
     transition.setGraphicSize(Std.int(transition.width * 2.0));
-    //transition.blend = BlendMode.ADD;
     transition.alpha = 0;
     add(transition);
 
-    snowOverlay = new FlxSprite(0, 0);
+    snowOverlay = new FunkinSprite(0, 0);
 	snowOverlay.loadGraphic(Paths.image("backgrounds/exe/zeph/try-harder/snow overlay"));
-    //bg.cameras = [camHUD];
     snowOverlay.scrollFactor.set(0, 0);
     snowOverlay.setGraphicSize(Std.int(snowOverlay.width * 1.10));
     snowOverlay.camera = camHUD;
-    //transition.blend = BlendMode.ADD;
     snowOverlay.alpha = 0;
-    //snowOverlay.shader = colorcorrection;
-    //colorcorrection.saturation = 0.3;
     add(snowOverlay);
 
-    addepic = new FlxSprite(0,0).makeGraphic(1280, 720, FlxColor = 0xFF0A274F);
-    //bg2.cameras = [camHUD];
+    addepic = new FunkinSprite(0,0).makeGraphic(1280, 720, FlxColor = 0xFF0A274F);
     addepic.scrollFactor.set(0, 0);
     addepic.setGraphicSize(Std.int(bg.width * 2.0));
     addepic.blend = BlendMode.ADD;
     addepic.alpha = 0;
     add(addepic);
 
-	//var textevil = new FlxText();
 	textevil.setFormat(Paths.font('Sonic Advanced 2.ttf'), 40, FlxColor = 0xFF000000, FlxTextAlign.CENTER, FlxTextBorderStyle.OUTLINE, FlxColor = 0xFFFFE100);
 	textevil.borderSize = 2.5;
 	textevil.antialiasing = false;
     textevil.scrollFactor.set(0, 0);
     textevil.scale.set(2, 2.2);
-	// textevil.cameras = [camHUD];
     textevil.text = "Breaking a sweat already..?";
-    //textevil.blend = BlendMode.ADD;
     textevil.y = (720 /2)- (textevil.height/2);
     screen.push(textevil);
 
@@ -255,19 +227,10 @@ function miscpostCreate() {
 		add(item);
     }
 
-    // refreshZ(stage);
 }
 function postCreate() {
 
 	if(!Options.lowMemoryMode){
-
-		// snow.position.set(-250, -150);
-		// snow.scrollFactor.set(1.5, 1.5);
-		// snow.scale.set(1.8,1.8);
-		// snow.antialiasing = Options.antialiasing;
-		// snow.updateHitBox();
-		// snow.camera = camHUD;
-
 		snowAtlas = new FlxBackdrop(null, FlxAxes.XY, -220, -200);
 		snowAtlas.setPosition(-250, -150);
 		snowAtlas.frames = Paths.getSparrowAtlas('backgrounds/exe/zeph/try-harder/Snow/Snowfall');
@@ -286,9 +249,8 @@ function postCreate() {
 			cloud_shader.green_amt = 0.17;
 			cloud_shader.blue_amt = 0.3;
 
-			fogtuah = new FlxSprite(-750, -300).makeGraphic(3680, 2920, FlxColor.RED);
+			fogtuah = new FunkinSprite(-750, -300).makeGraphic(3680, 2920, FlxColor.RED);
 			fogtuah.scrollFactor.set(0.7, 0.7);
-			//fogtuah.zIndex = -5;
 			fogtuah.shader = cloud_shader;
 			fogtuah.blend = BlendMode.ADD;
 			fogtuah.antialiasing = true;
@@ -311,7 +273,7 @@ function postCreate() {
 			fogshader.customgreen = 0.6;
 			fogshader.customblue = 0.5;
 
-			cooleffect = new FlxSprite(-830, -350).makeGraphic(3180, 1720, FlxColor.RED);
+			cooleffect = new FunkinSprite(-830, -350).makeGraphic(3180, 1720, FlxColor.RED);
 			cooleffect.scrollFactor.set(2, 2);
 			cooleffect.angle = 180;
 			cooleffect.shader = fogshader;
@@ -323,10 +285,6 @@ function postCreate() {
 		}
 	}
 
-	// for(i in [dad,boyfriend,gf]){
-	// 	remove(i,false);
-	// 	insert(27,i);
-	// }
 	gf.scrollFactor.set(1,1);
 
 	if (Options.gameplayShaders) {
@@ -340,7 +298,7 @@ function postCreate() {
 		dad.shader = boyfriend.shader = gf.shader = introcc;
 	}
 	if(!Options.lowMemoryMode){
-		bust = new FlxSprite();
+		bust = new FunkinSprite();
 		bust.frames = Paths.getSparrowAtlas('characters/wolf/im boutta nust');
 		bust.animation.addByPrefix('idle', 'fucking', 25, true);
 		bust.animation.play('idle');
@@ -406,7 +364,7 @@ function onSongStart(){
 }
 function refreshhealthbarcolors(opp:Int,player:Int){
 	var leftColor:Int = PlayState.instance.strumLines.members[0].characters[opp] != null && PlayState.instance.strumLines.members[0].characters[opp].iconColor != null && Options.colorHealthBar ? PlayState.instance.strumLines.members[0].characters[opp].iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
-	var rightColor:Int = PlayState.instance.strumLines.members[1].characters[player] != null && PlayState.instance.strumLines.members[1].characters[player].iconColor != null && Options.colorHealthBar ? PlayState.instance.strumLines.members[1].characters[player].iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33); // switch the colors
+	var rightColor:Int = PlayState.instance.strumLines.members[1].characters[player] != null && PlayState.instance.strumLines.members[1].characters[player].iconColor != null && Options.colorHealthBar ? PlayState.instance.strumLines.members[1].characters[player].iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 	healthBar.createFilledBar(leftColor, rightColor);
 	healthBar.percent = 49;
 	healthBar.percent = health;
@@ -420,9 +378,7 @@ function stepHit(e){
 		case 126:
 			if (!intro)
 			return;
-			//introc = false;
 			intro_camera = true;
-			focus = dad;
 
 		case 180:
 			FlxTween.tween(camHUD, {alpha: 1}, 0.8);
@@ -440,13 +396,6 @@ function stepHit(e){
 		case 464:
 			blackFG.alpha = 0;
 			for (m in [scoreTxt,missesTxt,accuracyTxt])	m.visible = true;
-
-			introc = false;
-
-			intro_camera = false;
-			camHUD.alpha = 1;
-			camHUD.flash();
-			evilness.visible = true;
 			if(!Options.lowMemoryMode){
 				camGame.removeShader(colorcorrection);
 				camHUD.removeShader(colorcorrection);
@@ -454,6 +403,14 @@ function stepHit(e){
 				boyfriend.shader = dad.shader = gf.shader = null;
 				orgh.alpha = 0;
 			}
+			introc = false;
+
+			intro_camera = false;
+			evilness.visible = true;
+
+			camHUD.alpha = 1;
+			camHUD.flash();
+
 		case 700:
             PlayState.instance.strumLines.members[0].characters[1].playAnim('laugh', true, 'LOCK', false, 0);
 		case 704:
@@ -485,7 +442,6 @@ function stepHit(e){
 				FlxTween.cancelTweensOf(camFollow);
 				snapCamToPos(dadCam[0] + 100, dadCam[1] - 500);
 				FlxTween.tween(camFollow, {y: dadCam[1] - 200}, 0.5, {ease: FlxEase.circOut, onComplete: ()->{
-					//boyfriendCameraOffset = [-335,-200];
 					FlxTween.tween(PlayState.instance.strumLines.members[1].characters[1], {y: PlayState.instance.strumLines.members[1].characters[1].y - PlayState.instance.strumLines.members[1].characters[1].height}, 1, {ease: FlxEase.circOut});			
 					if(bust != null) FlxTween.tween(bust, {y: (FlxG.height - (bust.height * 0.8))}, 1, {ease: FlxEase.circOut});		
 				}});
@@ -614,10 +570,6 @@ function stepHit(e){
 					i.visible = true;
 			}
 
-			// for(i in [gf, dad, boyfriend]){
-			// 	i.canDance = true;
-			// 	i.dance();
-			// }
 			for(i in [PlayState.instance.strumLines.members[0].characters[1], PlayState.instance.strumLines.members[1].characters[2], PlayState.instance.strumLines.members[2].characters[1]]){			
 				i.debugMode = false;
 			}
@@ -634,7 +586,6 @@ function stepHit(e){
 
 			if(orgh != null) orgh.alpha = 1;
 
-			//changeCharacter('zeph_rot', 1);
 			PlayState.instance.strumLines.members[0].characters[1].visible = false;
 			PlayState.instance.strumLines.members[0].characters[4].visible = true;
 			iconP2.setIcon('icon-zephmoldy', false);
@@ -671,10 +622,10 @@ function stepHit(e){
 			snowOverlay.alpha = 0;
 			PlayState.instance.camZooming = true;
 		case 2896:
-			//changeCharacter('zeph_rotREAL', 1);
+			mightyRotReal = true;
 			PlayState.instance.defaultCamZoom = 0.55;
 			
-			//if(Options.lowMemoryMode) return;
+			if(Options.lowMemoryMode) return;
 
 			tweenColorThing('saturation', 0.4, 2);
 			tweenColorThing('brightness', -0.15, 2);
@@ -705,6 +656,15 @@ var newZoom:Float = 0;
 var bfCam:Array<Float> = [909, 516];
 var dadCam:Array<Float> = [470, 462];
 var gfCam:Array<Float> = [730, 462];
+var mightyRotReal = false;
+function onNoteHit(event:NoteHitEvent)
+{
+	if (mightyRotReal)
+	{
+		if (!event.player) { event.animSuffix = '-alt'; }
+	}
+}
+
 // function onNoteHit(e) moveCameraOnNotes(e.character, e.direction);
 // var characterDisplacementData:Array<Array<Float>> = [
 //     //x  y //mighty
@@ -805,7 +765,7 @@ function onCameraMove(e) {
 			newZoom = 0.62;
 			if(!introc && !lockCamera) camFollow.setPosition(gfCam[0], gfCam[1]);
 	}
-	FlxTween.tween(PlayState.instance, {defaultCamZoom: newZoom}, cam_time, {ease: FlxEase.cubeInOut});
+	if(introc) FlxTween.tween(PlayState.instance, {defaultCamZoom: newZoom}, cam_time, {ease: FlxEase.cubeInOut});
 }
 
 var hueval:Float = 0;
@@ -854,7 +814,6 @@ function update(elapsed) {
 	fog1.x += 0.1 +(snowStorm *0.3);
 	snow.time = (Conductor.songPosition / 1000);
 	textevil.x = ((1280/2)-(textevil.width/2)) + iconY;
-	//trace(transition.x);
 
     atotalElapsed += elapsed * -1;
 
@@ -877,7 +836,7 @@ function update(elapsed) {
 function onGameOverStart() {
 	GameOverSubstate.characterName = 'mobian_bf-dead';
 
-	mighty_gameover = new FlxSprite();
+	mighty_gameover = new FunkinSprite();
 	mighty_gameover.frames = Paths.getSparrowAtlas('backgrounds/exe/zeph/try-harder/GAMEOVER_Mighty');
 	mighty_gameover.animation.addByPrefix('idle', 'MightyGameOver', 44, true);
 	mighty_gameover.animation.play('idle');

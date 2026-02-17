@@ -6,7 +6,8 @@
 	"difficulties": [
 		"easy",
 		"normal",
-		"hard"
+		"hard",
+		"marty"
 	],
 	"coopAllowed": false,
 	"stepsPerBeat": 4,
