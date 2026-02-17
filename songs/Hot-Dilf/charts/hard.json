@@ -42,6 +42,15 @@
 		},
 		{
 			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 9600,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				0,
 				"hey",
 				true,
@@ -593,6 +602,15 @@
 			],
 			"name": "Add Camera Zoom",
 			"time": 60800
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 60800,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
@@ -1244,10 +1262,11 @@
 			"name": "Camera Movement"
 		}
 	],
-	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -1910,20 +1929,18 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"dad-gyatt"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
@@ -2493,32 +2510,41 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"type": 1,
-			"characters": [
-				"bf"
-			],
-			"visible": true
-		},
-		{
-			"keyCount": 1,
-			"strumScale": 1,
-			"position": "girlfriend",
-			"notes": [],
-			"characters": [
-				"gf"
-			],
-			"type": 2,
-			"visible": false,
+			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"bf-new"
+			]
+		},
+		{
+			"keyCount": 1,
+			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf"
+			],
+			"strumPos": [
+				0,
+				50
+			],
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
+	"codenameChart": true,
 	"chartVersion": "1.6.0",
 	"scrollSpeed": 1.6,
 	"stage": "stage",

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="sunky.png" width="3593" height="2412">
+	<SubTexture name="bg" x="5" y="5" width="3583" height="1703" frameX="-0" frameY="-0" frameWidth="3583" frameHeight="1703"/>
+	<SubTexture name="draw1" x="2612" y="2052" width="459" height="324" frameX="-0" frameY="-0" frameWidth="459" frameHeight="324"/>
+	<SubTexture name="draw2" x="2381" y="1713" width="468" height="334" frameX="-0" frameY="-0" frameWidth="468" frameHeight="334"/>
+	<SubTexture name="draw3" x="3076" y="2004" width="357" height="335" frameX="-0" frameY="-0" frameWidth="357" frameHeight="335"/>
+	<SubTexture name="draw4" x="2854" y="1713" width="447" height="286" frameX="-0" frameY="-0" frameWidth="447" frameHeight="286"/>
+	<SubTexture name="gum" x="5" y="1713" width="779" height="694" rotated="true" frameX="-0" frameY="-0" frameWidth="694" frameHeight="779"/>
+	<SubTexture name="holes2" x="789" y="1713" width="706" height="668" rotated="true" frameX="-0" frameY="-0" frameWidth="668" frameHeight="706"/>
+	<SubTexture name="holes1" x="1500" y="1713" width="876" height="528" rotated="true" frameX="-0" frameY="-0" frameWidth="528" frameHeight="876"/>
+	<SubTexture name="layerforwhensunkydies" x="1500" y="2246" width="1107" height="148" rotated="true" frameX="-0" frameY="-0" frameWidth="148" frameHeight="1162"/>
+</TextureAtlas>

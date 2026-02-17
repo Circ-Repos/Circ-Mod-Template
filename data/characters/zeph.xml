@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character icon="icon-zeph" color="#575CAE" holdTime="8">
+	<anim name="idle" anim="ZephIdle"/>
+	<anim name="singDOWN" anim="ZephDown" x="-22" y="-42" indices="0..3"/>
+	<anim name="singDOWN-loop" anim="ZephDown" x="-22" y="-42" loop="true" indices="4..12"/>
+	<anim name="singRIGHT" anim="ZephRight" x="-64" y="33"/>
+	<anim name="singLEFT" anim="ZephLeft" x="133" y="91"/>
+	<anim name="singUP" anim="ZephUp" x="8" y="191"/>
+	<anim name="grab" anim="ZephGrab" x="192" y="103"/>
+	<anim name="laugh" anim="ZephLaugh" x="25" y="25"/>
+</character>

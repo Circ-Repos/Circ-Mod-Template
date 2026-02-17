@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="Ocean.png" width="2885" height="2474">
+	<SubTexture name="Ocean0000" x="5" y="5" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0001" x="5" y="5" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0002" x="5" y="5" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0003" x="5" y="5" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0004" x="5" y="828" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0005" x="5" y="828" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0006" x="5" y="828" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0007" x="5" y="828" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0008" x="5" y="1651" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0009" x="5" y="1651" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0010" x="5" y="1651" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+	<SubTexture name="Ocean0011" x="5" y="1651" width="2875" height="818" frameX="-0" frameY="-0" frameWidth="2875" frameHeight="818"/>
+</TextureAtlas>

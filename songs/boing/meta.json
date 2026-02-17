@@ -1,0 +1,15 @@
+{
+	"color": "#FF00AF",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "gf",
+	"difficulties": [
+		"nightmare"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Boing",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 225
+}

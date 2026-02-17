@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="40" y="140" sprite="exe/Zeph/RHYME" camx="90" camy="30" icon="icon-zeph" color="#575CAE" applyStageMatrix="true">
+	<anim name="idle" anim="RHYME" x="229" y="427" indices="0,0"/>
+	<anim name="ryhme" anim="RHYME" x="229" y="427"/>
+</character>

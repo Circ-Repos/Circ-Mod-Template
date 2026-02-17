@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="city.png" width="6015" height="4961">
+	<SubTexture name="endless_gradient" x="2766" y="4015" width="1280" height="720" frameX="-0" frameY="-0" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="endlessbuild1" x="4947" y="2428" width="1014" height="965" frameX="-54" frameY="-0" frameWidth="1105" frameHeight="1016"/>
+	<SubTexture name="endlessbuild2" x="3794" y="2428" width="1148" height="1207" frameX="-0" frameY="-0" frameWidth="1152" frameHeight="1240"/>
+	<SubTexture name="endlesscd" x="3794" y="2010" width="1699" height="413" frameX="-0" frameY="-0" frameWidth="1699" frameHeight="413"/>
+	<SubTexture name="endlesscity" x="5" y="5" width="3000" height="2000" frameX="-0" frameY="-0" frameWidth="3000" frameHeight="2000"/>
+	<SubTexture name="endlessoverlay" x="5" y="2010" width="3000" height="1096" frameX="-0" frameY="-904" frameWidth="3000" frameHeight="2000"/>
+	<SubTexture name="endlesssky" x="3010" y="5" width="3000" height="2000" frameX="-0" frameY="-0" frameWidth="3000" frameHeight="2000"/>
+	<SubTexture name="endlesstower1" x="5" y="3111" width="2756" height="1845" frameX="-0" frameY="-0" frameWidth="3000" frameHeight="2000"/>
+	<SubTexture name="endlesstower2" x="3010" y="2010" width="779" height="2000" frameX="-0" frameY="-0" frameWidth="779" frameHeight="2000"/>
+</TextureAtlas>

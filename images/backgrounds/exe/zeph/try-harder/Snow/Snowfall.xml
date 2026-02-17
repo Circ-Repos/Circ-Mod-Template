@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Snowfall.png">
+    <SubTexture name="Snowfall0000" x="0" y="0" width="335" height="289"/>
+    <SubTexture name="Snowfall0007" x="337" y="0" width="335" height="289"/>
+    <SubTexture name="Snowfall0006" x="674" y="0" width="335" height="289"/>
+    <SubTexture name="Snowfall0005" x="1011" y="0" width="335" height="289"/>
+    <SubTexture name="Snowfall0004" x="0" y="291" width="335" height="289"/>
+    <SubTexture name="Snowfall0003" x="337" y="291" width="335" height="289"/>
+    <SubTexture name="Snowfall0002" x="674" y="291" width="335" height="289"/>
+    <SubTexture name="Snowfall0001" x="1011" y="291" width="335" height="289"/>
+</TextureAtlas>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="Tree2.png" width="4200" height="1283">
+	<SubTexture name="Tree20000" x="5" y="5" width="595" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20001" x="5" y="5" width="595" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20002" x="5" y="5" width="595" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20003" x="1205" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20004" x="1205" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20005" x="1205" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20006" x="1804" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20007" x="1804" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20008" x="2403" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20009" x="2403" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20010" x="3002" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20011" x="3002" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20012" x="3002" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20013" x="3002" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20014" x="3601" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20015" x="3601" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20016" x="3601" y="5" width="594" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20017" x="605" y="5" width="595" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+	<SubTexture name="Tree20018" x="605" y="5" width="595" height="1273" frameX="-0" frameY="-0" frameWidth="595" frameHeight="1273"/>
+</TextureAtlas>

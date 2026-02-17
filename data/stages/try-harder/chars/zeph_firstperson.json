@@ -1,0 +1,74 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				45,
+				312
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				301,
+				310
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				266,
+				372
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				398,
+				416
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				74,
+				492
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/pov",
+	"position": [
+		30,
+		169
+	],
+	"flip_x": false,
+	"camera_position": [
+		-391,
+		-402
+	],
+	"sing_duration": 8,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

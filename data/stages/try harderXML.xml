@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="backgrounds/exe/zeph/try-harder/" name="try-harder" zoom="0.5">
+	<girlfriend y="140"/>
+	<dad x="50" y="93"/>
+	<boyfriend x="920" y="54"/>
+</stage>

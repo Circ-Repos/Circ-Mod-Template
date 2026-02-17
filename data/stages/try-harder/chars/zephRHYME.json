@@ -1,0 +1,43 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				229,
+				427
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "rhyme",
+			"loop": false,
+			"name": "RHYME"
+		},
+		{
+			"offsets": [
+				229,
+				427
+			],
+			"indices": [
+				0,
+				1
+			],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "RHYME"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/RHYME",
+	"position": [
+		40,
+		140
+	],
+	"flip_x": false,
+	"camera_position": [
+		90,
+		30
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

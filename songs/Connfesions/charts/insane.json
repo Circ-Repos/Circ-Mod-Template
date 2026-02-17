@@ -1,43 +1,8 @@
 {
-	"events": [
-		{
-			"params": [
-				1
-			],
-			"time": 0,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				4444444,
-				1
-			],
-			"name": "Camera Modulo Change",
-			"time": 0
-		},
-		{
-			"params": [
-				"removeRetro",
-				""
-			],
-			"name": "HScript Call",
-			"time": 12812.75
-		},
-		{
-			"params": [
-				0.05,
-				"camHUD"
-			],
-			"name": "Add Camera Zoom",
-			"time": 12812.75
-		}
-	],
-	"scrollSpeed": 3,
-	"codenameChart": true,
+	"events": [],
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "boyfriend",
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 0,
@@ -1703,7 +1668,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 88.0000000000036,
+					"sLen": 88.0000000000073,
 					"time": 27382,
 					"type": 0
 				},
@@ -1751,13 +1716,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 87.9999999999891,
+					"sLen": 87.9999999999854,
 					"time": 27912,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 87.9999999999891,
+					"sLen": 87.9999999999854,
 					"time": 27912,
 					"type": 0
 				},
@@ -6581,7 +6546,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 87.9999999999854,
+					"sLen": 87.9999999999709,
 					"time": 85529,
 					"type": 0
 				},
@@ -13307,13 +13272,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 88.0000000000291,
+					"sLen": 88.0000000000582,
 					"time": 180204,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 88.0000000000291,
+					"sLen": 88.0000000000582,
 					"time": 180204,
 					"type": 0
 				},
@@ -13337,7 +13302,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 87.9999999999709,
+					"sLen": 87.9999999999418,
 					"time": 180469,
 					"type": 0
 				},
@@ -15023,7 +14988,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 353.000000000029,
+					"sLen": 353.000000000058,
 					"time": 201204,
 					"type": 0
 				},
@@ -15166,19 +15131,24 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf"
 			],
-			"type": 1,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.5
+			"strumLinePos": 0.5,
+			"vocalsSuffix": ""
 		}
 	],
+	"codenameChart": true,
+	"scrollSpeed": 3,
+	"chartVersion": "1.6.0",
 	"stage": "stage",
 	"noteTypes": []
 }

@@ -1,0 +1,127 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ZephIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				133,
+				91
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ZephLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-64,
+				33
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ZephRight",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				25,
+				25
+			],
+			"anim": "Laugh",
+			"fps": 24,
+			"name": "ZephLaugh",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				8,
+				191
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ZephUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				192,
+				103
+			],
+			"anim": "Grab",
+			"fps": 24,
+			"name": "ZephGrab",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": true,
+			"flipY": false,
+			"offsets": [
+				-22,
+				-42
+			],
+			"anim": "singDOWN-loop",
+			"fps": 24,
+			"name": "ZephDown",
+			"indices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-22,
+				-42
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ZephDown",
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/zeph",
+	"position": [
+		30,
+		169
+	],
+	"flip_x": false,
+	"camera_position": [
+		160,
+		30
+	],
+	"sing_duration": 8,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

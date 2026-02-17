@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="Tree1.png" width="4232" height="1556">
+	<SubTexture name="Tree10000" x="1414" y="5" width="700" height="1546" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10001" x="1414" y="5" width="700" height="1546" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10002" x="1414" y="5" width="700" height="1546" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10003" x="2119" y="5" width="699" height="1546" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10004" x="2119" y="5" width="699" height="1546" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10005" x="2823" y="5" width="700" height="1546" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10006" x="2823" y="5" width="700" height="1546" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10007" x="5" y="5" width="699" height="1540" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10008" x="5" y="5" width="699" height="1540" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10009" x="3528" y="5" width="699" height="1546" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10010" x="3528" y="5" width="699" height="1546" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10011" x="3528" y="5" width="699" height="1546" frameX="-1" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10012" x="709" y="5" width="700" height="1540" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10013" x="709" y="5" width="700" height="1540" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10014" x="709" y="5" width="700" height="1540" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+	<SubTexture name="Tree10015" x="709" y="5" width="700" height="1540" frameX="-0" frameY="-0" frameWidth="700" frameHeight="1547"/>
+</TextureAtlas>

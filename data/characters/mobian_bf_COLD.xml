@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" y="350" sprite="atlas" flipX="true" camx="241" camy="-103" isPlayer="true" icon="icon-bfmobian" color="#E455D8" applyStageMatrix="true">
+	<anim name="idle" anim="COLDIdle" x="-4"/>
+	<anim name="singLEFT" anim="COLDLeft" x="154" y="21"/>
+	<anim name="singDOWN" anim="COLDDown" x="65" y="-54"/>
+	<anim name="singUP" anim="COLDUp" x="19" y="92"/>
+	<anim name="singRIGHT" anim="COLDRight" x="20" y="1"/>
+</character>

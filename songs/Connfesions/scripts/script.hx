@@ -20,14 +20,14 @@ function create(){
     video.camera = camHUD;
     video.play();
     video.stop();
-    video.x = -325;
-    video.y = -180;
-    video.scale.set(0.6667, 0.6667);
+
+    video.scale.set(1, 1); //kms
     video.antialiasing = true;
     video.bitmap.video.volume = 0;
     add(video);
     remove(video, true);
     insert(0, video);
+    video.updateHitbox();
     FlxG.sound.volume = 0;
 
     FlxG.cameras.add(camOther, false);

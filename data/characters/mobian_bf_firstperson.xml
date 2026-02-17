@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="-20" y="350" sprite="Mobian_BF_POV" flipX="true" isPlayer="true" icon="icon-bfmobian" color="#E455D8">
+	<anim name="idle" anim="Idle" x="-4"/>
+	<anim name="singLEFT" anim="Left0" x="15" y="12"/>
+	<anim name="singDOWN" anim="Down0" x="-48" y="-21"/>
+	<anim name="singUP" anim="Up0" x="-47" y="15"/>
+	<anim name="singRIGHT" anim="Right0" x="-71" y="7"/>
+	<anim name="LeftMISS" anim="LeftMISS" x="26" y="38"/>
+	<anim name="DownMISS" anim="DownMISS" x="-33" y="-11"/>
+	<anim name="UpMISS" anim="UpMISS" x="-33" y="12"/>
+	<anim name="RightMISS" anim="RightMISS" x="-65" y="72"/>
+</character>

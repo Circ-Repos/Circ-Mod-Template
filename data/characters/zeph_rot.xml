@@ -1,0 +1,13 @@
+<!DOCTYPE codename-engine-character>
+<character x="180" y="169" sprite="rot" camx="-132" camy="26" icon="icon-zephmoldy" color="#33348D" holdTime="8">
+	<anim name="idle-alt" anim="ZephIdle" x="94" y="138"/>
+	<anim name="singLEFT-alt" anim="LeftAlt" x="319" y="183"/>
+	<anim name="singDOWN-alt" anim="DownAlt" x="254" y="-96"/>
+	<anim name="singUP-alt" anim="UpAlt" x="83" y="290"/>
+	<anim name="singRIGHT-alt" anim="RightAlt" x="97" y="122"/>
+	<anim name="idle" anim="ZephIdle" x="94" y="138"/>
+	<anim name="singLEFT" anim="ZephLeft" x="123" y="111"/>
+	<anim name="singDOWN" anim="ZephDown" x="102" y="106"/>
+	<anim name="singUP" anim="ZephUp" x="95" y="178"/>
+	<anim name="singRIGHT" anim="ZephRight" x="90" y="151"/>
+</character>

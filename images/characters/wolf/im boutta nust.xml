@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="im boutta nust.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="fucking0000" x="0" y="0" width="442" height="476" frameX="0" frameY="0" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0001" x="0" y="0" width="442" height="476" frameX="0" frameY="0" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0002" x="0" y="481" width="432" height="475" frameX="-31" frameY="-16" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0003" x="0" y="481" width="432" height="475" frameX="-31" frameY="-16" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0004" x="437" y="481" width="449" height="437" frameX="-39" frameY="-32" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0005" x="437" y="481" width="449" height="437" frameX="-39" frameY="-32" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0006" x="447" y="0" width="392" height="465" frameX="-48" frameY="-7" frameWidth="488" frameHeight="491"/>
+	<SubTexture name="fucking0007" x="447" y="0" width="392" height="465" frameX="-48" frameY="-7" frameWidth="488" frameHeight="491"/>
+</TextureAtlas>

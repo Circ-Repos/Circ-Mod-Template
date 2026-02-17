@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				0
+			],
+			"offsets": [
+				-4,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MightyIdle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				-30,
+				0
+			],
+			"offsets": [
+				12,
+				2
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "MightyLeft",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				30
+			],
+			"offsets": [
+				-5,
+				-15
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MightyDown",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				0,
+				-30
+			],
+			"offsets": [
+				-3,
+				7
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MightyUp",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"cameraOffset": [
+				30,
+				0
+			],
+			"offsets": [
+				-8,
+				-3
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "MightyRight",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/fake",
+	"position": [
+		40,
+		140
+	],
+	"dance_every": 2,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "fakemighty",
+	"gameover_character": null,
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colour": -6911037,
+	"camera_position": [
+		90,
+		30
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

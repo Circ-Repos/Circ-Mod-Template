@@ -1,0 +1,73 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				102,
+				106
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "ZephDown",
+			"indices": [],
+		},
+		{
+			"loop": false,
+			"offsets": [
+				123,
+				111
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "ZephLeft",
+			"indices": [],
+		},
+		{
+			"loop": false,
+			"offsets": [
+				90,
+				151
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "ZephRight",
+			"indices": [],
+		},
+		{
+			"loop": false,
+			"offsets": [
+				95,
+				178
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "ZephUp",
+			"indices": [],
+		},
+		{
+			"loop": true,
+			"offsets": [
+				94,
+				138
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "ZephIdle",
+			"indices": [],
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/rot",
+	"position": [
+		180,
+		169
+	],
+	"flip_x": false,
+	"camera_position": [
+		-132,
+		26
+	],
+	"sing_duration": 8,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

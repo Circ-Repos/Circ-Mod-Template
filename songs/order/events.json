@@ -3,6 +3,15 @@
 		{
 			"params": [
 				true,
+				false,
+				1
+			],
+			"time": 0,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				true,
 				2,
 				24,
 				"sine",
@@ -38,8 +47,17 @@
 		},
 		{
 			"params": [
+				false,
+				false,
+				1
+			],
+			"name": "Alt Animation Toggle",
+			"time": 45600
+		},
+		{
+			"params": [
 				true,
-				5,
+				3,
 				1,
 				"linear",
 				"In",

@@ -33,14 +33,14 @@ var letterTimer:FlxTimer = new FlxTimer();
 var fadeOutTimer:FlxTimer = new FlxTimer();
 
 function createSplash():Void {
-    titleText = new FlxText(0, FlxG.height / 2 - 80, FlxG.width, "");
+    titleText = new FlxText(0, 80, FlxG.width, "");
     titleText.setFormat(Paths.font("vcr.ttf"), 72, FlxColor.WHITE, "center");
     titleText.scrollFactor.set(0, 0);
     titleText.alpha = 1;
 	titleText.camera = camHUD;
     add(titleText);
 
-    subtitleText = new FlxText(0, FlxG.height / 2 + 10, FlxG.width, "");
+    subtitleText = new FlxText(0, 140, FlxG.width, "");
     subtitleText.setFormat(Paths.font("vcr.ttf"), 36, FlxColor.LIGHTGRAY, "center");
     subtitleText.scrollFactor.set(0, 0);
     subtitleText.alpha = 1;
@@ -95,7 +95,4 @@ function typeNextLetter():Void {
 }
 function onSongStart(){
     createSplash();
-}
-function postCreate() {
-    iconP2.alpha = 0;
 }

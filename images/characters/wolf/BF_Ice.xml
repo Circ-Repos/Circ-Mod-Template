@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="BF_Ice.png" width="484" height="3045">
+	<SubTexture name="ChunkIce0000" x="5" y="2844" width="49" height="77" frameX="-43" frameY="-18" frameWidth="127" frameHeight="109"/>
+	<SubTexture name="ChunkIce0001" x="56" y="2926" width="48" height="55" frameX="-44" frameY="-33" frameWidth="127" frameHeight="109"/>
+	<SubTexture name="ChunkIce0002" x="5" y="2994" width="59" height="46" frameX="-35" frameY="-26" frameWidth="127" frameHeight="109"/>
+	<SubTexture name="ChunkIce0003" x="5" y="2926" width="46" height="63" frameX="-40" frameY="-29" frameWidth="127" frameHeight="109"/>
+	<SubTexture name="ChunkIce0004" x="5" y="2730" width="127" height="109" frameX="-0" frameY="-0" frameWidth="127" frameHeight="109"/>
+	<SubTexture name="Ice0000" x="5" y="5" width="474" height="540" frameX="-0" frameY="-0" frameWidth="475" frameHeight="544"/>
+	<SubTexture name="Ice0001" x="5" y="550" width="474" height="540" frameX="-0" frameY="-0" frameWidth="475" frameHeight="544"/>
+	<SubTexture name="Ice0002" x="5" y="1095" width="474" height="540" frameX="-0" frameY="-0" frameWidth="475" frameHeight="544"/>
+	<SubTexture name="Ice0003" x="5" y="1640" width="474" height="540" frameX="-0" frameY="-0" frameWidth="475" frameHeight="544"/>
+	<SubTexture name="Ice0004" x="5" y="2185" width="474" height="540" frameX="-0" frameY="-0" frameWidth="475" frameHeight="544"/>
+</TextureAtlas>

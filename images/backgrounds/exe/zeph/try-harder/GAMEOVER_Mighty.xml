@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="GAMEOVER_Mighty.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MightyGameOver0000" x="671" y="1238" width="666" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0001" x="671" y="1238" width="666" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0002" x="674" y="0" width="666" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0003" x="674" y="0" width="666" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0004" x="1339" y="1231" width="662" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0005" x="1350" y="613" width="661" height="614" frameX="-6" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0006" x="1350" y="613" width="661" height="614" frameX="-6" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0007" x="671" y="1858" width="665" height="606" frameX="-9" frameY="-4" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0008" x="671" y="1858" width="665" height="606" frameX="-9" frameY="-4" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0009" x="1346" y="2458" width="665" height="602" frameX="-9" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0010" x="0" y="3097" width="666" height="602" frameX="-3" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0011" x="0" y="3097" width="666" height="602" frameX="-3" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0012" x="1339" y="3089" width="666" height="602" frameX="-3" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0013" x="1339" y="1851" width="668" height="605" frameX="-8" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0014" x="1339" y="1851" width="668" height="605" frameX="-8" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0015" x="669" y="3089" width="668" height="605" frameX="-8" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0016" x="673" y="620" width="675" height="609" frameX="0" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0017" x="673" y="620" width="675" height="609" frameX="0" frameY="-8" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0018" x="669" y="2477" width="675" height="610" frameX="0" frameY="-7" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0019" x="1342" y="0" width="672" height="611" frameX="-2" frameY="-7" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0020" x="1342" y="0" width="672" height="611" frameX="-2" frameY="-7" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0021" x="0" y="0" width="672" height="617" frameX="-2" frameY="-1" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0022" x="0" y="619" width="671" height="617" frameX="-3" frameY="-1" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0023" x="0" y="1858" width="669" height="617" frameX="-3" frameY="-1" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0024" x="0" y="1238" width="669" height="618" frameX="-3" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0025" x="0" y="1238" width="669" height="618" frameX="-3" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0026" x="0" y="2477" width="667" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+	<SubTexture name="MightyGameOver0027" x="671" y="1238" width="666" height="618" frameX="-5" frameY="0" frameWidth="676" frameHeight="618"/>
+</TextureAtlas>

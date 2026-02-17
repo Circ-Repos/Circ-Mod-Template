@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="Bushes.png" width="2353" height="2093">
+	<SubTexture name="Clouds0000" x="5" y="1049" width="2340" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0001" x="5" y="1049" width="2340" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0002" x="5" y="1049" width="2340" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0003" x="5" y="1049" width="2340" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0004" x="5" y="527" width="2341" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0005" x="5" y="527" width="2341" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0006" x="5" y="527" width="2341" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0007" x="5" y="527" width="2341" height="517" frameX="-3" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0008" x="5" y="5" width="2343" height="517" frameX="-0" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0009" x="5" y="5" width="2343" height="517" frameX="-0" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0010" x="5" y="5" width="2343" height="517" frameX="-0" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0011" x="5" y="5" width="2343" height="517" frameX="-0" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0012" x="5" y="1571" width="2340" height="517" frameX="-2" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0013" x="5" y="1571" width="2340" height="517" frameX="-2" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0014" x="5" y="1571" width="2340" height="517" frameX="-2" frameY="-0" frameWidth="2344" frameHeight="517"/>
+	<SubTexture name="Clouds0015" x="5" y="1571" width="2340" height="517" frameX="-2" frameY="-0" frameWidth="2344" frameHeight="517"/>
+</TextureAtlas>

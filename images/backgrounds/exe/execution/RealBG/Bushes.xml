@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="Bushes.png" width="2921" height="2702">
+	<SubTexture name="Bushes0000" x="5" y="678" width="2909" height="675" frameX="-6" frameY="-0" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0001" x="5" y="678" width="2909" height="675" frameX="-6" frameY="-0" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0002" x="5" y="2029" width="2905" height="668" frameX="-15" frameY="-7" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0003" x="5" y="2029" width="2905" height="668" frameX="-15" frameY="-7" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0004" x="5" y="1358" width="2909" height="666" frameX="-7" frameY="-9" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0005" x="5" y="1358" width="2909" height="666" frameX="-7" frameY="-9" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0006" x="5" y="5" width="2911" height="668" frameX="-0" frameY="-7" frameWidth="2920" frameHeight="675"/>
+	<SubTexture name="Bushes0007" x="5" y="5" width="2911" height="668" frameX="-0" frameY="-7" frameWidth="2920" frameHeight="675"/>
+</TextureAtlas>

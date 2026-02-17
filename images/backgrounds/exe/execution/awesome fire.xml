@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="awesome fire.png" width="7655" height="4625">
+	<SubTexture name="awesome fire0000" x="5" y="5" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0001" x="1535" y="5" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0002" x="3065" y="5" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0003" x="4595" y="5" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0004" x="6125" y="5" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0005" x="5" y="1160" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0006" x="1535" y="1160" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0007" x="3065" y="1160" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0008" x="4595" y="1160" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0009" x="6125" y="1160" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0010" x="5" y="2315" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0011" x="1535" y="2315" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0012" x="3065" y="2315" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0013" x="4595" y="2315" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0014" x="6125" y="2315" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0015" x="5" y="3470" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0016" x="1535" y="3470" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0017" x="3065" y="3470" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0018" x="4595" y="3470" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+	<SubTexture name="awesome fire0019" x="6125" y="3470" width="1525" height="1150" frameX="-2" frameY="-2" frameWidth="1533" frameHeight="1158"/>
+</TextureAtlas>

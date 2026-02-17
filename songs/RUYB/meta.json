@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "kris",
+	"difficulties": [
+		"Kris"
+	],
+	"color": "#FFFFFF",
+	"coopAllowed": false,
+	"stepsPerBeat": 8,
+	"displayName": "Raise Up Your Bat",
+	"needsVoices": true,
+	"beatsPerMeasure": 2,
+	"bpm": 115
+}

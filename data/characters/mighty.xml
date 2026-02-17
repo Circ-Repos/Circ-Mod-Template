@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="40" y="140" sprite="fake" camx="90" camy="30" icon="icon-fakemighty" color="#968BC3">
+	<anim name="idle" anim="MightyIdle" x="-4"/>
+	<anim name="singLEFT" anim="MightyLeft" x="12" y="2"/>
+	<anim name="singDOWN" anim="MightyDown" x="-5" y="-15"/>
+	<anim name="singUP" anim="MightyUp" x="-3" y="7"/>
+	<anim name="singRIGHT" anim="MightyRight" x="-8" y="-3"/>
+</character>

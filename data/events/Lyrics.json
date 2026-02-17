@@ -6,9 +6,24 @@
 			"defaultValue": ""
 		},
 		{
-			"name": "a V2 Subsitute",
+			"name": "Center Text?",
+			"type": "Bool",
+			"defaultValue": false
+		},
+		{
+			"name": "Font",
 			"type": "String",
 			"defaultValue": ""
-		}
+		},
+		{
+			"name": "Do Popin Tween?",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+            "name": "Color",
+            "type": "ColorWheel",
+            "defaultValue": "#FFFFFF"
+        }
 	]
 }

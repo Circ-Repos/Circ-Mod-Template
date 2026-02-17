@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TextureAtlas imagePath="try-harder-1.png" width="6015" height="4902">
+	<SubTexture name="background ladders0000" x="5" y="5" width="3000" height="3000"/>
+	<SubTexture name="poop0000" x="3010" y="1736" width="3000" height="1629"/>
+	<SubTexture name="icicles background0000" x="2522" y="4177" width="1745" height="646"/>
+	<SubTexture name="icicles foreground0000" x="5" y="3010" width="2512" height="1282"/>
+	<SubTexture name="main stage0000" x="3010" y="5" width="3000" height="1726"/>
+	<SubTexture name="spoopy main stage0000" x="2522" y="3370" width="2365" height="802"/>
+	<SubTexture name="orgh0000" x="4272" y="4177" width="1280" height="720"/>
+</TextureAtlas>

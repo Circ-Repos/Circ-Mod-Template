@@ -1,0 +1,82 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				1,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				1,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"indices": [
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
+			],
+			"name": "Idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-16
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "GFMiss",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GF/Morbius_GF",
+	"position": [
+		150,
+		120
+	],
+	"flip_x": false,
+	"camera_position": [
+		-250,
+		-20
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Mighty_RespriteUPDATE.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="MightyDown0000" x="377" y="0" width="381" height="599"/>
+	<SubTexture name="MightyDown0001" x="377" y="0" width="381" height="599"/>
+	<SubTexture name="MightyDown0002" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0003" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0004" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0005" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0006" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0007" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0008" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0009" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0010" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0011" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0012" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0013" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyDown0014" x="760" y="0" width="380" height="595" frameX="0" frameY="-4" frameWidth="381" frameHeight="599"/>
+	<SubTexture name="MightyIdle0000" x="1446" y="1239" width="353" height="607" frameX="-3" frameY="-7" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0001" x="1087" y="1230" width="357" height="607" frameX="-2" frameY="-7" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0002" x="1087" y="1230" width="357" height="607" frameX="-2" frameY="-7" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0003" x="739" y="601" width="362" height="608" frameX="-2" frameY="-6" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0004" x="739" y="601" width="362" height="608" frameX="-2" frameY="-6" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0005" x="1142" y="0" width="367" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0006" x="1142" y="0" width="367" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0007" x="1511" y="0" width="361" height="614" frameX="0" frameY="0" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0008" x="1511" y="0" width="361" height="614" frameX="0" frameY="0" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0009" x="1103" y="615" width="358" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0010" x="1103" y="615" width="358" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0011" x="1103" y="615" width="358" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0012" x="728" y="1217" width="357" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0013" x="728" y="1217" width="357" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyIdle0014" x="728" y="1217" width="357" height="613" frameX="0" frameY="-1" frameWidth="367" frameHeight="614"/>
+	<SubTexture name="MightyLeft0000" x="0" y="1226" width="366" height="616" frameX="0" frameY="0" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0001" x="0" y="1226" width="366" height="616" frameX="0" frameY="0" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0002" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0003" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0004" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0005" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0006" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0007" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0008" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0009" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0010" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0011" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0012" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0013" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyLeft0014" x="377" y="601" width="360" height="614" frameX="-7" frameY="-2" frameWidth="367" frameHeight="616"/>
+	<SubTexture name="MightyRight0000" x="0" y="0" width="375" height="611" frameX="-4" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0001" x="0" y="0" width="375" height="611" frameX="-4" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0002" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0003" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0004" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0005" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0006" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0007" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0008" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0009" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0010" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0011" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0012" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0013" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyRight0014" x="0" y="613" width="370" height="611" frameX="0" frameY="0" frameWidth="379" frameHeight="611"/>
+	<SubTexture name="MightyUp0000" x="1463" y="616" width="353" height="621" frameX="0" frameY="0" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0001" x="1463" y="616" width="353" height="621" frameX="0" frameY="0" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0002" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0003" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0004" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0005" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0006" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0007" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0008" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0009" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0010" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0011" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0012" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0013" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+	<SubTexture name="MightyUp0014" x="368" y="1226" width="358" height="619" frameX="0" frameY="-2" frameWidth="358" frameHeight="621"/>
+</TextureAtlas>

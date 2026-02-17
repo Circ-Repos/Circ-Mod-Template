@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="Sprite-0001.png" width="344" height="58">
+ <SubTexture name="Idle0000" x="5" y="5" width="48" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0000" x="58" y="5" width="48" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0001" x="111" y="5" width="48" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0002" x="164" y="5" width="48" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0003" x="217" y="5" width="48" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0004" x="270" y="5" width="32" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+ <SubTexture name="Guitar-Play0005" x="307" y="5" width="32" height="48" frameX="0" frameY="0" frameWidth="40" frameHeight="50"/>
+
+</TextureAtlas>

@@ -1,0 +1,73 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				94,
+				138
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "ZephIdle"
+		},
+		{
+			"offsets": [
+				254,
+				-96
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "DownAlt"
+		},
+		{
+			"offsets": [
+				319,
+				183
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "LeftAlt"
+		},
+		{
+			"offsets": [
+				97,
+				122
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "RightAlt"
+		},
+		{
+			"offsets": [
+				83,
+				290
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "UpAlt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/Zeph/rot",
+	"position": [
+		180,
+		169
+	],
+	"flip_x": false,
+	"camera_position": [
+		-132,
+		30
+	],
+	"sing_duration": 8,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

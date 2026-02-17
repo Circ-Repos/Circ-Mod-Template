@@ -8,9 +8,10 @@
 			"time": 0
 		}
 	],
-	"scrollSpeed": 3,
+	"codenameChart": true,
 	"strumLines": [
 		{
+			"keyCount": 4,
 			"notes": [
 				{
 					"id": 1,
@@ -6776,7 +6777,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 1000.99999999997,
+					"sLen": 1000.99999999994,
 					"time": 261999,
 					"type": 0
 				},
@@ -9914,7 +9915,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 666,
+					"sLen": 666.000000000058,
 					"time": 368000,
 					"type": 0
 				},
@@ -10796,6 +10797,7 @@
 				}
 			],
 			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
@@ -10806,11 +10808,12 @@
 			"strumLinePos": 0.5,
 			"type": 1,
 			"characters": [
-				"bf"
+				"bf-new"
 			]
 		}
 	],
-	"codenameChart": true,
+	"scrollSpeed": 3,
+	"chartVersion": "1.6.0",
 	"stage": "stage",
 	"noteTypes": []
 }

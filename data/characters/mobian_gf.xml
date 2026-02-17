@@ -1,0 +1,9 @@
+<!DOCTYPE codename-engine-character>
+<character x="150" y="120" sprite="Morbius_GF" icon="gf" color="#A5004D">
+	<anim name="danceLeft" anim="Idle" x="1" y="-9" indices="0..14"/>
+	<anim name="danceRight" anim="Idle" x="1" y="-9" indices="15..28"/>
+	<anim name="GFCry" anim="GFMiss" x="-2" y="-16"/>
+	<anim name="danceLeft-alt" anim="COLDIdle"/>
+	<anim name="danceRight-alt" anim="COLDIdle"/>
+	<anim name="GFCry-alt" anim="COLDMiss"/>
+</character>
