@@ -204,7 +204,7 @@
 				0,
 				0,
 				0,
-				4,
+				8,
 				false,
 				"CLASSIC",
 				"In"
@@ -422,6 +422,38 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 144270.307077275,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 144270.307077275,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 144406.053683609
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 144406.053683609
+		},
+		{
+			"params": [
 				"IN THE",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -434,6 +466,22 @@
 		},
 		{
 			"params": [
+				0.045,
+				"camGame"
+			],
+			"time": 144609.673593112,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.06,
+				"camHUD"
+			],
+			"time": 144609.673593112,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"IN THE NOTEPAD",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -443,6 +491,54 @@
 			],
 			"time": 144609.673593112,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 144813.293502614
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 144813.293502614
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 144949.040108949,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 144949.040108949,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 145084.786715284
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 145084.786715284
 		},
 		{
 			"params": [
@@ -470,6 +566,54 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 145220.533321618,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 145220.533321618,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 145356.279927953
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 145356.279927953
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 145559.899837456,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 145559.899837456,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"IN THE NOTEPAD, YOUR FATE IS",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -494,6 +638,38 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146102.886262795
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146102.886262795
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 146238.63286913,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 146238.63286913,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"BECAUSE",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -503,6 +679,22 @@
 			],
 			"name": "Lyrics",
 			"time": 146238.63286913
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146374.379475465
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146374.379475465
 		},
 		{
 			"params": [
@@ -518,6 +710,86 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 146645.872688134,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 146645.872688134,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146917.365900804
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 146917.365900804
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 147053.112507139,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 147053.112507139,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 147188.859113474
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 147188.859113474
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 147324.605719808,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 147324.605719808,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"BECAUSE \"PANDORA\" DIDN'T",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -527,6 +799,38 @@
 			],
 			"name": "Lyrics",
 			"time": 147460.352326143
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 147460.352326143
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 147460.352326143
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 147731.845538813,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 147731.845538813,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -542,6 +846,54 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148139.085357818
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148139.085357818
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 148274.831964152,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 148274.831964152,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148410.578570487
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148410.578570487
+		},
+		{
+			"params": [
 				"THIS",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -551,6 +903,54 @@
 			],
 			"name": "Lyrics",
 			"time": 148749.945086324
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 148749.945086324,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 148749.945086324,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148885.691692659
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 148885.691692659
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 149021.438298994,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 149021.438298994,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -566,6 +966,54 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 149157.184905329
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 149157.184905329
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 149292.931511664,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 149292.931511664,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 149428.678117999
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 149428.678117999
+		},
+		{
+			"params": [
 				"THIS DIGITAL PRISON",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -575,6 +1023,22 @@
 			],
 			"name": "Lyrics",
 			"time": 149496.551421166
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 149700.171330668,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 149700.171330668,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -614,6 +1078,38 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150175.28445284
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150175.28445284
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 150311.031059175,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 150311.031059175,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"IT'S A ROUGH TRANSITION",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -623,6 +1119,54 @@
 			],
 			"time": 150378.904362342,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150446.77766551
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150446.77766551
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 150718.27087818,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 150718.27087818,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150989.764090849
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 150989.764090849
 		},
 		{
 			"params": [
@@ -638,6 +1182,38 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 151125.510697184,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 151125.510697184,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151261.257303519
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151261.257303519
+		},
+		{
+			"params": [
 				"SO WELCOME",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -647,6 +1223,38 @@
 			],
 			"name": "Lyrics",
 			"time": 151261.257303519
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 151397.003909854,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 151397.003909854,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151532.750516189
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151532.750516189
 		},
 		{
 			"params": [
@@ -674,6 +1282,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 151668.497122523,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 151668.497122523,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"SO WELCOME TO YOUR NEW",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -698,6 +1322,102 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151939.990335193
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 151939.990335193
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 152482.976760532,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 152482.976760532,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 152618.723366867
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 152618.723366867
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 152754.469973202,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 152754.469973202,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153025.963185872
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153025.963185872
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 153161.709792207,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 153161.709792207,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"TIME",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -707,6 +1427,22 @@
 			],
 			"time": 153161.709792207,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 153297.456398542,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 153297.456398542,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -734,6 +1470,54 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153433.203004876
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153433.203004876
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 153568.949611211,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 153568.949611211,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153840.442823881
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 153840.442823881
+		},
+		{
+			"params": [
 				"...AND",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -758,6 +1542,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 154315.555946053,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 154315.555946053,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"...AND HERE WITH",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -767,6 +1567,22 @@
 			],
 			"name": "Lyrics",
 			"time": 154383.42924922
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 154451.302552388
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 154451.302552388
 		},
 		{
 			"params": [
@@ -782,6 +1598,38 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 154790.669068225,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 154790.669068225,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155062.162280894
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155062.162280894
+		},
+		{
+			"params": [
 				"WE'LL",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -791,6 +1639,22 @@
 			],
 			"name": "Lyrics",
 			"time": 155197.908887229
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 155197.908887229,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 155197.908887229,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -806,6 +1670,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155333.655493564
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155333.655493564
+		},
+		{
+			"params": [
 				"WE'LL RING-AROUND",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -815,6 +1695,70 @@
 			],
 			"name": "Lyrics",
 			"time": 155401.528796732
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 155469.402099899,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 155469.402099899,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 155605.148706234,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 155605.148706234,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155740.895312569
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 155740.895312569
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 155876.641918904,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 155876.641918904,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -866,6 +1810,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 156419.628344243
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 156419.628344243
+		},
+		{
+			"params": [
 				"WE'LL RING-AROUND, TILL THE BRAKES BREAK FREE!",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -875,6 +1835,22 @@
 			],
 			"time": 156623.248253745,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 157234.107982252,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 157234.107982252,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -890,6 +1866,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 157369.854588587
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 157369.854588587
+		},
+		{
+			"params": [
 				"BUT DOESN'T",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -899,6 +1891,22 @@
 			],
 			"time": 157369.854588587,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 157505.601194922,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 157505.601194922,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -926,6 +1934,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 157777.094407591
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 157777.094407591
+		},
+		{
+			"params": [
 				"BUT DOESN'T IT FILL YOU",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -935,6 +1959,22 @@
 			],
 			"name": "Lyrics",
 			"time": 157912.841013926
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 158048.587620261,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 158048.587620261,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -950,6 +1990,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158184.334226596
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158184.334226596
+		},
+		{
+			"params": [
 				"BUT DOESN'T IT FILL YOU TO THE",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -959,6 +2015,22 @@
 			],
 			"name": "Lyrics",
 			"time": 158184.334226596
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 158320.080832931,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 158320.080832931,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -974,6 +2046,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158455.827439266
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158455.827439266
+		},
+		{
+			"params": [
 				"BUT DOESN'T IT FILL YOU TO THE BRIM WITH",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -983,6 +2071,38 @@
 			],
 			"name": "Lyrics",
 			"time": 158591.5740456
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 158591.5740456,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 158591.5740456,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158727.320651935
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 158727.320651935
 		},
 		{
 			"params": [
@@ -998,6 +2118,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 158930.940561437,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 158930.940561437,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"THIS",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -1007,6 +2143,22 @@
 			],
 			"name": "Lyrics",
 			"time": 159541.800289944
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 159541.800289944,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 159541.800289944,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -1022,6 +2174,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 159677.546896279
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 159677.546896279
+		},
+		{
+			"params": [
 				"THIS SCREEN'S THE",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -1031,6 +2199,22 @@
 			],
 			"name": "Lyrics",
 			"time": 159813.293502614
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 159949.040108949,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 159949.040108949,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -1046,6 +2230,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 160084.786715284,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 160084.786715284,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"THIS SCREEN'S THE LAST THAT",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -1054,6 +2254,22 @@
 				"Sonic Advanced 2.ttf"
 			],
 			"name": "Lyrics",
+			"time": 160220.533321618
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 160220.533321618
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
 			"time": 160220.533321618
 		},
 		{
@@ -1070,6 +2286,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 160356.279927953,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 160356.279927953,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
 				"THIS SCREEN'S THE LAST THAT YOU'LL EV-",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -1079,6 +2311,38 @@
 			],
 			"name": "Lyrics",
 			"time": 160492.026534288
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 160492.026534288
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 160492.026534288
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 160627.773140623,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 160627.773140623,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -1094,6 +2358,22 @@
 		},
 		{
 			"params": [
+				0.05,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 160763.519746958
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"name": "Add Camera Zoom",
+			"time": 160763.519746958
+		},
+		{
+			"params": [
 				"THIS SCREEN'S THE LAST THAT YOU'LL EVER SEE!",
 				false,
 				"Sonic Advanced 2.ttf",
@@ -1103,6 +2383,22 @@
 			],
 			"time": 160763.519746958,
 			"name": "Lyrics"
+		},
+		{
+			"params": [
+				0.05,
+				"camGame"
+			],
+			"time": 161306.506172297,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 161306.506172297,
+			"name": "Add Camera Zoom"
 		},
 		{
 			"params": [
@@ -1171,7 +2467,7 @@
 		},
 		{
 			"params": [
-				0,
+				1,
 				0,
 				0,
 				4,
@@ -1191,6 +2487,19 @@
 			],
 			"time": 178953.564995826,
 			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				2,
+				0,
+				0,
+				1,
+				false,
+				"expo",
+				"In"
+			],
+			"time": 185469.402099899,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -1239,7 +2548,13 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
 			],
 			"time": 228908.316127047,
 			"name": "Camera Movement"
@@ -1294,7 +2609,6 @@
 			"name": "Camera Movement"
 		}
 	],
-	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -2357,7 +3671,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 814.479638008896,
+					"sLen": 814.479638008866,
 					"time": 96419.628344243,
 					"type": 0
 				},
@@ -2471,7 +3785,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 203.619909502027,
+					"sLen": 203.619909501998,
 					"time": 105107.411149673,
 					"type": 0
 				},
@@ -2999,7 +4313,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 203.619909502086,
+					"sLen": 203.619909502057,
 					"time": 130627.773140623,
 					"type": 0
 				},
@@ -3677,7 +4991,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 203.619909501635,
+					"sLen": 203.619909501518,
 					"time": 211261.257303518,
 					"type": 0
 				},
@@ -4900,7 +6214,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 145.631067961112,
+					"sLen": 145.631067961105,
 					"time": 30291.2621359223,
 					"type": 0
 				},
@@ -5950,7 +7264,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 203.61990950242,
+					"sLen": 203.619909502449,
 					"time": 100492.026534288,
 					"type": 0
 				},
@@ -6058,7 +7372,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 203.619909502027,
+					"sLen": 203.619909501998,
 					"time": 105107.411149673,
 					"type": 0
 				},
@@ -6670,7 +7984,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 203.619909502595,
+					"sLen": 203.619909502653,
 					"time": 134700.171330668,
 					"type": 0
 				},
@@ -6958,7 +8272,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 203.619909502595,
+					"sLen": 203.619909502653,
 					"time": 164700.171330668,
 					"type": 0
 				},
@@ -6970,7 +8284,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 203.619909502595,
+					"sLen": 203.619909502653,
 					"time": 165243.157756007,
 					"type": 0
 				},
@@ -8939,6 +10253,7 @@
 		}
 	],
 	"stage": "try harderXML",
+	"codenameChart": true,
 	"scrollSpeed": 3,
 	"chartVersion": "1.6.0",
 	"noteTypes": [
