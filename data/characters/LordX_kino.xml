@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="160" y="24" sprite="exe/exec/kinoX" scale="1.5" camx="-359" camy="-103" icon="icon-exec" color="#74628F" holdTime="6.1" applyStageMatrix="true">
+<character x="160" y="24" sprite="exe/exec/kinoX" scale="1.5" camx="-359" camy="-103" icon="icon-exec" color="#ff0000" holdTime="6.1" applyStageMatrix="true">
 	<anim name="danceLeft" anim="Idle" x="178" y="9" indices="0..10"/>
 	<anim name="danceRight" anim="Idle" x="178" y="9" indices="0..10"/>
 	<anim name="singDOWN" anim="Down" x="252" y="-35"/>

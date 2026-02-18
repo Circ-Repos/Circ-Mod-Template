@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="90" y="-60" sprite="exe/exec/DLordX" camx="-59" camy="50" icon="icon-dordx" color="#4D3775">
+<character x="90" y="-60" sprite="exe/exec/DLordX" camx="-59" camy="50" icon="icon-dordx" color="#4D3875">
 	<anim name="danceLeft" anim="Idle" x="178" y="9" indices="0..10"/>
 	<anim name="danceRight" anim="Idle" x="178" y="9" indices="11..20"/>
 	<anim name="singLEFT" anim="Left" x="400" y="-49"/>

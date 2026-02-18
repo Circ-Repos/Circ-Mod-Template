@@ -1,6 +1,5 @@
 <!DOCTYPE codename-engine-character>
 <character x="150" y="110" sprite="kino" scale="1.2" camx="-250" camy="-20" icon="KinoGF" applyStageMatrix="true">
-	<anim name="danceLeft" anim="GF/Anims/Idle" x="-209" y="29" indicies="0,1,2,3,4,5,6,7,8,9,10"/>
-	<anim name="danceRight" anim="GF/Anims/Idle" x="-209" y="29" indicies="11,12,13,14,15,16,17"/>
+	<anim name="idle" anim="GF/Anims/Idle" x="-209" y="29" loop="true"/>
 	<anim name="sad" anim="GF/Anims/Miss" x="-212" y="22"/>
 </character>

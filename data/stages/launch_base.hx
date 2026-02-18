@@ -21,14 +21,11 @@ var totalElapsed:Float = 0;
 var fakebg:Array<FunkinSprite> = [];
 var realbg:Array<FunkinSprite> = [];
 var fire;
-var dadCam = [500.25, 356.5];
+var dadCam = [515.25, 386.5];
 var bfCam = [1000.75, 450.25];
 var firecolor;
 var kadeTime = true;
 
-var kadeEngineWatermark:FlxText;
-var scoreText:FlxText;
-var originalX:Float;
 var diff = ['easy', 'normal', 'hard'];
 var displacementx:Float;
 var displacementy:Float;
@@ -47,6 +44,11 @@ function relayer(fucker,num){
 	insert(num, fucker);
 }
 function postUpdate() {
+	if(kadeTime){
+		if(PlayState.instance.accuracy < 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: ??? | " + PlayState.instance.curRating.rating;
+		if(PlayState.instance.accuracy > 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: " + CoolUtil.quantize(PlayState.instance.accuracy * 100, 100) + " %" + " | " + PlayState.instance.curRating.rating;
+		PlayState.instance.scoreTxt.screenCenter(FlxAxes.X);
+	}
 	for(thingy in comboGroup.group.members){
 		thingy.camera = camHUD;
 	}
@@ -76,45 +78,6 @@ function onCameraMove(e) {
 	}
 }
 
-var originalX:Float;         var customAccuracy:Float = 0; var finalAccuracy:Float = 0;   var noteHits:Int = 0; 
-var sicks:Int = 0;           var goods:Int = 0;            var bads:Int = 0;              var shits:Int = 0;             
-var firstHit:Bool = false;   var rankingA:String;          var rankingB:String;           var bfCurSinging:Bool = false; 
-var dadCursedTimer:FlxTimer; var lolShit:Bool = false;     var fuckYouDad:Bool;           var helpStep:Int = 0;
-var newJudgements = [ // "JUDGEMENT" -Minos Prime
-		{
-			window: 45,
-			score: 350,
-			health: 0.1,
-			customAccuracy: 1,
-			name: "sick",
-			additive: sicks
-		},
-		{
-			window: 90,
-			score: 200,
-			health: 0.04,
-			customAccuracy: 0.75,
-			name: "good",
-			additive: goods
-		},
-		{
-			window: 135,
-			score: 0,
-			health: -0.06,
-			customAccuracy: 0.25,
-			name: "bad",
-			additive: bads
-		},
-		{
-			window: 166,
-			score: -300,
-			health: -0.2,
-			customAccuracy: 0,
-			name: "shit",
-			additive: shits
-		}
-	];
-
 function onPlayerHit(_){
 	if(!kadeTime){
 		if(_.note.isSustainNote) return;
@@ -122,47 +85,13 @@ function onPlayerHit(_){
 		for(thingy in comboGroup.group.members) thingy.visible = false;
 	}
 	if(kadeTime){
-		_.healthGain = 0;
-		if (_.note.isSustainNote){
-			customAccuracy += 1;
-		} else if(!_.note.isSustainNote){
-			var noteDiff:Float = -Math.abs(_.note.strumTime - Conductor.songPosition);
-
-			// monster of monsters code no way????
-			// (i just ported it to softcode, since its originally hardcoded from the mod itself, original code by nebula) - syrup
-			for(j in newJudgements)
-			{
-				if(noteDiff <= j.window)
-				{
-					_.rating = j.name;
-					songScore += j.score;
-					customAccuracy += j.customAccuracy;
-					j.additive++;
-					health += j.health;
-					break;
-				}
-			}
-			/*
-			switch(_.rating){
-				//0.023
-				case 'sick': customAccuracy += 1;    sicks += 1; songScore += 50; //health += 0.0977;
-				case 'good': customAccuracy += 0.75; goods += 1; //health += 0.0377;
-				case 'bad':  customAccuracy += 0.5;  bads  += 1; songScore -= 100; //health  -= 0.0623;
-				case 'shit': customAccuracy += 0.25; shits += 1; combo = 0; misses++; songScore -= 350; //health -= 0.2023;
-			}
-			*/
-			var noteDiff = Math.abs(Conductor.songPosition - _.note.strumTime);
-
-		}
 		_.showSplash = false;
-		noteHits += 1;
-		if(!finalAccuracy) firstHit = true;
 		helpStep = Conductor.curStep + 1;
 	}
 }
 
 function onPlayerMiss(_){ 
-    if(kadeTime) noteHits += 1;      lolShit = true;         helpStep = Conductor.curStep + 4;
+    if(kadeTime) helpStep = Conductor.curStep + 4;
 } 
 
 function onDadHit(_) if(kadeTime) _.strumGlowCancelled = true;
@@ -237,12 +166,6 @@ function beatHit() {
 		}
 	}
 }
-function calcR(score, misses) {
-	var acc = PlayState.instance.accuracy;
-	var rating = otherLetterRating(acc);
-
-	return "Score: " + score + " | Combo Breaks: " + misses + " | Accuracy: " + acc + " %" + " | " + weirdLetterRating(PlayState.instance.misses, bads, shits, goods) + rating;
-}
 var cameraState:Int = 0;
 public static var camOther:FlxCamera;
 
@@ -266,6 +189,7 @@ function create() {
 	illegal.blend = BlendMode.MULTIPLY;
 	illegal.cameras = [camHUD];
 	illegal.updateHitbox();
+	illegal.screenCenter();
 	//illegal.visible = false;
 	add(illegal);
 
@@ -288,7 +212,6 @@ function create() {
 	bg2.setGraphicSize(Std.int(bg2.width * 0.9));
 
 	fakebg.push(bg1);
-	fakebg.push(bg2);
 
 	if(!Options.lowMemoryMode)
 	{
@@ -332,11 +255,13 @@ function create() {
 		fakebg.push(firecolor);
 		fakebg.push(illegal1);
 		fakebg.push(illegal2);
+		fakebg.push(bg2);
+
 		
 	}
 	for (item in fakebg) add(item);
 
-	gf.scrollFactor.set(1,1);
+	PlayState.instance.strumLines.members[2].characters[0].scrollFactor.set(1,1);
 	PlayState.instance.strumLines.members[2].characters[1].scrollFactor.set(1,1);
 	PlayState.instance.strumLines.members[2].characters[1].y += 100;
 	relayer(PlayState.instance.strumLines.members[2].characters[0], 16);
@@ -358,6 +283,16 @@ function create() {
 	realbg.push(spikes);
 
 	if(!Options.lowMemoryMode){
+		bushes = new FunkinSprite(-674, 97);
+		bushes.frames = Paths.getSparrowAtlas("backgrounds/exe/execution/RealBG/Bushes");
+		bushes.animation.addByPrefix('idle', 'Bushes', 24, true);
+		bushes.animation.play('idle');
+		bushes.scrollFactor.set(0.8, 0.8);
+		bushes.setGraphicSize(Std.int(bushes.width * 1.0));
+		bushes.shader = hudGlitch;
+		realbg.push(bushes);
+
+
 		tube1 = new FunkinSprite(-401, -467);
 		tube1.frames = Paths.getSparrowAtlas("backgrounds/exe/execution/RealBG/Tree1");
 		tube1.animation.addByPrefix('idle', 'Tree1', 24, true);
@@ -376,14 +311,6 @@ function create() {
 		tube2.shader = hudGlitch;
 		realbg.push(tube2);
 
-		bushes = new FunkinSprite(-674, 97);
-		bushes.frames = Paths.getSparrowAtlas("backgrounds/exe/execution/RealBG/Bushes");
-		bushes.animation.addByPrefix('idle', 'Bushes', 24, true);
-		bushes.animation.play('idle');
-		bushes.scrollFactor.set(0.8, 0.8);
-		bushes.setGraphicSize(Std.int(bushes.width * 1.0));
-		bushes.shader = hudGlitch;
-		realbg.push(bushes);
 
 	}
 
@@ -479,10 +406,14 @@ function create() {
 
 	for (item in realbg) {
 		item.visible = false;
+		item.antialiasing = Options.antialiasing;
 		add(item);
 		relayer(item, 0);
 	}
-	for(chud in [bushes, floor, spikes, tube1]) relayer(chud, 40);
+	for(chud in [bushes, floor, spikes, tube1, tube2]) relayer(chud, 40);
+	// relayer(bushes, 39);
+	// relayer(tube1, 42);
+
 }
 function refreshhealthbarcolors(opp:Int,player:Int){
 	var leftColor:Int = PlayState.instance.strumLines.members[0].characters[opp].iconColor;
@@ -493,6 +424,13 @@ function refreshhealthbarcolors(opp:Int,player:Int){
 }
 var songName = 'sexecution';
 function postCreate() {
+	for(i in [healthBarBG, healthBar, iconP1, iconP2, scoreTxt]){
+		relayer(i, 2);
+	}
+	relayer(healthBarBG, 0);
+	relayer(healthBar, 1);
+
+	PlayState.instance.missesTxt.alpha = PlayState.instance.accuracyTxt.alpha = 0;
 	songName = switch(SONG.meta.name) {
 		case "Too Slow (Legacy)": 'too-slow - Hard';
 		case "Endless (Legacy)": 'endless - Hard';
@@ -535,17 +473,10 @@ function postCreate() {
 	// death.onEnd(FlxG.resetState);
 	// add(death);
 
-	// scoreText = new FlxText(FlxG.width / 2 - 235, healthBarBG.y + 50, 0, "", 20);
-	// scoreText.screenCenter(FlxAxes.X);
-	// originalX = scoreText.x;
-	// scoreText.camera = camHUD;
-	// scoreText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
-	// insert(members.indexOf(scoreTxt) - 2, scoreText);
-
 	songInfo = new FlxText(4, healthBarBG.y + 50, 0, songName, 20);
 	songInfo.y = FlxG.height - songInfo.height;
 	songInfo.camera = camHUD;
-	songInfo.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+	songInfo.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, 0xFF000000);
 	insert(99, songInfo);
 
 	executionBG = new FlxSprite().makeGraphic(1280, 720, 0xFF000000);
@@ -622,7 +553,7 @@ function stepHit(){
 				illegal2.visible = true;
 			}
 			//snapCamToPos(326, 375, true);
-
+			relayer(illegal, 999);
 			illegal.alpha = 1;
 			if(!Options.lowMemoryMode)
 				illegaltext.alpha = 1;
@@ -637,6 +568,8 @@ function stepHit(){
 			}
 
 			kadeTime = false;
+			scoreTxt.x = PlayState.instance.healthBarBG.x + 50;
+			scoreTxt.text = 'Score: ' + PlayState.instance.songScore;
 			glitch.glitchAmount = 4;
 			dad.shader = glitch;
 			camHUD.filters = [];
@@ -807,10 +740,6 @@ function update(elapsed) {
 			}
 		}
 
-		if (PlayState.instance.scoreText != null) {
-			PlayState.instance.scoreText.text = calcR(songScore, PlayState.instance.misses);
-			PlayState.instance.scoreText.screenCenter(FlxAxes.X);
-		}
 	}
 	totalElapsed += elapsed * -1;
 
@@ -821,42 +750,37 @@ function update(elapsed) {
 	switch (bro) {
 		case 0:
 			//nothing ever happens
-			isCameraOnForcedPos = false;
+			//isCameraOnForcedPos = false;
 		
 		case 1:
 			//real part
-			camGame.scroll.x = camGame.scroll.x + displacementx;
-			camGame.scroll.y = camGame.scroll.y - displacementy;
+			camGame.scroll.x = camGame.scroll.x;
+			camGame.scroll.y = camGame.scroll.y;
 			camGame.angle = displacementcam;
-			isCameraOnForcedPos = false;
+			//isCameraOnForcedPos = false;
 
 		case 2:
 			//real part intro
-			isCameraOnForcedPos = true;
-    		camFollow.x = 830;
-    		camFollow.y = 475;
+			//isCameraOnForcedPos = true;
+			FlxTween.tween(camFollow,{x: 830, y: 475}, 1);
 		
 		case 3:
 			//real part ending
-			camGame.scroll.x = camGame.scroll.x + displacementx*0.1;
-			camGame.scroll.y = camGame.scroll.y - displacementy*0.1;
+			camGame.scroll.x = camGame.scroll.x;
+			camGame.scroll.y = camGame.scroll.y;
 			camGame.angle = displacementcam;
-			isCameraOnForcedPos = true;
-			camFollow.x = 830;
-    		camFollow.y = 475;
+			//isCameraOnForcedPos = true;
+			FlxTween.tween(camFollow,{x: 830, y: 475}, 1);
 
 		case 4:
 			//aura
-			isCameraOnForcedPos = true;
-    		camFollow.x = 626;
-    		camFollow.y = 375;
+			//isCameraOnForcedPos = true;
+			FlxTween.tween(camFollow,{x: 626, y: 375}, 1);
 
 		case 5:
 			//pibby
-			isCameraOnForcedPos = true;
-    		camFollow.x = 326;
-    		camFollow.y = 375;
-
+			//isCameraOnForcedPos = true;
+			FlxTween.tween(camFollow,{x: 326, y: 375}, 1);
 	}
 }
 

@@ -129,6 +129,7 @@ function update(elapsed) {
 function showLyric(j) {
 	poop.text = StringTools.replace(j.lyric, "'", "");
 	poop.color = FlxColor.fromString(j.color);
+	poop.antialiasing = false;
 	poop.screenCenter(FlxAxes.X);
 
 	subtitlemark.scale.set(poop.width + 20, poop.size + 8);
