@@ -499,7 +499,7 @@ function postCreate() {
 		case "Execution (Legacy)": 'execution - Hard';
 		default: SONG.meta.name + " - " + PlayState.difficulty + " | KE 1.5.4";
 	}
-	boyfriend.holdTime = 2.2;
+	PlayState.instance.strumLines.members[1].characters[0].holdTime = 2.2;
 
 	refreshhealthbarcolors(0,0);
 	// new FlxTimer.start(22 -> {
@@ -534,7 +534,6 @@ function postCreate() {
 	// death.load(Paths.video('execution game over'));
 	// death.onEnd(FlxG.resetState);
 	// add(death);
-	var benis = " | KE 1.5.4";
 
 	// scoreText = new FlxText(FlxG.width / 2 - 235, healthBarBG.y + 50, 0, "", 20);
 	// scoreText.screenCenter(FlxAxes.X);
@@ -543,7 +542,7 @@ function postCreate() {
 	// scoreText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 	// insert(members.indexOf(scoreTxt) - 2, scoreText);
 
-	songInfo = new FlxText(4, healthBarBG.y + 50, 0, songName + benis, 20);
+	songInfo = new FlxText(4, healthBarBG.y + 50, 0, songName, 20);
 	songInfo.y = FlxG.height - songInfo.height;
 	songInfo.camera = camHUD;
 	songInfo.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, "left", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
