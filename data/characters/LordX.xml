@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-character>
+<character x="90" y="-60" sprite="exe/exec/DLordX" camx="-59" camy="50" icon="LordX">
+	<anim name="danceLeft" anim="Idle" x="178" y="9" indices="0..10"/>
+	<anim name="danceRight" anim="Idle" x="178" y="9" indices="11..20"/>
+	<anim name="singLEFT" anim="Left" x="400" y="-49"/>
+	<anim name="singDOWN" anim="Down" x="197" y="-197"/>
+	<anim name="singUP" anim="Up" x="162" y="222"/>
+	<anim name="singRIGHT" anim="Right" x="182" y="-45"/>
+	<anim name="Secret" anim="Secret"/>
+</character>

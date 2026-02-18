@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="backgrounds/exe/execution/" name="launch_base" zoom="0.55">
+	<girlfriend y="5" x="340"/>
+	<dad x="-50" y="80"/>
+	<boyfriend x="945" y="80"/>
+</stage>

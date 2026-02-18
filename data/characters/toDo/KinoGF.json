@@ -1,0 +1,86 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-209,
+				29
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "GF/Anims/Idle",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-209,
+				29
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "GF/Anims/Idle",
+			"indices": [
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				-212,
+				22
+			],
+			"anim": "sad",
+			"fps": 24,
+			"name": "GF/Anims/Miss",
+			"indices": [],
+			"flipX": false
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/GF/kino",
+	"position": [
+		150,
+		110
+	],
+	"dance_every": 1,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "gf",
+	"gameover_character": null,
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colour": -5963699,
+	"camera_position": [
+		-250,
+		-20
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 4,
+	"scale": 1.2,
+	"_editor_isPlayer": false
+}

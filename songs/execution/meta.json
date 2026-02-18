@@ -1,0 +1,17 @@
+{
+	"customValues": {},
+	"color": "#9271FD",
+	"opponentModeAllowed": false,
+	"icon": "icon-exec",
+	"difficulties": [
+		"easy",
+		"normal",
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Execution",
+	"beatsPerMeasure": 4,
+	"needsVoices": true,
+	"bpm": 150
+}

@@ -5,7 +5,7 @@ uniform float iTime;
 #define iChannel0 bitmap
 uniform sampler2D iChannel1;
 #define texture flixel_texture2D
-uniform float GlitchAmount;
+uniform float glitchAmount;
 
 vec4 posterize(vec4 color, float numColors)
 {
@@ -25,7 +25,7 @@ float dist(vec2 a, vec2 b)
 void main()
 {   
     vec2 uv = openfl_TextureCoordv;
-    float amount = pow(GlitchAmount, 2.0);
+    float amount = pow(glitchAmount, 2.0);
     vec2 pixel = 1.0 / iResolution.xy;    
     vec4 color = flixel_texture2D(bitmap, uv);
     float t = mod(mod(iTime, amount * 100.0 * (amount - 0.5)) * 109.0, 1.0);

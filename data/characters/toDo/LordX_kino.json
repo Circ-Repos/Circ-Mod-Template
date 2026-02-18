@@ -1,0 +1,220 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				252,
+				-35
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"flipX": false,
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				342,
+				58
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"flipX": false,
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				90,
+				-11
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"flipX": false,
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				170,
+				145
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"flipX": false,
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				178,
+				9
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceLeft",
+			"flipX": false,
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				178,
+				9
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "danceRight",
+			"flipX": false,
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10
+			],
+			"name": "Idle"
+		},
+		{
+			"loop": true,
+			"flipY": false,
+			"offsets": [
+				344,
+				-119
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "ALTLeft",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				25,
+				85
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "ALTRight",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				215,
+				306
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "ALTUp",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"loop": false,
+			"flipY": false,
+			"offsets": [
+				192,
+				-124
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "ALTDown",
+			"indices": [],
+			"flipX": false
+		},
+		{
+			"offsets": [
+				297,
+				153
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "Transform1",
+			"flipX": false,
+			"indices": [],
+			"name": "Transform1"
+		},
+		{
+			"offsets": [
+				248,
+				65
+			],
+			"flipY": false,
+			"loop": true,
+			"fps": 24,
+			"anim": "Transform2",
+			"flipX": false,
+			"indices": [],
+			"name": "Transform2"
+		},
+		{
+			"offsets": [
+				-343,
+				-355
+			],
+			"flipY": false,
+			"loop": false,
+			"fps": 24,
+			"anim": "Transform3",
+			"flipX": false,
+			"indices": [],
+			"name": "Transform3"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/exe/exec/kinoX",
+	"position": [
+		160,
+		24
+	],
+	"dance_every": 1,
+	"gameover_intial_sound": null,
+	"scalableOffsets": false,
+	"gameover_confirm_sound": null,
+	"healthicon": "exec",
+	"gameover_character": null,
+	"vslice_sustains": false,
+	"flip_x": false,
+	"healthbar_colour": -10859152,
+	"camera_position": [
+		-359,
+		-103
+	],
+	"gameover_loop_sound": null,
+	"sing_duration": 6.1,
+	"scale": 1.5,
+	"_editor_isPlayer": false
+}
