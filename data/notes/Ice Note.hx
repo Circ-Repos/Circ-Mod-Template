@@ -1,5 +1,5 @@
-var snowgrave:FlxSprite;
-var iceReceptors:Array<FlxSprite> = [];
+var snowgrave:FunkinSprite;
+var iceReceptors:Array<FunkinSprite> = [];
 var frozenCounter = 0;
 var controls = Options.controls;
 var iceshake:Int = 0;
@@ -8,13 +8,13 @@ var boyx:Int = 0;
 var chunkY:Int = 0;
 var keycooldown:Int = 0;
 var icechunks = new FlxSpriteGroup();
-var floor:FlxSprite;
+var floor:FunkinSprite;
 var black;
 var leftReceptor;
 var rightReceptor;
 
 function postCreate() {
-	floor = new FlxSprite(-2000, (boyfriend.y + boyfriend.height) + 150).makeGraphic(5000, 500, FlxColor.RED);
+	floor = new FunkinSprite(-2000, (boyfriend.y + boyfriend.height) + 150).makeGraphic(5000, 500, FlxColor.RED);
 	floor.updateHitbox();
 	floor.immovable = true;
 	add(floor);
@@ -23,7 +23,7 @@ function postCreate() {
 	floor.alpha = 0;
 	FlxG.worldBounds.set(floor.x, floor.y, floor.width * 3, floor.height * 3);
 
-	snowgrave = new FlxSprite(boyfriend.x - 80, boyfriend.y + 100);
+	snowgrave = new FunkinSprite(boyfriend.x - 80, boyfriend.y + 100);
 	snowgrave.frames = Paths.getSparrowAtlas('characters/wolf/BF_Ice');
 	snowgrave.animation.addByPrefix('idle', 'Ice', 0, false);
 	snowgrave.animation.play('idle');
@@ -37,12 +37,12 @@ function postCreate() {
 	snowgrave.animation.play('idle');
 	add(snowgrave);
 
-	black = new FlxSprite().makeGraphic(1280, 720, FlxColor.BLACK);
+	black = new FunkinSprite().makeGraphic(1280, 720, FlxColor.BLACK);
 	black.camera = camHUD;
 	black.alpha = 0;
 	add(black);
 
-	leftReceptor = new FlxSprite().setFrames(Paths.getSparrowAtlas('game/notes/ice/NOTE_assets'));
+	leftReceptor = new FunkinSprite().setFrames(Paths.getSparrowAtlas('game/notes/ice/NOTE_assets'));
 	leftReceptor.animation.addByPrefix('idle', 'purple', 24, true);
 	leftReceptor.animation.play('idle');
 	leftReceptor.camera = camHUD;
@@ -52,7 +52,7 @@ function postCreate() {
 	add(leftReceptor);
 	iceReceptors.push(leftReceptor);
 
-	rightReceptor = new FlxSprite().setFrames(Paths.getSparrowAtlas('game/notes/ice/NOTE_assets'));
+	rightReceptor = new FunkinSprite().setFrames(Paths.getSparrowAtlas('game/notes/ice/NOTE_assets'));
 	rightReceptor.animation.addByPrefix('idle', 'red', 24, true);
 	rightReceptor.animation.play('idle');
 	rightReceptor.camera = camHUD;
@@ -219,7 +219,7 @@ function makeIceChunk() {
 	var dir = FlxG.random.bool(50) ? 1 : -1;
 
 	chunkY = (FlxG.random.int(snowgrave.y, snowgrave.y + snowgrave.height));
-	var icechunk = new FlxSprite(dir == 1 ? snowgrave.x + snowgrave.width + 400 : snowgrave.x, chunkY);
+	var icechunk = new FunkinSprite(dir == 1 ? snowgrave.x + snowgrave.width + 400 : snowgrave.x, chunkY);
 	icechunk.frames = Paths.getSparrowAtlas('characters/wolf/BF_Ice');
 	icechunk.animation.addByPrefix('idle', 'ChunkIce', 0, false);
 	icechunk.animation.play('idle');

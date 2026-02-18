@@ -1,284 +1,748 @@
 {
+	"bookmarks": [
+		{
+			"name": "fakeout end",
+			"color": "#00FFD8",
+			"time": 383.677072499853
+		},
+		{
+			"name": "TRUE song begins",
+			"color": "#FF0000",
+			"time": 463.637213810364
+		},
+		{
+			"name": "First Person",
+			"color": "#FF0000",
+			"time": 844.267432047328
+		},
+		{
+			"name": "First Person Ends",
+			"color": "#FF0000",
+			"time": 1360.53333862921
+		},
+		{
+			"name": "TEXT",
+			"color": "#59FF00",
+			"time": 1615.47973131157
+		},
+		{
+			"name": "Awesome Fucking Lyrics",
+			"color": "#008CFF",
+			"time": 1647.75881994202
+		},
+		{
+			"name": "brrr im cold",
+			"color": "#FF0000",
+			"time": 1903.4556205003
+		}
+	],
 	"events": [
 		{
 			"params": [
-				1
-			],
-			"time": 9320.38834951456,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 18640.7766990291,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 27961.1650485437,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 37281.5533980582,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 46601.9417475728,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 55922.3300970874,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				221
-			],
-			"time": 60582.5242718447,
-			"name": "BPM Change"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 68184.3342265958,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 72528.2256293108,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 76872.1170320257,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 81216.0084347407,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 85559.8998374556,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 89903.7912401705,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 94247.6826428855,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 102935.465448315,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 111623.248253745,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 115967.13965646,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 120311.031059175,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 124654.92246189,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 133342.70526732,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
+				"IN",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312
 			],
 			"time": 144202.433774107,
-			"name": "Camera Movement"
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"IN THE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 161577.999384967,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 144473.926986777
 		},
 		{
 			"params": [
-				0
+				"IN THE NOTEPAD",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 165921.890787682,
-			"name": "Camera Movement"
+			"time": 144609.673593112,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"IN THE NOTEPAD, YOUR",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 170265.782190396,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 145084.786715284
 		},
 		{
 			"params": [
-				0
+				"IN THE NOTEPAD, YOUR FATE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 174609.673593111,
-			"name": "Camera Movement"
+			"time": 145220.533321618,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"IN THE NOTEPAD, YOUR FATE IS",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 176781.619294469,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 145559.899837456
 		},
 		{
 			"params": [
-				0
+				"IN THE NOTEPAD, YOUR FATE IS WRITTEN",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 178953.564995826,
-			"name": "Camera Movement"
+			"time": 145763.519746958,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"BECAUSE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 202844.967710758,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 146238.63286913
 		},
 		{
 			"params": [
-				0
+				"BECAUSE \"PANDORA\"",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 211532.750516188,
-			"name": "Camera Movement"
+			"time": 146645.872688134,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"BECAUSE \"PANDORA\" DIDN'T",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 215876.641918903,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 147460.352326143
 		},
 		{
 			"params": [
-				0
+				"BECAUSE \"PANDORA\" DIDN'T LISTEN",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 220220.533321618,
-			"name": "Camera Movement"
+			"time": 147799.71884198,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"THIS",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 224564.424724333,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 148749.945086324
 		},
 		{
 			"params": [
-				0
+				"THIS DIGITAL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 228908.316127047,
-			"name": "Camera Movement"
+			"time": 149089.311602161,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"THIS DIGITAL PRISON",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 233252.207529762,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 149496.551421166
 		},
 		{
 			"params": [
-				0
+				"IT'S",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 237596.098932477,
-			"name": "Camera Movement"
+			"time": 149903.79124017,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				1
+				"IT'S A",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 241939.990335192,
-			"name": "Camera Movement"
+			"time": 150039.537846505,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				0
+				"IT'S A ROUGH",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 246283.881737907,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 150175.28445284
 		},
 		{
 			"params": [
-				1
+				"IT'S A ROUGH TRANSITION",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 250627.773140622,
-			"name": "Camera Movement"
+			"time": 150378.904362342,
+			"name": "Lyrics"
 		},
 		{
 			"params": [
-				0
+				"SO",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 254971.664543337,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 151057.637394017
 		},
 		{
 			"params": [
-				1
+				"SO WELCOME",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
 			],
-			"time": 262573.474498088,
-			"name": "Camera Movement"
+			"name": "Lyrics",
+			"time": 151261.257303519
+		},
+		{
+			"params": [
+				"SO WELCOME TO",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 151532.750516189,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"SO WELCOME TO YOUR",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 151600.623819356
+		},
+		{
+			"params": [
+				"SO WELCOME TO YOUR NEW",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 151804.243728858,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"SO WELCOME TO YOUR NEW EDITION!",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 151939.990335193
+		},
+		{
+			"params": [
+				"TIME",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 153161.709792207,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"TIME WILL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 153365.329701709
+		},
+		{
+			"params": [
+				"TIME WILL MARCH...",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 153433.203004876,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"...AND",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 154111.936036551
+		},
+		{
+			"params": [
+				"...AND HERE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 154247.682642885,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"...AND HERE WITH",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 154383.42924922
+		},
+		{
+			"params": [
+				"...AND HERE WITH ME...",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 154519.175855555,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"WE'LL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 155197.908887229
+		},
+		{
+			"params": [
+				"WE'LL RING",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 155333.655493564,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 155401.528796732
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND, TILL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 155876.641918904,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND, TILL THE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 156012.388525238
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND, TILL THE BRAKES",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 156148.135131573,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND, TILL THE BRAKES BREAK",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 156283.881737908
+		},
+		{
+			"params": [
+				"WE'LL RING-AROUND, TILL THE BRAKES BREAK FREE!",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 156623.248253745,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"BUT",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 157234.107982252
+		},
+		{
+			"params": [
+				"BUT DOESN'T",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 157369.854588587,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 157505.601194922
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 157641.347801256,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 157912.841013926
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU TO",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 158048.587620261,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU TO THE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 158184.334226596
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU TO THE BRIM",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 158320.080832931,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU TO THE BRIM WITH",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 158591.5740456
+		},
+		{
+			"params": [
+				"BUT DOESN'T IT FILL YOU TO THE BRIM WITH GLEE?",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 158795.193955103,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"THIS",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 159541.800289944
+		},
+		{
+			"params": [
+				"THIS SCREEN'S",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 159677.546896279,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 159813.293502614
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 159949.040108949,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST THAT",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 160220.533321618
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST THAT YOU'LL",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 160356.279927953,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST THAT YOU'LL EV-",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"name": "Lyrics",
+			"time": 160492.026534288
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST THAT YOU'LL EVER",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 160627.773140623,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"THIS SCREEN'S THE LAST THAT YOU'LL EVER SEE!",
+				false,
+				"Sonic Advanced 2.ttf",
+				true,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 160763.519746958,
+			"name": "Lyrics"
+		},
+		{
+			"params": [
+				"",
+				false,
+				"Sonic Advanced 2.ttf",
+				false,
+				-13312,
+				"Sonic Advanced 2.ttf"
+			],
+			"time": 161510.126081799,
+			"name": "Lyrics"
 		}
 	],
 	"strumLines": [
@@ -3822,7 +4286,7 @@
 			],
 			"position": "dad",
 			"strumScale": 1,
-			"vocalsSuffix": "",
+			"vocalsSuffix": "-opp",
 			"strumLinePos": 0.25,
 			"type": 0,
 			"characters": [
@@ -3836,6 +4300,7 @@
 		{
 			"visible": true,
 			"keyCount": 4,
+			"vocalsSuffix": "-player",
 			"notes": [
 				{
 					"id": 1,
@@ -7233,7 +7698,7 @@
 	"codenameChart": true,
 	"scrollSpeed": 2.9,
 	"chartVersion": "1.6.0",
-	"stage": "try-harder",
+	"stage": "try harder",
 	"noteTypes": [
 		"Ice Note",
 		"No Animation"
