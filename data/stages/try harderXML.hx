@@ -489,6 +489,13 @@ function stepHit(e){
 			PlayState.instance.strumLines.members[1].characters[2].visible = true;
 			PlayState.instance.strumLines.members[2].characters[1].visible = true;
 
+			for (item in screen) {
+                item.visible = true;
+            }
+            comboGroup.visible = false;
+            textevil.text = "Breaking a sweat already..? \nhere, no need to thank me...";
+                    for(i in [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, missesTxt, accuracyTxt]) i.y += Options.downScroll ? -300 : 300;
+        
 			if(Options.lowMemoryMode) return; 
 				colorcorrection.customred = 0.125;
 				colorcorrection.customgreen = 0.145;
@@ -499,14 +506,6 @@ function stepHit(e){
 
 				FlxG.camera.addShader(colorcorrection);
 				camHUD.addShader(colorcorrection);
-
-			for (item in screen) {
-                item.visible = true;
-            }
-            comboGroup.visible = false;
-            textevil.text = "Breaking a sweat already..? \nhere, no need to thank me...";
-                    for(i in [healthBar, healthBarBG, iconP1, iconP2, scoreTxt, missesTxt, accuracyTxt]) i.y += Options.downScroll ? -300 : 300;
-        
 		case 1632:
 			var username:String = 'BOYFRIEND';
             if(DiscordUtil.user.globalName != null) username = DiscordUtil.user.globalName;
@@ -598,7 +597,6 @@ function stepHit(e){
 			snapCamToPos(gf.x, gf.y);
 			FlxTween.tween(camHUD, {alpha: 1}, 6, {startDelay: 3});
 
-			if(Options.lowMemoryMode) return;
 
 			if(Options.gameplayShaders)
 			{
@@ -777,8 +775,7 @@ var camForceZoom:Bool = false;
 var curSongPos:Float = 0;
 function update(elapsed) {
 	if(camForceZoom) PlayState.instance.camZooming = false;
-	if (!Options.gameplayShaders || Options.lowMemoryMode)
-		return;
+
 	for(i in 0...4){
 		if(PlayState.instance.strumLines.members[0].characters[i].visible == false){
 			PlayState.instance.strumLines.members[0].characters[i].exists = false;
@@ -807,15 +804,12 @@ function update(elapsed) {
 		}
 	}
 
-	totalElapsed += elapsed;
-	fogshader.iTime = totalElapsed;
-	cloud_shader.iTime = totalElapsed;
-	fog2.x += 0.2 +(snowStorm *0.2);
-	fog1.x += 0.1 +(snowStorm *0.3);
-	snow.time = (Conductor.songPosition / 1000);
+	if(fog2 != null) fog2.x += 0.2 +(snowStorm *0.2);
+	if(fog1 != null) fog1.x += 0.1 +(snowStorm *0.3);
+	if(Options.gameplayShaders) snow.time = (Conductor.songPosition / 1000);
 	textevil.x = ((1280/2)-(textevil.width/2)) + iconY;
 
-    atotalElapsed += elapsed * -1;
+    if(Options.gameplayShaders) atotalElapsed += elapsed * -1;
 
     var displacementx = (0.6 * Math.sin(atotalElapsed * 55))*(elapsed*60);
     var displacementy = (0.6 * Math.sin(atotalElapsed * 55))*(elapsed*60);
@@ -830,6 +824,11 @@ function update(elapsed) {
             camGame.scroll.y = camGame.scroll.y - displacementy;
             camGame.angle = displacementcam;
     }
+
+	if (!Options.gameplayShaders || Options.lowMemoryMode) return;
+	totalElapsed += elapsed;
+	fogshader.iTime = totalElapsed;
+	cloud_shader.iTime = totalElapsed;
 
 }
 
