@@ -1,11 +1,12 @@
 {
 	"bookmarks": [
 		{
-			"name": "illegal instruction0000",
+			"time": 1599.87301792354,
 			"color": "#FFFFFF",
-			"time": 1599.87301792354
+			"name": "illegal instruction0000"
 		}
 	],
+	"events": [],
 	"stage": "launch_base",
 	"codenameChart": true,
 	"strumLines": [
@@ -4626,7 +4627,6 @@
 			]
 		},
 		{
-			"scrollSpeed": 2.7,
 			"keyCount": 4,
 			"notes": [
 				{
@@ -8788,26 +8788,26 @@
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"KinoGF",
 				"mobian_gf"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.25
 		}
 	],
-	"chartVersion": "1.6.0",
 	"scrollSpeed": 2.7,
+	"chartVersion": "1.6.0",
 	"noteTypes": [
 		"No Animation",
 		"Alt Animation"

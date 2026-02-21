@@ -9,6 +9,11 @@ import flixel.math.FlxMath;
 import openfl.display.BlendMode;
 import flixel.text.FlxTextAlign;
 import flixel.text.FlxTextBorderStyle;
+import openfl.system.Capabilities;
+import funkin.backend.utils.NdllUtil;
+import funkin.backend.utils.NativeAPI;
+import funkin.backend.utils.ShaderResizeFix;
+import lime.app.Application;
 
 importScript('data/scripts/Lyrics');
 var chud_shader = new CustomShader('colorcorrection');
@@ -25,7 +30,7 @@ var dadCam = [515.25, 386.5];
 var bfCam = [1000.75, 450.25];
 var firecolor;
 var kadeTime = true;
-
+windowfuckery = false;
 var diff = ['easy', 'normal', 'hard'];
 var displacementx:Float;
 var displacementy:Float;
@@ -45,9 +50,10 @@ function relayer(fucker,num){
 }
 function postUpdate() {
 	if(kadeTime){
-		if(PlayState.instance.accuracy < 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: ??? | " + PlayState.instance.curRating.rating;
-		if(PlayState.instance.accuracy > 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: " + CoolUtil.quantize(PlayState.instance.accuracy * 100, 100) + " %" + " | " + PlayState.instance.curRating.rating;
+		if(PlayState.instance.accuracy < 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: ??? | ";
+		if(PlayState.instance.accuracy > 0) PlayState.instance.scoreTxt.text = "Score: " + PlayState.instance.songScore + " | Combo Breaks: " + PlayState.instance.misses + " | Accuracy: " + CoolUtil.quantize(PlayState.instance.accuracy * 100, 100) + " %" + " | ";
 		PlayState.instance.scoreTxt.screenCenter(FlxAxes.X);
+		//scoreTxt.color = FlxColor.WHITE;
 	}
 	for(thingy in comboGroup.group.members){
 		thingy.camera = camHUD;
@@ -67,11 +73,11 @@ function onCameraMove(e) {
 	e.cancel();
 	switch(curCameraTarget){
 		case 0:
-			defaultCamZoom = 0.6;
+			PlayState.instance.defaultCamZoom = 0.6;
 			camFollow.setPosition(dadCam[0], dadCam[1]);
 		case 1:
 			camFollow.setPosition(bfCam[0], bfCam[1]);
-			defaultCamZoom = 0.65;
+			PlayState.instance.defaultCamZoom = 0.65;
 
 		default:
 			camFollow.setPosition(bfCam[0], bfCam[1]);
@@ -98,63 +104,11 @@ function onDadHit(_) if(kadeTime) _.strumGlowCancelled = true;
 
 function onNoteHit(event){
 	if(kadeTime){
-		event.enableCamZooming = false;
+		//event.enableCamZooming = false;
 		if(!kadeTime) kadeTime = true;
 	}
 }
-function weirdLetterRating(misses, bads, shits, goods) {
-	var ranking:String = '';
 
-	// THIS CODE IS DIRECTLY COPIED FROM KADE ENGINE -- PLEASE DONT KILL ME FOR THIS STAIRCASE
-	// Signed, Campbell
-
-	if (misses == 0 && bads == 0 && shits == 0 && goods == 0) // Marvelous (SICK) Full Combo
-		ranking = "(MFC)";
-	else if (misses == 0 && bads == 0 && shits == 0 && goods >= 1) // Good Full Combo (Nothing but Goods & Sicks)
-		ranking = "(GFC)";
-	else if (misses == 0) // Regular FC
-		ranking = "(FC)";
-	else if (misses < 10) // Single Digit Combo Breaks
-		ranking = "(SDCB)";
-	else
-		ranking = "(Clear)";
-
-	ranking += ' ';
-
-	if (songScore == 0)
-		ranking = '';
-
-	return ranking;
-}
-
-function otherLetterRating(acc) {
-	// this staircase is also ripped right from kade engine. There's GOTTA be a better way to do this but for the soul of kade engine ill leave it like this :P
-	// Signed, Campbell
-	var rating = 'N/A';
-
-	if (acc >= 99.9935)
-		rating = 'AAAAA'
-	else if (acc >= 99.97)
-		rating = 'AAAA';
-	else if (acc >= 99.7)
-		rating = 'AAA';
-	else if (acc >= 93)
-		rating = 'AA';
-	else if (acc >= 85)
-		rating = 'A';
-	else if (acc >= 70)
-		rating = 'B';
-	else if (acc >= 60)
-		rating = 'C';
-	else if (acc < 60 && acc > 0)
-		rating = 'D';
-	else if (acc == 0)
-		rating = 'N/A';
-
-	return rating;
-}
-
-var rating = 'N/A';
 function beatHit() {
 	if(kadeTime){
 		if (!fucked_up)
@@ -187,7 +141,7 @@ function create() {
 	illegal.alpha = 0.001;
 	//illegal.zIndex = 998;
 	illegal.blend = BlendMode.MULTIPLY;
-	illegal.cameras = [camHUD];
+	illegal.cameras = [camOther];
 	illegal.updateHitbox();
 	illegal.screenCenter();
 	//illegal.visible = false;
@@ -239,23 +193,23 @@ function create() {
 		firecolor.scrollFactor.set(0, 0);
 		firecolor.blend = BlendMode.MULTIPLY;
 
-		illegal1 = new FunkinSprite(-500,-500).makeGraphic(4980, 4020, 0xFF000000);
-		illegal1.scrollFactor.set(0, 0);
-		illegal1.alpha = 0.5;
-		illegal1.visible = false;
+		gameillegal = new FunkinSprite(-500,-500).makeGraphic(4980, 4020, 0xFF000000);
+		gameillegal.scrollFactor.set(0, 0);
+		gameillegal.alpha = 0.5;
+		gameillegal.visible = false;
 
-		illegal2 = new FunkinSprite(-500,-500).makeGraphic(4980, 4020, 0xFF1500FF);
-		illegal2.scrollFactor.set(0, 0);
-		illegal2.blend = BlendMode.MULTIPLY;
-		illegal2.visible = false;
+		otherillegal = new FunkinSprite(-500,-500).makeGraphic(4980, 4020, 0xFF1500FF);
+		otherillegal.scrollFactor.set(0, 0);
+		otherillegal.blend = BlendMode.MULTIPLY;
+		otherillegal.visible = false;
 
 		fakebg.push(meat1);
 		fakebg.push(meat2);
+		fakebg.push(bg2);
 		fakebg.push(fire);
 		fakebg.push(firecolor);
-		fakebg.push(illegal1);
-		fakebg.push(illegal2);
-		fakebg.push(bg2);
+		fakebg.push(gameillegal);
+		fakebg.push(otherillegal);
 
 		
 	}
@@ -424,6 +378,14 @@ function refreshhealthbarcolors(opp:Int,player:Int){
 }
 var songName = 'sexecution';
 function postCreate() {
+	var currSize = Capabilities.screenResolutionX - window.width;
+	trace(currSize);
+	if(currSize > 10 && currSize < 500 && !Options.lowMemoryMode) windowfuckery = true;
+	FlxG.autoPause = false;
+	window.title = "Friday Night Funkin': Kade Engine";
+	var currSize = Capabilities.screenResolutionX - window.width;
+	trace(currSize);
+	scoreTxt.alignment = FlxTextAlign.CENTER;
 	for(i in [healthBarBG, healthBar, iconP1, iconP2, scoreTxt]){
 		relayer(i, 2);
 	}
@@ -509,20 +471,27 @@ function postCreate() {
 function stepHit(){
 	switch(curStep){
 		case 575:
-			if(Options.lowMemoryMode) return;
-			FlxTween.tween(fire, {alpha: 1}, 30, {ease: FlxEase.quintOut});
+			
 			cameraState = 2;
 			bro = 4;
-			defaultCamZoom= 0.55;
-		case 832:
+			PlayState.instance.defaultCamZoom= 0.55;
 			if(Options.lowMemoryMode) return;
+
+			FlxTween.tween(fire, {alpha: 1}, 30, {ease: FlxEase.quintOut});
+
+		case 832:
 			cameraState= 0;
 			bro = 0;
+			if(Options.lowMemoryMode) return;
 			FlxTween.cancelTweensOf(fire);
 			FlxTween.tween(fire, {alpha: 0}, 7, {ease: FlxEase.quintOut});
 		case 1581:
 			PlayState.instance.strumLines.members[0].characters[0].playAnim('Transform1', true, 'LOCK', false, 0);
 			PlayState.instance.camZooming = false;
+			PlayState.instance.camZooming = false;
+		case 1559:
+			PlayState.instance.camZooming = false;
+
 		case 1600:
 			for (i in fakebg) {
 				if (i.frames != null)
@@ -549,27 +518,55 @@ function stepHit(){
 			//PlayState.instance.camZoomingMult = 0;
 			//cameraSpeed = 1.4;
 			if(!Options.lowMemoryMode){
-				illegal1.visible = true;
-				illegal2.visible = true;
+				gameillegal.visible = true;
+				otherillegal.visible = true;
 			}
+			window.title = 'ILLEGAL INSTRUCTION' + '$' + '00000002';
+
+			dowindowthing = true;
 			//snapCamToPos(326, 375, true);
-			relayer(illegal, 999);
+			//relayer(illegal, 999);
 			illegal.alpha = 1;
-			if(!Options.lowMemoryMode)
-				illegaltext.alpha = 1;
-			relayer(illegal, 999);
+			if(!Options.lowMemoryMode) illegaltext.alpha = 1;
+			//relayer(illegal, 999);
 			//dadGroup.zIndex = 10;
+			//camOther.alpha = 0;
 			relayer(PlayState.instance.strumLines.members[0].characters[0], 999);
 		case 1632:
-			songInfo.visible = false;
-			for(i in 0...4){ 
-				cpuStrums.members[i].x = 75 + (i * 113); 
-				playerStrums.members[i].x = 725 + (i * 113); 
+			if(windowfuckery){
+				window.opacity = 0;
+				window.borderless = true;
+				window.width = 1280;
+				window.height = 720;
+				window.x = Capabilities.screenResolutionX / 2 - window.width / 2;
+				window.y = Capabilities.screenResolutionY / 2 - window.height / 2;
 			}
+			songInfo.visible = false;
+			var strum1X = 0;
+			var strum2X = 0;
+				strum1X = StrumLine.calculateStartingXPos(0.75, 1, 1, 4);
+				strum2X = StrumLine.calculateStartingXPos(0.25, 1, 1, 4);
+			for(i in 0...4){ 
+
+				cpuStrums.members[i].x = strum2X + (i * 113); 
+				playerStrums.members[i].x = strum1X + (i * 113); 
+			}
+			window.title = '';
 
 			kadeTime = false;
-			scoreTxt.x = PlayState.instance.healthBarBG.x + 50;
+			scoreTxt.shader = null;
+			//scoreTxt.setFormat(Paths.font(Flags.DEFAULT_FONT), Flags.DEFAULT_FONT_SIZE, 0xFFFFFFFF, FlxTextBorderStyle.OUTLINE_FAST, 1, 0xFF000000);
 			scoreTxt.text = 'Score: ' + PlayState.instance.songScore;
+			scoreTxt.x = PlayState.instance.healthBarBG.x + 50;
+			scoreTxt.alignment = FlxTextAlign.RIGHT;
+			scoreTxt.color = missesTxt.color;
+		// 	setFormat(Paths.font(Flags.DEFAULT_FONT), Size, FlxColor.WHITE);
+		// if (Border) {
+		// 	borderStyle = OUTLINE;
+		// 	borderSize = 1;
+		// 	borderColor = 0xFF000000;
+		// }
+
 			glitch.glitchAmount = 4;
 			dad.shader = glitch;
 			camHUD.filters = [];
@@ -585,7 +582,7 @@ function stepHit(){
 				for (item in fakebg) item.visible = false;
 				
 				for (item in realbg) item.visible = true;
-
+				illegal.visible = true;
 				PlayState.instance.strumLines.members[0].characters[0].visible = false;
 				PlayState.instance.strumLines.members[0].characters[1].visible = true;
 				PlayState.instance.strumLines.members[1].characters[1].visible = true;
@@ -609,26 +606,44 @@ function stepHit(){
 				fucked_up_icons = false;
 				bro = 2;
 				cameraState = 2;
-				for (m in [PlayState.instance.scoreTxt, PlayState.instance.missesTxt, PlayState.instance.accuracyTxt, PlayState.instance.healthBar,PlayState.instance.healthBarBG,iconP1,iconP2]) m.alpha = 0;
+				for (m in [PlayState.instance.scoreTxt, PlayState.instance.missesTxt, PlayState.instance.accuracyTxt, PlayState.instance.healthBar,PlayState.instance.healthBarBG,iconP1,iconP2]) m.alpha = 1;
 
 				illegal.color = FlxColor.BLACK;
 				if(!Options.lowMemoryMode) illegaltext.visible = false;
 				iconP1.setIcon('icon-bfmobian');
 				iconP2.setIcon('icon-dordx');
-				refreshhealthbarcolors(1,1);
+				refreshhealthbarcolors(1,1);					
+				//for (strums in strumLines.members) for (notes in strums.notes) notes.alpha = 0;
+				//for(i in playerStrums.members) i.alpha = 0;
+				//for(i in cpuStrums.members) i.alpha = 0;
+				relayer(illegal, 999);
 
 			case 1648:
 				FlxG.camera.zoom = 2.4;
 				PlayState.instance.defaultCamZoom = 2.4;
-				illegal1.visible = illegal2.visible = false;
+				gameillegal.visible = otherillegal.visible = false;
 				illegal.visible = true;
 				FlxTween.tween(PlayState.instance,{defaultCamZoom:0.6}, 12.5, {ease:FlxEase.quadOut});
 				FlxTween.tween(FlxG.camera,{zoom:0.6}, 12.5, {ease:FlxEase.quadOut});
-
+				window.title = "Friday Night Funkin' D-Sides: EXECUTION [Marco Antonio ft. Antinarious & RedTV53]";
 				PlayState.instance.camZooming = false;
+				for(i in [healthBarBG, healthBar, iconP1, iconP2, scoreTxt]){
+					relayer(i, 99);
+				}
+				relayer(healthBarBG, 98);
+				relayer(healthBar, 99);
+				for(fuck in [iconP1, iconP2]) relayer(fuck, 101);
+				for(fuck in [scoreTxt,missesTxt,accuracyTxt]) relayer(fuck, 105);
 
 				FlxTween.color(illegal, 8, illegal.color, FlxColor.BLUE);
-				FlxTween.tween(illegal, {alpha:0}, 16, {ease:FlxEase.quintInOut});
+				illegal.alpha = 1;
+				if(windowfuckery){
+					FlxTween.tween(window, {width: Capabilities.screenResolutionX + 1}, 16, {ease:FlxEase.quintInOut});
+					FlxTween.tween(window, {height: Capabilities.screenResolutionY + 1}, 16, {ease:FlxEase.quintInOut});
+					FlxTween.tween(window, {x: 0}, 16, {ease:FlxEase.quintInOut});
+					FlxTween.tween(window, {y: 0}, 16, {ease:FlxEase.quintInOut});
+					FlxTween.tween(window, {opacity: 1}, 16, {ease:FlxEase.quintInOut});
+				}
 				FlxTween.num(4, 0.000001, 12, {
 					onUpdate: (t) -> {
 						glitch.glitchAmount = t.value;
@@ -643,8 +658,20 @@ function stepHit(){
 				});
 			case 1728:
 				bro = 1;
-				for (m in [PlayState.instance.scoreTxt, PlayState.instance.missesTxt, PlayState.instance.accuracyTxt, PlayState.instance.healthBar,PlayState.instance.healthBarBG,iconP1,iconP2]) FlxTween.tween(m,{alpha: 1}, 1, {ease:FlxEase.quadOut});
-
+				PlayState.instance.camZooming = true;
+				//for (m in [PlayState.instance.scoreTxt, PlayState.instance.missesTxt, PlayState.instance.accuracyTxt, PlayState.instance.healthBar,PlayState.instance.healthBarBG,iconP1,iconP2]) FlxTween.tween(m,{alpha: 1}, 1, {ease:FlxEase.quadOut});
+				// for (strums in strumLines.members) {
+				// 	for (notes in strums.notes) {
+				// 		FlxTween.tween(notes, {alpha: 1}, 1, {ease:FlxEase.quadOut});
+				// 	}
+				// }
+				// for(i in playerStrums.members){
+				// 		FlxTween.tween(i, {alpha: 1}, 1, {ease:FlxEase.quadOut});
+				// 	}
+				// for(i in cpuStrums.members){
+				// 	FlxTween.tween(i, {alpha: 1}, 1, {ease:FlxEase.quadOut});
+			
+				// }
 				cameraState = 1;
 				camZoomingMult = 1;
 			case 2240:
@@ -653,7 +680,7 @@ function stepHit(){
 				amycorpse.animation.play('turn');
 			case 2368:
 				cameraState = 2;
-				defaultCamZoom = 0.6;
+				PlayState.instance.defaultCamZoom = 0.6;
 				FlxTween.tween(PlayState.instance,{defaultCamZoom:0.57}, 5, {ease:FlxEase.quadInOut});
 				bro = 3;
 			case 2373:
@@ -718,8 +745,9 @@ function stepHit(){
 // function onSpawnNote(note) {
 // 	note.reloadNote();
 // }
-
+var dowindowthing = false;
 function update(elapsed) {
+    ShaderResizeFix.doResizeFix = false;
 	totalElapsed += elapsed;
 	cloud_shader.iTime = totalElapsed;
 
@@ -785,6 +813,14 @@ function update(elapsed) {
 }
 
 function destroy() {
+	window.title = Flags.WINDOW_TITLE_USE_MOD_NAME;
+	window.height = 720;
+	window.width = 1280;
+	window.borderless = false;
+	window.opacity = 1;
+	window.x = Capabilities.screenResolutionX / 2 - window.width / 2;
+	window.y = Capabilities.screenResolutionY / 2 - window.height / 2;
+
 	FlxG.game.setFilters();
 }
 

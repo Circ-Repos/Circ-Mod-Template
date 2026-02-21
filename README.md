@@ -34,5 +34,7 @@ No Devil Lived On - [Hakita](https://bandcamp.com/hakita) - [Ultrakill](https://
 
 Telepathy - [Deco*27](https://www.youtube.com/channel/UCGmO0S4S-AunjRdmxA6TQYg) - [Vocaloid](https://www.vocaloid.com/) Song
 
-Try Harder - [D-Sides Redux](https://gamebanana.com/mods/652786) Song (too lazy to list the awesome people)
+Try Harder - [D-Sides Redux](https://gamebanana.com/mods/652786) (too lazy to list the awesome people)
+
+Execution - [D-Sides Redux](https://gamebanana.com/mods/652786) (too lazy to list the awesome people... AGAIN)
 

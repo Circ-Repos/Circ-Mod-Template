@@ -219,7 +219,7 @@ function makeIceChunk() {
 	var dir = FlxG.random.bool(50) ? 1 : -1;
 
 	chunkY = (FlxG.random.int(snowgrave.y, snowgrave.y + snowgrave.height));
-	var icechunk = new FunkinSprite(dir == 1 ? snowgrave.x + snowgrave.width + 400 : snowgrave.x, chunkY);
+	var icechunk = new FlxSprite(dir == 1 ? snowgrave.x + snowgrave.width + 400 : snowgrave.x, chunkY);
 	icechunk.frames = Paths.getSparrowAtlas('characters/wolf/BF_Ice');
 	icechunk.animation.addByPrefix('idle', 'ChunkIce', 0, false);
 	icechunk.animation.play('idle');
