@@ -6,7 +6,7 @@ class SeedPacket extends FlxSprite
     public var plantType:String;
     public var cost:Int;
     public var selected:Bool = false;
-
+    public var currentSun:Int;
     public function new(x:Float, y:Float, plant:String, cost:Int)
     {
         super(x,y);
@@ -24,7 +24,7 @@ class SeedPacket extends FlxSprite
 
     public function updateHighlight()
     {
-        if(selected)
+        if(cost <= currentSun)
             alpha = 1;
         else
             alpha = 0.6;
