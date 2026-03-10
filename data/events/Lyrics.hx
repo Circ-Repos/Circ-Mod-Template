@@ -87,7 +87,7 @@ function onEvent(event) {
 
     if(animate){
         lyrics.scale.set(1.1, 1.1);
-        FlxTween.tween(lyrics.scale, {x: 1, y: 1}, 0.2, {ease: FlxEase.quadOut});
+        //FlxTween.tween(lyrics.scale, {x: 1, y: 1}, 0.2, {ease: FlxEase.quadOut});
         moving = true;
     }
     if(!animate){
@@ -98,6 +98,8 @@ function onEvent(event) {
 function update(elapsed:Float) {
     if (moving) {
         // lerp my beloved
+        if(animate) lyrics.scale.set(lerp(lyrics.scale.x, 1, elapsed * 32), lerp(lyrics.scale.y, 1, elapsed * 32));
+
         lyrics.y = lerp(lyrics.y, targetY, elapsed * 32);
         if (Math.abs(lyrics.y - targetY) < 0.5) {
             lyrics.y = targetY;

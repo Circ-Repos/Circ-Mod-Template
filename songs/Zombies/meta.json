@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#005EFF",
+	"opponentModeAllowed": false,
+	"icon": "zombies",
+	"difficulties": [
+		"normal"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Plants Vs Zombies",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 115
+}
