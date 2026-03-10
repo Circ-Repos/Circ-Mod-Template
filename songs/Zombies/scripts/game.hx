@@ -513,12 +513,6 @@ function win()
             });
         });
     });
-    // new FlxTimer().start(5,function(t){
-    //     winYet = true;
-    //     onSongEnd();
-    // });
-
-
 }
 
 function startNextWave()
