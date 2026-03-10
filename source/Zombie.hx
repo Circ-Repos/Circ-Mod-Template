@@ -10,10 +10,8 @@ class Zombie extends GridSprite
     {
         super(x, y);
         this.row = row;
-        this.health = 3; // default HP, adjust per zombie type
-        loadGraphic(Paths.image('pvz/teto')); // placeholder
-
-        //makeGraphic(100, 100, 0xFF00FF00); // placeholder
+        this.health = 3; 
+        loadGraphic(Paths.image('pvz/teto')); 
     }
 
     public function takeDamage(dmg:Float)
