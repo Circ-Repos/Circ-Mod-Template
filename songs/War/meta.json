@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#FF0000",
+	"opponentModeAllowed": false,
+	"icon": "teto",
+	"difficulties": [
+		"Brutal"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "War (Ft. Kasane Teto)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 175
+}

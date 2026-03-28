@@ -16,11 +16,11 @@ function postCreate() {
     for (i in 0...menuItems.length)
     {
       var menuItem = menuItems.members[i];
-      menuItem.x = FlxG.width / 2;
-      menuItem.y = top + spacing * i;
+      menuItem.x = 1 + 115* i;
+      menuItem.y = 115 + 200*i;
       menuItem.scrollFactor.x = 0;
       menuItem.scrollFactor.y = 0.4;
-
+      menuItem.angle = 7*i;
       if (i == 1)
       {
         camFollow.setPosition(menuItem.getGraphicMidpoint().x, menuItem.getGraphicMidpoint().y);

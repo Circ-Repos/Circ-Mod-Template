@@ -255,6 +255,8 @@ function postCreate() {
 			fogtuah.blend = BlendMode.ADD;
 			fogtuah.antialiasing = true;
 			add(fogtuah);
+			remove(fogtuah);
+			insert(1, fogtuah);
 
 
 			colorcorrection.brightness = 0.0;

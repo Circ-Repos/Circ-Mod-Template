@@ -9,6 +9,11 @@
 			"name": "Movement Speed",
       		"type": "String",
 			"defaultValue": "0.67"
+		},
+		{
+			"name": "Bop on beat?",
+			"type": "Bool",
+			"defaultValue": "false"
 		}
 	]
 }

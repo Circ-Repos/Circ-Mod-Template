@@ -15,17 +15,13 @@
 		},
 		{
 			"params": [
-				false,
-				1.7,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"direct",
-				false
+				0,
+				"transition",
+				true,
+				"LOCK"
 			],
-			"time": 0,
-			"name": "Camera Zoom"
+			"time": 12800,
+			"name": "Play Animation"
 		}
 	]
 }

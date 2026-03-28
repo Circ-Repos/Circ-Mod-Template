@@ -1,0 +1,40 @@
+{
+	"events": [
+		{
+			"params": [
+				"Swap (Right To Left)",
+				"0.67",
+				false
+			],
+			"time": 4864.86486486487,
+			"name": "Note Move"
+		},
+		{
+			"params": [
+				"Swap (Left To Right)",
+				"0.67",
+				false
+			],
+			"name": "Note Move",
+			"time": 6972.97297297297
+		},
+		{
+			"params": [
+				"Swap (Right To Left)",
+				"0.67",
+				false
+			],
+			"time": 11513.5135135135,
+			"name": "Note Move"
+		},
+		{
+			"params": [
+				"Swap (Left To Right)",
+				"0.67",
+				false
+			],
+			"time": 13297.2972972973,
+			"name": "Note Move"
+		}
+	]
+}

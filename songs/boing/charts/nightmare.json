@@ -2,7 +2,7 @@
 	"events": [],
 	"stage": "stage",
 	"codenameChart": true,
-	"scrollSpeed": 6.5,
+	"scrollSpeed": 3.25,
 	"chartVersion": "1.6.0",
 	"strumLines": [
 		{
@@ -11,7 +11,7 @@
 			"position": "girlfriend",
 			"notes": [],
 			"characters": [
-				"gf"
+				"tgf"
 			],
 			"type": 0,
 			"visible": false,
@@ -1750,7 +1750,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 466.666666666679,
+					"sLen": 466.666666666693,
 					"time": 53600,
 					"type": 0
 				},
@@ -3778,13 +3778,13 @@
 				},
 				{
 					"id": 2,
-					"sLen": 333.333333333299,
+					"sLen": 333.33333333327,
 					"time": 103200,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 333.333333333299,
+					"sLen": 333.33333333327,
 					"time": 103600,
 					"type": 0
 				},
@@ -3826,13 +3826,13 @@
 				},
 				{
 					"id": 0,
-					"sLen": 333.333333333299,
+					"sLen": 333.33333333327,
 					"time": 104800,
 					"type": 0
 				},
 				{
 					"id": 1,
-					"sLen": 333.333333333299,
+					"sLen": 333.33333333327,
 					"time": 105200,
 					"type": 0
 				},
@@ -3886,7 +3886,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 333.333333333358,
+					"sLen": 333.333333333387,
 					"time": 106800,
 					"type": 0
 				},
@@ -3934,19 +3934,19 @@
 				},
 				{
 					"id": 0,
-					"sLen": 333.333333333358,
+					"sLen": 333.333333333387,
 					"time": 108400,
 					"type": 0
 				},
 				{
 					"id": 2,
-					"sLen": 733.333333333358,
+					"sLen": 733.333333333387,
 					"time": 108800,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 733.333333333358,
+					"sLen": 733.333333333387,
 					"time": 108800,
 					"type": 0
 				},
@@ -3970,7 +3970,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 733.333333333358,
+					"sLen": 733.333333333387,
 					"time": 110400,
 					"type": 0
 				},
@@ -5677,15 +5677,15 @@
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
-				120
+				0
 			],
 			"position": "boyfriend",
-			"strumScale": 2,
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 1.25,
+			"strumLinePos": 0.5,
 			"type": 1,
 			"characters": [
-				"bf"
+				"tgf-playable"
 			]
 		}
 	],

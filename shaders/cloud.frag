@@ -16,7 +16,7 @@ uniform float blue_amt;
 
 // hash functions
 
-#define HASHSCALE1 0.1031
+#define HASHSCALE1 0.2062
 
 //----------------------------------------------------------------------------------------
 //  1 out, 1 in...

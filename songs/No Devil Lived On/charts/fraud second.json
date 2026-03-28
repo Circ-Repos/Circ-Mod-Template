@@ -352,26 +352,25 @@
 			"name": "Time Signature Change"
 		}
 	],
-	"codenameChart": true,
 	"stage": "82",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [],
-			"characters": [
-				"dad"
-			],
-			"type": 0,
-			"visible": false,
+			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"dad"
+			]
 		},
 		{
 			"keyCount": 4,
@@ -847,25 +846,25 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 8675.67567567562,
+					"time": 8675.6756756756,
 					"type": ""
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 8756.7567567567,
+					"time": 8756.75675675668,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 8837.83783783778,
+					"time": 8837.83783783776,
 					"type": ""
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 8918.91891891886,
+					"time": 8918.91891891884,
 					"type": ""
 				},
 				{
@@ -883,49 +882,49 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 9405.40540540534,
+					"time": 9405.40540540532,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 9405.40540540534,
+					"time": 9405.40540540532,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 9486.48648648643,
+					"time": 9486.48648648641,
 					"type": ""
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 9567.56756756751,
+					"time": 9567.56756756749,
 					"type": ""
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 9648.64864864859,
+					"time": 9648.64864864857,
 					"type": ""
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 9729.72972972967,
+					"time": 9729.72972972966,
 					"type": ""
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 9729.72972972967,
+					"time": 9729.72972972966,
 					"type": ""
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 9729.72972972967,
+					"time": 9729.72972972966,
 					"type": ""
 				},
 				{
@@ -1818,7 +1817,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 162.162162162193,
+					"sLen": 162.1621621622,
 					"time": 26594.5945945946,
 					"type": ""
 				},
@@ -2130,7 +2129,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 243.243243243243,
+					"sLen": 243.243243243247,
 					"time": 32756.7567567568,
 					"type": ""
 				},
@@ -2364,7 +2363,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 243.243243243291,
+					"sLen": 243.243243243298,
 					"time": 36648.6486486486,
 					"type": ""
 				},
@@ -2988,7 +2987,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 162.162162162153,
+					"sLen": 162.16216216216,
 					"time": 48324.3243243243,
 					"type": ""
 				},
@@ -3156,7 +3155,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 243.243243243247,
+					"sLen": 243.24324324324,
 					"time": 52216.2162162162,
 					"type": ""
 				},
@@ -3948,7 +3947,7 @@
 				}
 			],
 			"visible": true,
-			"strumSpacing": 1.4,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
@@ -3956,13 +3955,14 @@
 			"position": "boyfriend",
 			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5,
+			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
 				"bf-new"
 			]
 		}
 	],
+	"codenameChart": true,
 	"chartVersion": "1.6.0",
 	"scrollSpeed": 3.8,
 	"noteTypes": []

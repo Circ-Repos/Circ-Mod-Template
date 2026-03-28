@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/p2/" name="sisyphus" zoom="0.5">
+	<sprite x="-1020" sprite="20260326165713_1" y="-190" type="none" skewx="2.72848410531878e-14" scale="4" name="bgAlt"/>
+	<sprite x="-1019" sprite="glow-Alt" y="-190" type="none" scale="4" name="bg"/>
+	<girlfriend scale="0.8" x="375" scroll="1" y="118"/>
+	<boyfriend scale="0.81" x="417" y="-57"/>
+	<dad scale="0.6" x="-3085.69381989482" y="195.396048782323"/>
+</stage>

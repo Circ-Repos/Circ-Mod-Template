@@ -1,6 +1,9 @@
 import funkin.menus.FreeplayState;
 import flixel.text.FlxText;
-import flixel.math.FlxRandom;
+import openfl.ui.Mouse;
+import openfl.ui.MouseCursor;
+import flixel.input.mouse.FlxMouse;
+
 import Plant;
 import Zombie;
 import Pea;
@@ -34,11 +37,11 @@ var shovelMode:Bool = false;
 var shovelIcon:FlxSprite;
 
 var waves:Array<Wave> = [
-new Wave(['NORMAL','NORMAL','NORMAL'],false),
-new Wave(['NORMAL','NORMAL','NORMAL','NORMAL'],false),
-new Wave(['NORMAL','NORMAL','CONE'],false),
-new Wave(['NORMAL','NORMAL','NORMAL','NORMAL','CONE'],false),
-new Wave(['NORMAL','NORMAL','NORMAL','NORMAL','NORMAL','CONE'], true)
+    new Wave(['NORMAL','NORMAL','NORMAL'],false),
+    new Wave(['NORMAL','NORMAL','NORMAL','NORMAL'],false),
+    new Wave(['NORMAL','NORMAL','CONE'],false),
+    new Wave(['NORMAL','NORMAL','NORMAL','NORMAL','CONE'],false),
+    new Wave(['NORMAL','NORMAL','NORMAL','BUCKET','BUCKET','CONE'], true)
 ];
 
 var currentWave:Int = 0;
@@ -68,8 +71,10 @@ function onPostCountdown(e) { //stole from V-Slice Modpack :>
 }
 function postCreate()
 {
-    FlxG.mouse.visible = true;
-    FlxG.sound.music.looped = true;
+	FlxG.mouse.useSystemCursor = true;
+	FlxG.mouse.visible = true;
+	Mouse.cursor = 'arrow';
+        FlxG.sound.music.looped = true;
 	comboGroup.setPosition(560, 290);
     camHUD.alpha = 0;
     FlxG.cameras.add(lawnCam,false);
@@ -128,7 +133,7 @@ function postCreate()
         add(tile);
     }
 
-    sunTxt = new FlxText(FlxG.width-300,40,0,"SUN: "+sun,32);
+    sunTxt = new FlxText(100,40,0,"SUN: "+sun,32);
     sunTxt.cameras=[gameUI];
     sunTxt.setFormat("Arial",24,FlxColor.WHITE,"left");
     add(sunTxt);
@@ -156,7 +161,7 @@ function onSongStart()
         FlxG.sound.play(Paths.sound('pvz/Zombies-Coming'),0.7);
         startNextWave();
     });
-
+    //FlxG.sound.music.volume = 0;
 
 }
 
@@ -172,6 +177,11 @@ function update(elapsed:Float)
         updateSpawning(elapsed);
         updateSeedPackets();
         updateMowers(elapsed);
+        if(FlxG.mouse.overlaps(shovelIcon) && FlxG.mouse.justPressed)
+        {
+            shovelMode = !shovelMode;
+            selectedPlant="";
+        }
     }
 }
 
@@ -200,6 +210,8 @@ function updateSeedPackets()
 {
     for(packet in seedPackets)
     {
+        if(FlxG.mouse.overlaps(packet)){ Mouse.cursor = MouseCursor.ARROW;
+        }else{ Mouse.cursor = MouseCursor.ARROW;}
         if(FlxG.mouse.overlaps(packet) && FlxG.mouse.justPressed)
         {
             selectedPlant = packet.plantType;
@@ -215,14 +227,8 @@ function updateSeedPackets()
 
 function updateInput()
 {
-    if(FlxG.keys.justPressed.S) sun+=500;
-    if(FlxG.keys.justPressed.W) win();
-
-    if(FlxG.mouse.overlaps(shovelIcon) && FlxG.mouse.justPressed)
-    {
-        shovelMode=!shovelMode;
-        selectedPlant="";
-    }
+    // if(FlxG.keys.justPressed.S) sun+=500;
+    // if(FlxG.keys.justPressed.W) win();
 
     shovelIcon.color = shovelMode ? 0xFF00FF00 : 0xFFFFFFFF;
     if(FlxG.keys.justPressed.R) loseGame();
@@ -442,6 +448,13 @@ function updateSun()
 
     for(s in suns.copy())
     {
+        if(!shovelMode && s.overlapsPoint(FlxG.mouse.getWorldPosition(lawnCam))){
+            Mouse.cursor = MouseCursor.BUTTON; 
+
+        }
+        else{
+            Mouse.cursor = MouseCursor.ARROW;
+        }
         if(!shovelMode && s.overlapsPoint(FlxG.mouse.getWorldPosition(lawnCam)) && FlxG.mouse.justPressed)
         {
             sun += 25;

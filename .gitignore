@@ -1,0 +1,53 @@
+data/characters/TGF.xml
+data/characters/TGF.hx
+data/characters/tgf-playable.xml
+images/characters/TGF/TGF/Animation.json
+images/characters/TGF/spritemap1.png
+images/characters/TGF/spritemap1.json
+images/characters/TGF/metadata.json
+images/characters/TGF/LIBRARY/transition.json
+images/characters/TGF/LIBRARY/partes/torso idle b.json
+images/characters/TGF/LIBRARY/partes/torso idle A.json
+images/characters/TGF/LIBRARY/partes/tetas idle a.json
+images/characters/TGF/LIBRARY/partes/piernas idle b.json
+images/characters/TGF/LIBRARY/partes/piernas idle a.json
+images/characters/TGF/LIBRARY/partes/pechos idle b.json
+images/characters/TGF/LIBRARY/partes/pechos callendo .json
+images/characters/TGF/LIBRARY/partes/pechos caidos.json
+images/characters/TGF/LIBRARY/partes/cabeza sorprendida.json
+images/characters/TGF/LIBRARY/partes/cabeza idle b.json
+images/characters/TGF/LIBRARY/partes/cabeza idle a.json
+images/characters/TGF/LIBRARY/partes/cabello idle.json
+images/characters/TGF/LIBRARY/partes/brazo 2 idle b.json
+images/characters/TGF/LIBRARY/partes/brazo 2 idle a.json
+images/characters/TGF/LIBRARY/partes/brazo 1 idle b.json
+images/characters/TGF/LIBRARY/partes/brazo  1 idle a .json
+images/characters/TGF/LIBRARY/idle b.json
+images/characters/TGF/LIBRARY/idle a.json
+images/characters/TGF/Animation.json
+images/characters/trep gf comms.xml
+images/characters/trep gf comms.png
+images/characters/TGF/TGF/spritemap1.png
+images/characters/TGF/TGF/spritemap1.json
+images/characters/TGF/TGF/metadata.json
+images/characters/TGF/TGF/LIBRARY/transition.json
+images/characters/TGF/TGF/LIBRARY/partes/torso idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/torso idle A.json
+images/characters/TGF/TGF/LIBRARY/partes/tetas idle a.json
+images/characters/TGF/TGF/LIBRARY/partes/piernas idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/piernas idle a.json
+images/characters/TGF/TGF/LIBRARY/partes/pechos idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/pechos callendo .json
+images/characters/TGF/TGF/LIBRARY/partes/pechos caidos.json
+images/characters/TGF/TGF/LIBRARY/partes/cabeza sorprendida.json
+images/characters/TGF/TGF/LIBRARY/partes/cabeza idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/cabeza idle a.json
+images/characters/TGF/TGF/LIBRARY/partes/cabello idle.json
+images/characters/TGF/TGF/LIBRARY/partes/brazo 2 idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/brazo 2 idle a.json
+images/characters/TGF/TGF/LIBRARY/partes/brazo 1 idle b.json
+images/characters/TGF/TGF/LIBRARY/partes/brazo  1 idle a .json
+images/characters/TGF/TGF/LIBRARY/idle b.json
+images/characters/TGF/TGF/LIBRARY/idle a.json
+images/characters/teto tsaku.xml
+images/characters/teto tsaku.png
