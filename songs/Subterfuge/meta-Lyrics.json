@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"Sonic '06 Or Something"
+	],
+	"icon": "icon-2017X",
+	"coopAllowed": false,
+	"color": "#413D4D",
+	"stepsPerBeat": 4,
+	"displayName": "Subterfuge With Lyrics (Churgney Gurgney)",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"instSuffix": "-lyrics",
+	"vocalsSuffix": "-lyrics",
+	"bpm": 100
+}

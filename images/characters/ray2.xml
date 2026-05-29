@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ray2.png">
+<SubTexture name="Ray idle0000" x="0" y="0" width="172" height="214" frameX="-514" frameY="-188" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0001" x="0" y="0" width="172" height="214" frameX="-514" frameY="-188" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0002" x="172" y="0" width="170" height="215" frameX="-515" frameY="-187" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0003" x="342" y="0" width="170" height="215" frameX="-515" frameY="-187" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0004" x="512" y="0" width="167" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0005" x="512" y="0" width="167" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0006" x="679" y="0" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0007" x="0" y="216" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0008" x="169" y="216" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0009" x="338" y="216" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0010" x="507" y="216" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0011" x="676" y="216" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray idle0012" x="0" y="432" width="169" height="216" frameX="-517" frameY="-186" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray right0000" x="169" y="432" width="204" height="204" frameX="-496" frameY="-199" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray right0001" x="373" y="432" width="204" height="204" frameX="-496" frameY="-199" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray right0002" x="577" y="432" width="204" height="207" frameX="-498" frameY="-196" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray right0003" x="781" y="432" width="203" height="207" frameX="-499" frameY="-196" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray left0000" x="0" y="648" width="187" height="212" frameX="-520" frameY="-191" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray left0001" x="0" y="648" width="187" height="212" frameX="-520" frameY="-191" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray left0002" x="187" y="648" width="186" height="212" frameX="-519" frameY="-191" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray left0003" x="187" y="648" width="186" height="212" frameX="-519" frameY="-191" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray up0000" x="373" y="648" width="169" height="241" frameX="-524" frameY="-161" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray up0001" x="542" y="648" width="169" height="241" frameX="-524" frameY="-161" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray up0002" x="711" y="648" width="171" height="235" frameX="-521" frameY="-166" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray up0003" x="711" y="648" width="171" height="235" frameX="-521" frameY="-166" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray down0000" x="0" y="889" width="179" height="175" frameX="-506" frameY="-227" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray down0001" x="0" y="889" width="179" height="175" frameX="-506" frameY="-227" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray down0002" x="179" y="889" width="172" height="183" frameX="-511" frameY="-219" frameWidth="910" frameHeight="413" />
+<SubTexture name="Ray down0003" x="179" y="889" width="172" height="183" frameX="-511" frameY="-219" frameWidth="910" frameHeight="413" />
+</TextureAtlas>

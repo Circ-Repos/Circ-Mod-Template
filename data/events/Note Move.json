@@ -2,7 +2,7 @@
 	"params": [
         {
             "name": "Where Strums Go To?",
-            "type": "DropDown('Swap (Left To Right)', 'Swap (Right To Left)', 'To Middlescroll', 'Middlescroll (Edges)')",
+            "type": "DropDown('Swap (Left To Right)', 'Swap (Right To Left)', 'To Middlescroll', 'Middlescroll (Edges)', 'Downscroll')",
             "defaultValue": "Add"
         },
 		{

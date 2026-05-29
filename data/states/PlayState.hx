@@ -5,7 +5,7 @@ import flixel.text.FlxTextAlign;
 import flixel.text.FlxTextBorderStyle;
 import funkin.backend.utils.DiscordUtil;
 import flixel.util.FlxStringUtil;
-
+import StringTools;
 import funkin.backend.system.framerate.Framerate;
 import openfl.text.TextFormat;
 import openfl.text.TextField;
@@ -22,8 +22,6 @@ import openfl.display.BitmapData;
 
 public static var camOther:FlxCamera = null;
 
-public var intendedScore:Int = 0;
-public var lerpScore:Int = 0;
 var displayedAccuracy:Float = 0;
 var displayedAccuracyB:Float = 0;
 var songName:String = PlayState.SONG.meta.name.toLowerCase();
@@ -187,18 +185,14 @@ function postUpdate(elapsed){
 		if(iconP1 != null) iconP1.x = healthBar.x + (healthBar.width) + (150 * iconP1.scale.x - 150) / 2 - 26;
 	}
 
-	intendedScore = songScore;
-	lerpScore = Math.floor(FlxMath.lerp(songScore, lerpScore, Math.exp(-elapsed * 20)));
-	scoreTxt.text = 'Score: ${FlxStringUtil.formatMoney(lerpScore, false, true)}';
+	scoreTxt.text = 'Score: ${FlxStringUtil.formatMoney(songScore, false, true)}';
 
-	// lerp acc, my beloved
-	displayedAccuracy = FlxMath.lerp(displayedAccuracy, accuracy, 0.15);
-	displayedAccuracyB = FlxMath.bound(displayedAccuracy, 0, 100); // makes it so you arent 167% Sure aka PRETTY SURE
-
-	var roundedAcc:Float = Math.round(displayedAccuracyB* 100) / 1;
+	var displayedAcc = CoolUtil.quantize(accuracy * 100, 100);
+	displayedAccuracy = FlxMath.lerp(displayedAccuracy, displayedAcc, 0.15);
+	displayedAccuracyB = CoolUtil.quantize(displayedAccuracy, 100);
 
 	for(i in newRatings){
-		if(roundedAcc <= i[1]){
+		if(displayedAccuracyB <= i[1]){
 			newRString = i[0];
 		}
 	}
@@ -206,7 +200,7 @@ function postUpdate(elapsed){
 	if(misses == 0) missesTxt.text = 'Combo: ${combo} - FC';
 	if(misses != 0) missesTxt.text = 'Combo: ${combo} - Misses: ${misses}';
 
-	accuracyTxt.text = 'Acc: ${roundedAcc}% - ${newRString} ';
+	accuracyTxt.text = 'Acc: ${accuracy < 0 ? "??.??%" : displayedAccuracyB + "%"} - ${newRString}';
 }
 
 function destroy(){

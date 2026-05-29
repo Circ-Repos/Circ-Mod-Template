@@ -1405,6 +1405,15 @@
 		},
 		{
 			"params": [
+				6,
+				4,
+				false
+			],
+			"time": 173142.857142857,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
 				true,
 				0.5,
 				"camGame",
@@ -1429,6 +1438,15 @@
 		},
 		{
 			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 187542.857142857,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
 				true,
 				1.3,
 				"camGame",
@@ -1440,6 +1458,15 @@
 			],
 			"time": 187628.571428571,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 189257.142857143,
+			"name": "Time Signature Change"
 		},
 		{
 			"params": [
@@ -2129,6 +2156,15 @@
 		},
 		{
 			"params": [
+				6,
+				4,
+				false
+			],
+			"time": 338057.142857143,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
 				true,
 				0.5,
 				"camGame",
@@ -2202,6 +2238,15 @@
 			],
 			"time": 354600,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 368914.285714286,
+			"name": "Time Signature Change"
 		},
 		{
 			"params": [
@@ -2286,6 +2331,15 @@
 			],
 			"time": 371314.285714286,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 371314.285714286,
+			"name": "Time Signature Change"
 		},
 		{
 			"params": [

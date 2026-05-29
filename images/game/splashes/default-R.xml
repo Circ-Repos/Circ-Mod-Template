@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="default-R.png">
+	<!-- Created with Adobe Animate version 22.0.2.168 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="note splash0000" x="2" y="2" width="144" height="149" frameX="-49" frameY="-54" frameWidth="243" frameHeight="257"/>
+	<SubTexture name="note splash0001" x="148" y="2" width="219" height="224" frameX="-12" frameY="-16" frameWidth="243" frameHeight="257"/>
+	<SubTexture name="note splash0002" x="369" y="2" width="243" height="257"/>
+	<SubTexture name="note splash0003" x="614" y="2" width="237" height="242" frameX="-3" frameY="-7" frameWidth="243" frameHeight="257"/>
+	<SubTexture name="note splash20000" x="853" y="2" width="153" height="147" frameX="-35" frameY="-43" frameWidth="225" frameHeight="226"/>
+	<SubTexture name="note splash20001" x="2" y="261" width="213" height="211" frameX="-4" frameY="-10" frameWidth="225" frameHeight="226"/>
+	<SubTexture name="note splash20002" x="217" y="261" width="222" height="223" frameX="-1" frameY="-2" frameWidth="225" frameHeight="226"/>
+	<SubTexture name="note splash20003" x="441" y="261" width="225" height="226"/>
+</TextureAtlas>

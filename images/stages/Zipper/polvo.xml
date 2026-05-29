@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="polvo.png">
+<SubTexture name="polvo polvo0000" x="0" y="0" width="356" height="194" frameX="-83" frameY="-146" frameWidth="512" frameHeight="512" />
+<SubTexture name="polvo polvo0001" x="0" y="194" width="347" height="189" frameX="-122" frameY="-144" frameWidth="512" frameHeight="512" />
+<SubTexture name="polvo polvo0002" x="0" y="383" width="303" height="191" frameX="-148" frameY="-141" frameWidth="512" frameHeight="512" />
+<SubTexture name="polvo polvo0003" x="0" y="574" width="284" height="191" frameX="-173" frameY="-143" frameWidth="512" frameHeight="512" />
+</TextureAtlas>

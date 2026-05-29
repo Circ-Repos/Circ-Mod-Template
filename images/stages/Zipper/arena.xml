@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="arena.png">
+<SubTexture name="arena arena0000" x="0" y="0" width="380" height="130" frameX="0" frameY="-254" frameWidth="512" frameHeight="512" />
+<SubTexture name="arena arena0001" x="0" y="130" width="409" height="119" frameX="0" frameY="-261" frameWidth="512" frameHeight="512" />
+<SubTexture name="arena arena0002" x="0" y="249" width="410" height="129" frameX="0" frameY="-251" frameWidth="512" frameHeight="512" />
+<SubTexture name="arena arena0003" x="0" y="378" width="390" height="148" frameX="0" frameY="-233" frameWidth="512" frameHeight="512" />
+</TextureAtlas>

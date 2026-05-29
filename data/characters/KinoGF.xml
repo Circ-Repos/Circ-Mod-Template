@@ -1,5 +1,0 @@
-<!DOCTYPE codename-engine-character>
-<character x="150" y="110" sprite="kino" scale="1.2" camx="-250" camy="-20" icon="KinoGF" applyStageMatrix="true">
-	<anim name="idle" anim="GF/Anims/Idle" x="-209" y="29" loop="true"/>
-	<anim name="sad" anim="GF/Anims/Miss" x="-212" y="22"/>
-</character>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character y="160" sprite="fuckingevilmighty" scale="2" icon="micon2" color="#860303">
+	<anim name="idle" anim="Zeph idle" fps="18"/>
+	<anim name="singDOWN" anim="Zeph down" fps="18"/>
+	<anim name="singRIGHT" anim="Zeph right" fps="18"/>
+	<anim name="singLEFT" anim="Zeph left" fps="18"/>
+	<anim name="singUP" anim="Zeph up" fps="18"/>
+</character>

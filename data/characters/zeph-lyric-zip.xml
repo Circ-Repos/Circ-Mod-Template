@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character x="-450" sprite="zipLyric" icon="micon2" color="#612518" applyStageMatrix="true">
+	<anim name="idle" anim="lyric" indices="0,1"/>
+	<anim name="lyrics" anim="lyric"/>
+</character>

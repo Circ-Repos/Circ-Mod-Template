@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-70" y="130" sprite="p3sonic" scale="0.8" camy="40" icon="p3" color="#051EB2" holdTime="6.1">
+	<anim name="singLEFT" anim="left" x="217.5" y="-27.5" fps="24" loop="false"/>
+	<anim name="singDOWN" anim="down" x="-32.5" y="-30" fps="24" loop="false"/>
+	<anim name="singUP" anim="up" x="55" y="205" fps="24" loop="false"/>
+	<anim name="singRIGHT" anim="right" x="-60" y="-22.5" fps="24" loop="false"/>
+	<anim name="idle" anim="idle" x="0" y="0" fps="24" loop="true"/>
+</character>

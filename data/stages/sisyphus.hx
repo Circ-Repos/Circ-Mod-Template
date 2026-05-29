@@ -13,18 +13,15 @@ import funkin.backend.utils.DiscordUtil;
 var evilness:FunkinSprite;
 var blackFG:FunkinSprite;
 
-var introcc = new CustomShader('colorcorrection');
+var introcc = new CustomShader('colorCorrection');
 
 var fogshader = new CustomShader('fog epic');
 var cloud_shader = new CustomShader('cloud');
 var cooleffect:FunkinSprite;
 var fogtuah:FunkinSprite;
-var melt = new CustomShader('melt');
-
-var snow = new CustomShader('snowfall');
 var atotalElapsed:Float = 0;
 
-var colorcorrection = new CustomShader('colorcorrection');
+var colorcorrection = new CustomShader('colorCorrection');
 
 var rainShader:ScriptableShader;
 public var rainColor = FlxColor.RED;
@@ -61,7 +58,8 @@ function onSongStart(){
 function postCreate() {
 	bg.alpha = 0;
 	playCamOffset = [-15,17.5,-20,15];
-        if (Options.gameplayShaders) {
+	if (Options.gameplayShaders) {
+		trace('i feel so sigma');
         cloud_shader.red_amt = 0.5;
         cloud_shader.green_amt = 0.0;
         cloud_shader.blue_amt = 0.0;
@@ -113,11 +111,11 @@ function postCreate() {
 		introcc.brightness = -0.5;
 		introcc.contrast = 1;
 		introcc.saturation = 0.65;
-		introcc.customred = 0.35;
+		introcc.customred = 54.35;
 		introcc.customgreen = 0.1;
 		introcc.customblue = 0.0;
 
-		dad.shader = boyfriend.shader = gf.shader = introcc;
+		for(i in playerStrums.characters) i.shader = introcc;
 	}
 
     if(Options.gameplayShaders)

@@ -1,0 +1,18 @@
+{
+	"customValues": {},
+	"color": "#FFCC33",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"normal"
+	],
+	"icon": "ray",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "zipperbomb",
+	"needsVoices": true,
+	"beatsPerMeasure": 2,
+	"variants": [
+		"Teto"
+	],
+	"bpm": 107
+}

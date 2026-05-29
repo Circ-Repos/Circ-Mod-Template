@@ -1,0 +1,15 @@
+{
+	"color": "#9271FD",
+	"customValues": {},
+	"opponentModeAllowed": false,
+	"icon": "micon1",
+	"difficulties": [
+		"hard"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Zipperbomb",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 107
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/Zipper/" name="dust2" zoom="0.7">
+	<sprite x="0" scroll="0" zoomfactor="0" sprite="zephsky" y="0" scale="4.2" name="zephsky"/>
+	<sprite x="-250" scroll="0.2" sprite="zephclouds" y="100" scale="2" name="zephclouds"/>
+	<sprite x="-250" scroll="0.1" sprite="zephsun" y="120" scale="4.1" name="zephsun"/>
+	<sprite x="100" scroll="0.3" sprite="zephmountains" y="330" scale="3" name="zephmountains"/>
+	<sprite x="-100" scroll="0.3" sprite="zephhills" y="170" scale="2" name="zephills"/>
+	<sprite x="-20" sprite="zephground" y="450" scale="2" name="ground"/>
+	<sprite x="-20" sprite="roto" y="450" scale="2" name="groundrot"/>
+	<sprite scale="2" x="-350" sprite="palmera" name="trees1"/>
+	<sprite x="400" sprite="palmera" y="200" scale="2" name="trees2"/>
+	<sprite x="302.10555125694" alpha="0" sprite="aiahhbg" y="299.154447222369" scale="5" name="aiahhbg"/>
+	<sprite x="-1362.85714285714" alpha="0" sprite="platformop" y="495.714285714285" name="platformop"/>
+	<dad x="-130" y="340"/>
+	<girlfriend x="250" alpha="0" y="355"/>
+	<sprite x="-288.571428571429" alpha="0" sprite="platformbf" y="508.571428571428" name="platformbf"/>
+	<boyfriend x="760" y="380"/>
+
+</stage>

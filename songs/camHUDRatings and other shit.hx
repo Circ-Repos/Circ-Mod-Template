@@ -15,16 +15,3 @@ function onSongStart(){
 	Framerate.codenameBuildField.text = 'Codename Engine v' + Application.current.meta.get('version') + '\nCircuitella Mod Pack v' + Flags.VERSION + ' - ' + PlayState.SONG.meta.name;
 
 }
-function postCreate()
-{
-	comboGroup.x = 560;
-	comboGroup.y = 290;
-}
-
-function onPostNoteHit(e) comboGroup.cameras = [camHUD];
-
-function onNoteHit(event)
-{
-	event.numScale -= ratingScaleDiff;
-	event.ratingScale -= ratingScaleDiff;
-}

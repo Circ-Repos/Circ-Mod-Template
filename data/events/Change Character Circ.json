@@ -1,0 +1,15 @@
+{
+  "params": [   
+    {
+      "name": "StrumLine To Change",
+      "type": "StrumLine",
+      "defaultValue": 0
+    },
+
+    {
+      "name": "Character Name",
+      "type": "String",
+      "defaultValue": "bf"
+    }
+  ]
+}

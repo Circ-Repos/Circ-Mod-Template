@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-character>
+<character x="500" y="-260" camx="-90" icon="icon-2017X" camy="390" flipX="false" isPlayer="true" color="#1E242B" holdTime="6" sprite="2017X-Evil">
+	<anim x="245" loop="true" anim="idle" y="-277" fps="24" name="idle"/>
+
+	<anim x="147" loop="false" anim="singDOWN" y="-337" fps="24" name="singDOWN"/>
+
+	<anim x="261" loop="false" anim="singUP" y="-15" fps="24" name="singUP"/>
+
+	<anim x="555" loop="false" anim="singRIGHT" y="-262" fps="24" name="singLEFT"/>
+
+	<anim x="171" loop="false" anim="singLEFT" y="-287" fps="24" name="singRIGHT"/>
+</character>

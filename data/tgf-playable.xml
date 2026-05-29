@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-character>
+<character x="-50" y="150" sprite="trep gf comms" flipX="true" camx="50" camy="50" isPlayer="true" icon="gf" color="#A5004D">
+	<anim name="idle" anim="Idle"/>
+	<anim name="singDOWN" anim="Down" x="110" y="-10"/>
+	<anim name="singRIGHT" anim="Right" x="-40" y="-15"/>
+	<anim name="singLEFT" anim="Left" x="90" y="-5"/>
+	<anim name="singUP" anim="Up" x="-12" y="25"/>
+	<anim name="hey" anim="Extra" x="-10"/>
+	<anim name="singDOWNmiss" anim="Miss down" x="110" y="-10"/>
+	<anim name="singRIGHTmiss" anim="Miss right" x="-40" y="-15"/>
+	<anim name="singLEFTmiss" anim="Miss left" x="90" y="-5"/>
+	<anim name="singUPmiss" anim="Miss up" x="-12" y="25"/>
+	<anim name="hey2" anim="Second extra" x="-10"/>
+</character>

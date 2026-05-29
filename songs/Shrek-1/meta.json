@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": false,
+	"icon": "circuitella",
+	"difficulties": [
+		"89-minutes"
+	],
+	"color": "#FF0000",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Shrek",
+	"needsVoices": false,
+	"beatsPerMeasure": 4,
+	"bpm": 120
+}

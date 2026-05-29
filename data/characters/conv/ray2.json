@@ -1,0 +1,67 @@
+{
+    "version": "1.0.0",
+    "name": "Ray2",
+    "assetPath": "characters/ray2",
+    "singTime": 4,
+    "isPixel": false,
+    "scale": 2.1,
+    "healthIcon": {
+        "id": "mican",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "ray iidle",
+            "offsets": [
+                -5,
+                0
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "ray up",
+            "offsets": [
+                -4,
+                2
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "ray down",
+            "offsets": [
+                -15,
+                1
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "ray left",
+            "offsets": [
+                -3,
+                2
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "ray right",
+            "offsets": [
+                -9,
+                -2
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        }
+    ],
+    "flipX": true
+}

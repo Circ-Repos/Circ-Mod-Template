@@ -1,0 +1,484 @@
+{
+	"events": [
+		{
+			"params": [
+				false,
+				1,
+				4,
+				"linear",
+				"In",
+				false
+			],
+			"time": 0,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 8000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 12666.6666666667
+		},
+		{
+			"params": [
+				true,
+				3.84,
+				1,
+				"quad",
+				"InOut",
+				false
+			],
+			"time": 12666.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 14333.3333333333
+		},
+		{
+			"params": [
+				true,
+				3.94,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"time": 15333.3333333333,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"circ",
+				"InOut",
+				false
+			],
+			"time": 17000,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				4.04,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 18000
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"quad",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 21166.6666666667
+		},
+		{
+			"params": [
+				true,
+				3.94,
+				1,
+				"quad",
+				"InOut",
+				false
+			],
+			"time": 22166.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"quad",
+				"InOut",
+				false
+			],
+			"time": 23833.3333333333,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				4,
+				64,
+				"expo",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 34000
+		},
+		{
+			"params": [
+				6,
+				4,
+				false
+			],
+			"time": 42000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"circ",
+				"InOut",
+				false
+			],
+			"time": 44666.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				4,
+				1,
+				"circ",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 45666.6666666667
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 46000
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"time": 50000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 51333.3333333333
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 55333.3333333333
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"circ",
+				"InOut",
+				false
+			],
+			"time": 55333.3333333333,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				4,
+				1,
+				"circ",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 56666.6666666667
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"time": 56666.6666666667,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"time": 60833.3333333333,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 62166.6666666667
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 66166.6666666667
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"time": 66166.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
+				2,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 67500
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 67500,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				true,
+				4,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"time": 88833.3333333333,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 88833.3333333333
+		},
+		{
+			"params": [
+				true,
+				1,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"name": "Scroll Speed Change",
+			"time": 107500
+		},
+		{
+			"params": [
+				true,
+				4,
+				1,
+				"expo",
+				"InOut",
+				false
+			],
+			"time": 110166.666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 131500,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				7,
+				4,
+				false
+			],
+			"time": 139500,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 144166.666666667
+		},
+		{
+			"params": [
+				6,
+				4,
+				false
+			],
+			"time": 173500,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 177500
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 182166.666666667
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"time": 183833.333333333,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 186833.333333333
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"time": 188000,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"time": 191833.333333333,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				3,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 193500
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"name": "Time Signature Change",
+			"time": 197333.333333333
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 198833.333333333,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				8,
+				false
+			],
+			"time": 241333.333333333,
+			"name": "Time Signature Change"
+		},
+		{
+			"params": [
+				4,
+				4,
+				false
+			],
+			"time": 284000,
+			"name": "Time Signature Change"
+		}
+	]
+}

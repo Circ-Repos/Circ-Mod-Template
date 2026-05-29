@@ -1,0 +1,339 @@
+{
+	"events": [
+		{
+			"params": [
+				0,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.6,
+				"camGame",
+				8,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 560.747663551402,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 4485.98130841121,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 8971.96261682243,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
+			],
+			"time": 17943.9252336449,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 26915.8878504673,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 35887.8504672897,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
+			],
+			"time": 44859.8130841121,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 48504.6728971963,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
+			],
+			"time": 49626.1682242991,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 55654.2056074766,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2,
+				0,
+				0,
+				4,
+				false,
+				"CLASSIC",
+				"In"
+			],
+			"time": 58177.5700934579,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 63084.1121495327,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				0,
+				0,
+				4,
+				false,
+				"expo",
+				"Out"
+			],
+			"time": 69813.0841121495,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				"transform",
+				true,
+				"LOCK"
+			],
+			"time": 69953.2710280374,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"zip-mighty-rot"
+			],
+			"time": 71915.8878504673,
+			"name": "Change Character Circ"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				16,
+				"quad",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 78925.2336448598,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				"transform",
+				true,
+				"LOCK"
+			],
+			"name": "Play Animation",
+			"time": 81308.4112149533
+		},
+		{
+			"params": [
+				0,
+				"Zeph-evil-evil"
+			],
+			"time": 88177.5700934579,
+			"name": "Change Character Circ"
+		},
+		{
+			"params": [
+				1,
+				"ray2"
+			],
+			"time": 88317.7570093458,
+			"name": "Change Character Circ"
+		},
+		{
+			"params": [
+				104
+			],
+			"name": "BPM Change",
+			"time": 89719.6261682243
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 98950.3953989935
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 105873.47232207
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 117411.933860532
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 124335.010783609
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 133565.780014378
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 145104.24155284
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 154335.010783609
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 161835.010783609
+		},
+		{
+			"params": [
+				110
+			],
+			"name": "BPM Change",
+			"time": 164142.703091301
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 170688.157636756
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 179415.430364028
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 183779.066727665
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 188142.703091301
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 192506.339454938
+		},
+		{
+			"params": [
+				0,
+				"lyrics",
+				true,
+				"LOCK"
+			],
+			"time": 195369.975818574,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 196597.248545847,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 196611.90711518,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				2
+			],
+			"name": "Camera Movement",
+			"time": 231779.066727665
+		}
+	]
+}

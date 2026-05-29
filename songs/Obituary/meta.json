@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#3006FD",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"Hard"
+	],
+	"icon": "sonic",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Obituary",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 135
+}

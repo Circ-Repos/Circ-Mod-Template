@@ -1,0 +1,77 @@
+{
+    "version": "1.0.0",
+    "name": "Mighty",
+    "assetPath": "characters/Zeph_faker",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 2.2,
+    "healthIcon": {
+        "id": "micon1",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "singLEFT",
+            "prefix": "Zeph left",
+            "offsets": [
+                -188,
+                -162
+            ],
+            "frameRate": 18,
+            "frameIndices": []
+        },
+        {
+            "name": "idle",
+            "prefix": "Zeph idle",
+            "offsets": [
+                -171,
+                -162
+            ],
+            "frameRate": 18,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "Zeph up",
+            "offsets": [
+                -170,
+                -161
+            ],
+            "frameRate": 18,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Zeph down",
+            "offsets": [
+                -170,
+                -161
+            ],
+            "frameRate": 18,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Zeph right",
+            "offsets": [
+                -175,
+                -162
+            ],
+            "frameRate": 18,
+            "frameIndices": []
+        },
+        {
+            "name": "transform",
+            "prefix": "Zeph transformation",
+            "offsets": [
+                -170,
+                -161
+            ],
+            "frameRate": 20,
+            "frameIndices": []
+        }
+    ],
+    "flipX": false
+}

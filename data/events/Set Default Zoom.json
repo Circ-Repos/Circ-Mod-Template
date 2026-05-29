@@ -1,0 +1,24 @@
+{
+    "params": [
+        {
+            "name": "Zoom",
+            "type": "Float(0, 16, 1, 5)",
+            "defaultValue": 1
+        },
+        {
+            "name": "Camera",
+            "type": "DropDown('camHUD', 'camGame')",
+            "defaultValue": "camGame"
+        },
+        {
+            "name": "Type",
+            "type": "DropDown('direct', 'stage')",
+            "defaultValue": "direct"
+        },
+        {
+            "name": "Multiplicative?",
+            "type": "Bool",
+            "defaultValue": false
+        }
+    ]
+}

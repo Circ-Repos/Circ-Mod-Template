@@ -1,0 +1,12 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/mazin/" startCamPosX="950" startCamPosY="600" name="mazin" zoom="0.65">
+	<sprite x="-70" y="-100" scrollx="0.8" scrolly="0.8" sprite="behindwall" name="wall"/>
+	<sprite sprite="floorthing" name="floor"/>
+	<gf x="960" scroll="1" y="345"/>
+	<dad x="490" y="305" camxoffset="80" camyoffset="140"/>
+	<bf x="1460" y="543" camxoffset="-40"/>
+	<sprite alpha="0.8" sprite="gflight" name="gfLight"/>
+	<sprite scalex="1.06" sprite="soniclight" name="sonicLight"/>
+	<sprite x="190" scroll="1.2" sprite="thething" y="80" name="handrail"/>
+	<sprite x="30" scroll="1.2" sprite="pillar" y="50" name="pillar"/>
+</stage>

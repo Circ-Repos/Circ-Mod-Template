@@ -1,0 +1,19 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/Zipper/" name="dust" zoom="0.8">
+
+	<sprite x="451.762560745201" scroll="0" sprite="ZephSky" y="-6.88402801761846" type="none" scale="5" name="sky"/>
+	<sprite x="408.571607766466" scroll="0.1" sprite="ZephSun" y="-11.4284684393648" type="none" scale="2" name="zSun"/>
+	<sprite x="359.530612157829" scroll="0.35" sprite="ZephMountains" y="195.217068686159" type="none" scale="2" name="zMount"/>
+	<sprite x="111.428571428572" scroll="0.2" sprite="ZephClouds" y="-14.2857142857143" type="none" scale="2" name="zClouds"/>
+	<sprite x="108.571428571429" scroll="0.5" sprite="ZephHills" y="85.7142857142858" type="none" scale="2" name="zephHills"/>
+	<sprite x="741.125693644221" sprite="palmera" y="424.536765096298" scale="2" name="palmera1"/>
+	<sprite x="-442.498285092296" sprite="palmera" y="-44.497641839394" scale="2" name="palmera2"/>
+	<sprite type="none" scale="2" sprite="ZephGround" name="zephGround"/>
+	<sprite type="none" scale="2" sprite="roto" name="groundrot"/>
+	<girlfriend alpha="0" x="210" scroll="1" y="125"/>
+	<sprite x="322.529301769837" scroll="0" sprite="aiahhbg" y="214.346072619757" type="none" scale="4.05889507936081" name="aiahhbg"/>
+	<sprite x="-1357.97219202022" sprite="platformop" y="44.5343021504683" type="none" name="platformop"/>
+	<dad x="-119.720171724295" y="-98.7674749361676"/>
+	<sprite x="-378.243973390638" sprite="platformbf" y="20.061418764211" type="none" name="platformbf"/>
+	<boyfriend x="755.276483338062" y="-89.140560195671"/>
+</stage>

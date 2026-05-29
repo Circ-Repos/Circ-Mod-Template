@@ -1,0 +1,28 @@
+<!DOCTYPE codename-engine-stage>
+<stage startCamPosX="720" startCamPosY="550" folder="stages/zipperbomb/" zoom="1.2" name="zipperbomb">
+	<sprite x="-395" scroll="0.3" sprite="sky" y="-90" scale="1.15" name="sky"/>
+	<sprite x="-250" scroll="0.4" sprite="sun" y="-95" scale="1.4" name="sun"/>
+	<sprite x="-250" scroll="0.4" alpha="0.2" sprite="sunOverlay" y="-95" scale="1.4" name="sunOverlay"/>
+	<sprite x="-245" scroll="0.4" sprite="clouds" y="-70" alpha="0.4" scale="1.3" name="clouds"/>
+	<sprite x="-205" scroll="0.5" sprite="mountains" y="-70" scale="1.15" name="mountains"/>
+	<sprite x="-350" scroll="0.55" sprite="hills-back" y="-80" scale="1.15" name="hillsBack"/>
+	<sprite x="-350" scroll="0.55" sprite="overlay" y="50" scale="1.15" name="overlay"/>
+	<sprite x="-300" scroll="0.6" sprite="hills" y="-60" scale="1.15" name="hills"/>
+	<sprite x="650" scroll="0.9" sprite="palm" y="-105" flipX="true" scale="1.2" name="palm2">
+		<anim name="tree2" anim="palm" fps="6" loop="true"/>
+	</sprite>
+	<sprite x="-460" scroll="0.9" sprite="palm" y="-445" scale="1.2" name="palm1">
+		<anim name="tree1" anim="palm" fps="8" loop="true"/>
+	</sprite>
+	<sprite x="-50" sprite="ground" y="20" scalex="1.15" scaley="1.1" name="ground"/>
+	<sprite x="-285" sprite="dust" y="-350" name="dust">
+		<anim name="dust" anim="dust" fps="6" loop="true"/>
+	</sprite>
+	<dad x="205" y="370"/>
+	<bf x="1320" y="542" scale="0.9"/>
+	<girlfriend/>
+	<sprite x="100" scroll="1.2" sprite="dust-front" y="-205" scalex="1.3" scaley="1.2" name="dustFront">
+		<anim name="dustFront" anim="dustfront" fps="6" loop="true"/>
+	</sprite>
+	<sprite x="-200" scroll="0.8" alpha="0.1" sprite="sky" y="50" scale="1.2" name="skyBlend"/>
+</stage>

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/subterfuggin/" zoom="0.95">
+	<gf alpha="0"/>
+	<solid x="-2276" y="-3456" sprite="../../null" width="6000" height="6000" color="#A9BD97" name="bg1"/>
+	<dad alpha="0"/>
+	<bf x="679" y="-410"/>
+	<combo x="-1000"/>
+</stage>

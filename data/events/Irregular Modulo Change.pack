@@ -1,0 +1,146 @@
+Irregular Modulo Change.hx________PACKSEP________import StringTools;
+import EReg;
+using Lambda;
+import funkin.backend.system.Logs;
+import funkin.editors.charter.Charter;
+
+var moduloMap:Array<Float> = [];
+var beatMap:Array<Float> = [];
+var times:Array<{at: Float, beat: Float, origin: Int}> = [];
+var offset;
+var lastHit:{at: Float, beat: Float, origin: Int} = {at: Math.POSITIVE_INFINITY, beat: 0, origin: -1};
+
+function onEvent(e) {
+    if ((StringTools.contains(e.event.name.toLowerCase(), "modulo") && StringTools.contains(e.event.name.toLowerCase(), "change"))) {times = []; wipe();}
+    if (e.event.name == "Irregular Modulo Change") {
+        var params = e.event.params.copy();
+        if (e.cancelled) return;
+        params[0] = new EReg("\\s", "g").replace(params[0], ""); // whitespace ignored
+        var reg1 = new EReg("^(?:\\d+\\.\\d+|\\d+|\\.\\d+)(?:/(?:\\+(?:\\d+\\.\\d+|\\d+|\\.\\d+)(?:\\|\\d+)?|(?:\\d+\\.\\d+|\\d+|\\.\\d+)))*$", "");
+        var reg2 = new EReg("^(?:\\d+\\.\\d+|\\d+|\\.\\d+)(?:\\|\\d+)?(?:/(?:\\d+\\.\\d+|\\d+|\\.\\d+)(?:\\|\\d+)?)*$", "");
+        if (!reg1.match(params[0])) {
+            error("Invalid Modulo Map format.");
+            return;
+        }
+        if (!StringTools.contains(params[0], '/')){
+            error("You need at least 1 \"modulo\"");
+            return;
+        }
+        if (!reg2.match(params[2]) && params[1]) {
+            error("Invalid Beat Strength Map format.");
+            return;
+        } else if (!params[1] && !new EReg("^(?:\\d+\\.\\d+|\\d+|\\.\\d+)$", '').match(params[2])){
+            error("Beat is not a Float." + (reg2.match(params[2]) ? " (Did you want it as a Beat Strength Map?)" : ""));
+            return;
+        }
+        wipe();
+        for (raw in params[0].split("/")) {
+            var repetitions = 1;
+            var value = raw;
+            if (StringTools.contains(raw, "|")) {
+                repetitions = Std.parseInt(raw.split("|")[1]);
+                value = raw.split("|")[0];
+            }
+            var delta = 0.0;
+            if (value.charAt(0) == '+') {
+                delta = Std.parseFloat(value.substr(1));
+                value = moduloMap[moduloMap.length - 1] + delta;
+            } else {
+                value = Std.parseFloat(value);
+                delta = 0;
+            }
+            moduloMap.push(value);
+            for (i in 1...repetitions) moduloMap.push(moduloMap[moduloMap.length - 1] + delta);
+        }
+        if (!params[1]) params[2] = params[2]+'|'+(moduloMap.length-1);
+        for (raw in params[2].split("/")) {
+            var repetitions = 1;
+            var value = raw;
+            if (StringTools.contains(raw, "|")) {
+                repetitions = Std.parseInt(raw.split("|")[1]);
+                value = raw.split("|")[0];
+            }
+            value = Std.parseFloat(value);
+            for (i in 0...repetitions) {beatMap.push(value);}
+        }
+        if (moduloMap.length > 2) {
+            if ((beatMap.length+1) != moduloMap.length) {
+                error("Beat Strength Map's length should be one less than Modulo Map's when the latter's greater than 2, as Irregular Modulo loops instantly on the end time. They're off by "+Math.abs(moduloMap.length-(beatMap.length+1))+".");
+                wipe();
+                return;
+            }
+        } else {
+            if (moduloMap.length == 1){
+                error("There has to be at least 1 item in the Modulo Map");
+                wipe();
+                return;
+            }
+            if (beatMap.length != moduloMap.length) {
+                error("When the Modulo Map has less than 3 items, it should have the same length as the Beat Strength Map. They're off by "+Math.abs(moduloMap.length-beatMap.length)+".");
+                wipe();
+                return;
+            }
+            moduloMap.push(moduloMap[1]+(moduloMap[1]-moduloMap[0]));
+        }
+        beatMap.push(0);
+        times = [];
+        var idxCounter = -1;
+        offset = e.event.time;
+        var eventLength = moduloMap.slice(0, moduloMap.length).fold((v, a) -> a += v *= Conductor.stepCrochet, 0.0);
+        var endLoop = Lambda.find([for (i in 0...events.length) events[events.length-i-1]], ev -> ((StringTools.contains(ev.name.toLowerCase(), "modulo") && StringTools.contains(ev.name.toLowerCase(), "change")) || StringTools.contains(ev.name.toLowerCase(), "bpm")))?.time ?? inst.length;
+        var expansion = moduloMap.copy();
+        while (times.length == 0 || (times[times.length-1].at) < endLoop){
+            idxCounter++;
+            if (idxCounter >= expansion.length) {
+                var adder = expansion[expansion.length-1];
+                expansion = expansion.concat(moduloMap.map(i -> i += adder));
+            }
+            times.push({at: offset + (Conductor.stepCrochet * expansion[idxCounter]), beat: beatMap[idxCounter % moduloMap.length], origin: expansion[idxCounter]});
+        }
+        times.pop(); // loop ends after we're one item too far
+    }
+}
+
+function update() {
+    while (times.length > 0 && Conductor.songPosition > times[0].at)
+    {
+        var t = times.shift();
+        if (Charter.startHere && Charter.startTime > t.at) {lastHit = t; return;}
+        camZoomingOffset = t.at;
+        if (times.length > 0 && t.beat != 0){
+        camZoomingInterval = times[times.length-1].at - t.at;
+        camZoomingStrength = t.beat;}
+        lastHit = t;
+    }
+}
+function error(txt) {
+    Logs.traceColored([
+        Logs.logText(__script__.fileName+': ', 10),
+        Logs.logText(txt, 12)
+    ], 2);
+}
+function wipe() {
+    moduloMap = []; beatMap = [];
+}
+________PACKSEP________
+{
+  "params": [
+    {
+      "name": "Modulo Map (Forward-slash-separated floats. Absolute values or +delta. |n repeats with relative stacking)",
+      "type": "String",
+      "defaultValue": "0/+4|2/+3|2/+2"
+    },
+    {
+      "name": "Do Strength Map?",
+      "type": "Bool",
+      "defaultValue": "true"
+    },
+    {
+      "name": "Beat Strength (Single float, or map (same format, no +). Length must be 1 less than Modulo Map)",
+      "type": "String",
+      "defaultValue": "0.7/1.5/0.7|3"
+    }
+  ]
+}
+________PACKSEP________
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyElEQVR4AZyRCRaEIAxDCXfUQ+od7fRX63NhZkQfoSU2KUst7z5L2RsDm6YJfZj0GhjiYRiKWejtlwEVgG47EEsq8zwHdzSgGPAj4zH3plYkwWkcx4hpYKw2HPONKi0unNIgCyN6qzhjxiB9khS8p7vhzQCRpNiqtEY4FzXHzaBZtZEYSWIVE0mXAYIrHhlI+9njDmqt3+9AWovZboKu+e7EZVmgAs0dSDpdIpW8O2Kir+WIkQYQf3EV45AG5E9Ak1Ndr8FJzOIDAAD//+l+i2AAAAAGSURBVAMAyu1WIa4gzHMAAAAASUVORK5CYII=

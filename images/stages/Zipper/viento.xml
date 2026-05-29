@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="viento.png">
+<SubTexture name="viento viento0000" x="0" y="0" width="324" height="240" frameX="-89" frameY="-182" frameWidth="512" frameHeight="512" />
+<SubTexture name="viento viento0001" x="0" y="240" width="341" height="255" frameX="-77" frameY="-185" frameWidth="512" frameHeight="512" />
+<SubTexture name="viento viento0002" x="0" y="495" width="321" height="241" frameX="-93" frameY="-187" frameWidth="512" frameHeight="512" />
+</TextureAtlas>

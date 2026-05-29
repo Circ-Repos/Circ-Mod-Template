@@ -152,8 +152,9 @@
 		},
 		{
 			"params": [
-				"Middlescroll (Edges)",
-				"0.7"
+				"Downscroll",
+				"0.7",
+				false
 			],
 			"time": 60324.3243243243,
 			"name": "Note Move"
@@ -352,25 +353,26 @@
 			"name": "Time Signature Change"
 		}
 	],
-	"stage": "82",
+	"codenameChart": true,
+	"stage": "stage",
 	"strumLines": [
 		{
 			"keyCount": 4,
 			"notes": [],
-			"visible": true,
+			"position": "dad",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
+			"characters": [
+				"dad"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"dad"
-			]
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
@@ -846,25 +848,25 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 8675.6756756756,
+					"time": 8675.67567567559,
 					"type": ""
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 8756.75675675668,
+					"time": 8756.75675675667,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 8837.83783783776,
+					"time": 8837.83783783775,
 					"type": ""
 				},
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 8918.91891891884,
+					"time": 8918.91891891883,
 					"type": ""
 				},
 				{
@@ -882,31 +884,31 @@
 				{
 					"id": 0,
 					"sLen": 0,
-					"time": 9405.40540540532,
+					"time": 9405.40540540531,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 9405.40540540532,
+					"time": 9405.40540540531,
 					"type": ""
 				},
 				{
 					"id": 3,
 					"sLen": 0,
-					"time": 9486.48648648641,
+					"time": 9486.4864864864,
 					"type": ""
 				},
 				{
 					"id": 1,
 					"sLen": 0,
-					"time": 9567.56756756749,
+					"time": 9567.56756756748,
 					"type": ""
 				},
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 9648.64864864857,
+					"time": 9648.64864864856,
 					"type": ""
 				},
 				{
@@ -1408,12 +1410,6 @@
 					"type": ""
 				},
 				{
-					"id": 3,
-					"sLen": 0,
-					"time": 17189.1891891892,
-					"type": ""
-				},
-				{
 					"id": 0,
 					"sLen": 0,
 					"time": 17675.6756756757,
@@ -1513,12 +1509,6 @@
 					"id": 1,
 					"sLen": 0,
 					"time": 19945.9459459459,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 20108.1081081081,
 					"type": ""
 				},
 				{
@@ -1817,7 +1807,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 162.1621621622,
+					"sLen": 162.162162162207,
 					"time": 26594.5945945946,
 					"type": ""
 				},
@@ -1945,12 +1935,6 @@
 					"id": 3,
 					"sLen": 0,
 					"time": 30486.4864864865,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 162.162162162163,
-					"time": 30810.8108108108,
 					"type": ""
 				},
 				{
@@ -2129,7 +2113,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 243.243243243247,
+					"sLen": 243.243243243243,
 					"time": 32756.7567567568,
 					"type": ""
 				},
@@ -2185,12 +2169,6 @@
 					"id": 2,
 					"sLen": 0,
 					"time": 34540.5405405405,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 162.16216216216,
-					"time": 34702.7027027027,
 					"type": ""
 				},
 				{
@@ -2363,7 +2341,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 243.243243243298,
+					"sLen": 243.243243243305,
 					"time": 36648.6486486486,
 					"type": ""
 				},
@@ -2419,12 +2397,6 @@
 					"id": 3,
 					"sLen": 0,
 					"time": 38432.4324324324,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 162.16216216216,
-					"time": 38594.5945945946,
 					"type": ""
 				},
 				{
@@ -2497,12 +2469,6 @@
 					"id": 3,
 					"sLen": 0,
 					"time": 39405.4054054054,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 39567.5675675676,
 					"type": ""
 				},
 				{
@@ -2677,12 +2643,6 @@
 					"id": 3,
 					"sLen": 0,
 					"time": 42405.4054054054,
-					"type": ""
-				},
-				{
-					"id": 0,
-					"sLen": 0,
-					"time": 42486.4864864865,
 					"type": ""
 				},
 				{
@@ -2987,7 +2947,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 162.16216216216,
+					"sLen": 162.162162162153,
 					"time": 48324.3243243243,
 					"type": ""
 				},
@@ -3155,7 +3115,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 243.24324324324,
+					"sLen": 243.243243243247,
 					"time": 52216.2162162162,
 					"type": ""
 				},
@@ -3946,24 +3906,23 @@
 					"type": ""
 				}
 			],
-			"visible": true,
+			"position": "boyfriend",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
+			"characters": [
+				"bf-new"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75,
-			"type": 1,
-			"characters": [
-				"bf-new"
-			]
+			"strumLinePos": 0.75
 		}
 	],
-	"codenameChart": true,
-	"chartVersion": "1.6.0",
 	"scrollSpeed": 3.8,
+	"chartVersion": "1.6.0",
 	"noteTypes": []
 }

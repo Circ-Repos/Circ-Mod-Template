@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character x="-574" y="175" scale="2" flipX="true" camx="100" camy="100" isPlayer="true" icon="mican" color="#FFCC32">
+	<anim name="idle" anim="Ray idle" fps="20"/>
+	<anim name="singLEFT" anim="Ray right" fps="20"/>
+	<anim name="singDOWN" anim="Ray down" fps="20"/>
+	<anim name="singUP" anim="Ray up" fps="20"/>
+	<anim name="singRIGHT" anim="Ray left" fps="20"/>
+</character>

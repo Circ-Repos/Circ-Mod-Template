@@ -1,0 +1,15 @@
+	{
+		"params": [
+			{
+			"name": "Intro?",
+			"type": "Bool",
+			"defaultValue": "false"
+			},
+
+			{
+				"name": "Precache?",
+				"type": "Bool",
+				"defaultValue": "true"
+			}
+	]
+	}

@@ -1,0 +1,67 @@
+{
+    "version": "1.0.0",
+    "name": "Superevilmighty",
+    "assetPath": "characters/fuckingevilmighty",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 2.2,
+    "healthIcon": {
+        "id": "micon2",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "fuckingevilmighty iidle",
+            "offsets": [
+                -171,
+                -162
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "fuckingevilmighty don",
+            "offsets": [
+                -170,
+                -160
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "fuckingevilmighty left",
+            "offsets": [
+                -171,
+                -161
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "fuckingevilmighty up",
+            "offsets": [
+                -170,
+                -161
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "fuckingevilmighty right",
+            "offsets": [
+                -172,
+                -161
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        }
+    ],
+    "flipX": false
+}

@@ -1,0 +1,17 @@
+{
+	"customValues": {},
+	"color": "#FFCC32",
+	"instSuffix": "-Teto",
+	"opponentModeAllowed": false,
+	"icon": "ray",
+	"difficulties": [
+		"Teto"
+	],
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "Zipperbomb (Teto Mix)",
+	"needsVoices": false,
+	"beatsPerMeasure": 2,
+	"bpm": 107,
+	"vocalsSuffix": "-Teto"
+}

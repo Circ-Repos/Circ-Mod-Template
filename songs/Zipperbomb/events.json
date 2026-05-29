@@ -1,0 +1,614 @@
+{
+	"events": [
+		{
+			"params": [
+				"0/+2|2/+1|3",
+				false,
+				"1.5"
+			],
+			"time": 7850.46728971963,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"time": 8971.96261682243,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+3|2/+2/+1|3/+3/+2",
+				false,
+				"1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 15700.9345794393
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 17943.9252336449
+		},
+		{
+			"params": [
+				"0/+3|2/+2/+1|4/+4",
+				false,
+				"1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 24672.8971962617
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"time": 26915.8878504673,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+3|2/+2/+1|4/+2/+2",
+				false,
+				"1.5"
+			],
+			"time": 33644.8598130841,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 35887.8504672897
+		},
+		{
+			"params": [
+				"0/+3|2/16",
+				false,
+				"1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 42616.8224299065
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"time": 44859.8130841121,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				9999,
+				1,
+				"BEAT",
+				0
+			],
+			"time": 48224.2990654206,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 49345.7943925234
+		},
+		{
+			"params": [
+				"0/+3|2/+2/+1|4/+2/+2",
+				false,
+				"1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 51588.785046729
+		},
+		{
+			"params": [
+				"0/+4/+2/+1|2/+3/+1/+2|2",
+				false,
+				"1.2"
+			],
+			"time": 53831.7757009346,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+2|3/+1|2/+2|4",
+				false,
+				"1.8"
+			],
+			"time": 60560.7476635514,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+2/+4/+1|2/+3|2/+2/+2/+4/+1|2/+3|2/+1|2",
+				false,
+				"1.2"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 62803.738317757
+		},
+		{
+			"params": [
+				2,
+				1.2,
+				"BEAT",
+				0
+			],
+			"time": 76261.6822429906,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				9999,
+				1.2,
+				"BEAT",
+				0
+			],
+			"name": "Camera Modulo Change",
+			"time": 81681.4609389886
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"time": 81922.617584668,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 82169.6067254398
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 82658.486897692
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"time": 82894.9493574634,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 83575.056236454
+		},
+		{
+			"params": [
+				0.015,
+				"camGame"
+			],
+			"time": 83792.6518457163,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.015,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 84005.991978013
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"time": 84420.5496308706,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 84622.0666959845
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 85205.201458552
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"time": 85392.8526842816,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 85577.3305622632
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"time": 85937.1832785866,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.02,
+				"camGame"
+			],
+			"name": "Add Camera Zoom",
+			"time": 86112.7540030222
+		},
+		{
+			"params": [
+				"0/+4|7/+2/+2",
+				true,
+				"1.0/1.5/1.0/1.5/1.0/1.5/1.0/1.5/1.5"
+			],
+			"time": 88170.1122191045,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+6/+1/+7/+2",
+				false,
+				"1.6"
+			],
+			"time": 125093.189142181,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				0.04,
+				"camGame"
+			],
+			"time": 162016.266065258,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				0.05,
+				"camHUD"
+			],
+			"time": 162016.266065258,
+			"name": "Add Camera Zoom"
+		},
+		{
+			"params": [
+				"0/+1|2/+4|2/+6/+1|2/+4/+2",
+				true,
+				"1.2|3/1.5/1.2|4/1.5"
+			],
+			"time": 162834.44788344,
+			"name": "Irregular Modulo Change"
+		},
+		{
+			"params": [
+				"0/+6/+1|2/+4|2/+6/+1|2/+4/+2|2",
+				true,
+				"1.7/1.2|3/1.5/1.2|4/1.5/1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 166379.902428895
+		},
+		{
+			"params": [
+				"0/+2/+4/+1|2/+8",
+				false,
+				"1.2"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 179470.811519804
+		},
+		{
+			"params": [
+				2,
+				1.2,
+				"BEAT",
+				0
+			],
+			"time": 196925.356974349,
+			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				2,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 198016.266065258,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				5,
+				"camGame",
+				2,
+				"circ",
+				"In",
+				false
+			],
+			"time": 198016.266065258,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				2,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"name": "Camera Zoom",
+			"time": 198425.356974349
+		},
+		{
+			"params": [
+				true,
+				-5,
+				"camGame",
+				2,
+				"circ",
+				"In",
+				false
+			],
+			"name": "Camera Angle",
+			"time": 198425.356974349
+		},
+		{
+			"params": [
+				true,
+				5,
+				"camGame",
+				4,
+				"quart",
+				"In",
+				false
+			],
+			"time": 199107.175156167,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				true,
+				1.1,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				false
+			],
+			"time": 199107.175156167,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"quad",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 200198.084247077,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				false
+			],
+			"time": 201152.629701622,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				2,
+				"quart",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 202243.538792531,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				false
+			],
+			"time": 202243.538792531,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				2,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 203470.811519804,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				8,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 204425.356974349,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"0/+4|7/+2/+2",
+				true,
+				"1.0/1.5/1.0/1.5/1.0/1.5/1.0/1.5/1.5"
+			],
+			"name": "Irregular Modulo Change",
+			"time": 205652.629701622
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 205652.629701622,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				7.5,
+				"camGame",
+				2,
+				"quint",
+				"InOut",
+				false
+			],
+			"time": 211516.266065258,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				true,
+				0.85,
+				"camGame",
+				4,
+				"quart",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 211925.356974349,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.65,
+				"camGame",
+				8,
+				"quad",
+				"InOut",
+				"direct",
+				false
+			],
+			"time": 212743.538792531,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				"1000",
+				"650",
+				8,
+				false,
+				"quad",
+				"InOut",
+				"Dad"
+			],
+			"time": 212743.538792531,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				true,
+				0,
+				"camGame",
+				8,
+				"sine",
+				"InOut",
+				false
+			],
+			"time": 212743.538792531,
+			"name": "Camera Angle"
+		},
+		{
+			"params": [
+				"0/+2/+4/+2|2/+4/+2|2/+4/+2|2/+2|3",
+				false,
+				"1.5"
+			],
+			"time": 214379.902428895,
+			"name": "Irregular Modulo Change"
+		}
+	]
+}

@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character flipX="true" scale="0.67" isPlayer="true" icon="sonic">
+	<anim name="idle" anim="idle"/>
+	<anim name="singDOWN"/>
+	<anim name="singRIGHT"/>
+	<anim name="singLEFT"/>
+	<anim name="singUP"/>
+</character>

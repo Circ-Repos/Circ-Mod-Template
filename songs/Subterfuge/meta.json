@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": false,
+
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"variants": [
+		"Lyrics"
+	],
+	"icon": "icon-2017X",
+	"name": "Subterfuge",
+	"displayName": "Subterfuge",
+	"color": "#413D4D",
+	"bpm": 100
+}

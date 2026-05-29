@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="palmera.png">
+<SubTexture name="palmera palmera0000" x="0" y="0" width="232" height="382" frameX="-353" frameY="-228" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="palmera palmera0001" x="232" y="0" width="232" height="383" frameX="-353" frameY="-227" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="palmera palmera0002" x="228" y="383" width="230" height="386" frameX="-354" frameY="-224" frameWidth="1024" frameHeight="1024" />
+<SubTexture name="palmera palmera0003" x="0" y="383" width="228" height="387" frameX="-356" frameY="-224" frameWidth="1024" frameHeight="1024" />
+</TextureAtlas>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="agujero.png">
+<SubTexture name="agujero agujero0000" x="0" y="0" width="547" height="406" frameX="-1067" frameY="-1270" frameWidth="2886" frameHeight="2682" />
+<SubTexture name="agujero agujero0001" x="0" y="406" width="640" height="317" frameX="-977" frameY="-1218" frameWidth="2886" frameHeight="2682" />
+<SubTexture name="agujero agujero0002" x="0" y="723" width="712" height="409" frameX="-950" frameY="-1129" frameWidth="2886" frameHeight="2682" />
+<SubTexture name="agujero agujero0003" x="0" y="1132" width="784" height="479" frameX="-915" frameY="-1044" frameWidth="2886" frameHeight="2682" />
+<SubTexture name="agujero agujero0004" x="0" y="1611" width="802" height="486" frameX="-915" frameY="-1017" frameWidth="2886" frameHeight="2682" />
+</TextureAtlas>

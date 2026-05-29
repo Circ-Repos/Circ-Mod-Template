@@ -1,0 +1,77 @@
+{
+    "version": "1.0.0",
+    "name": "Evilmightycam",
+    "assetPath": "characters/evilmighty",
+    "singTime": 6.1,
+    "isPixel": false,
+    "scale": 2.2,
+    "healthIcon": {
+        "id": "micon",
+        "isPixel": false,
+        "flipX": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "evilmighty evilmighty",
+            "offsets": [
+                -172,
+                -163
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "evilmighty down",
+            "offsets": [
+                -172,
+                -163
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "evilmighty right",
+            "offsets": [
+                -171,
+                -163
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singUP",
+            "prefix": "evilmighty up",
+            "offsets": [
+                -172,
+                -163
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "evilmighty left",
+            "offsets": [
+                -172,
+                -163
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        },
+        {
+            "name": "transform",
+            "prefix": "evilmighty transform",
+            "offsets": [
+                -171,
+                -162
+            ],
+            "frameRate": 22,
+            "frameIndices": []
+        }
+    ],
+    "flipX": false
+}
