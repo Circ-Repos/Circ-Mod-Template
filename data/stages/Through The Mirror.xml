@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/" name="Through The Mirror" zoom="1.4">
+	<sprite x="-1090" antialiasing="false" sprite="ndlo" y="-1165" type="none" scale="3" angle="180" name="bg_office"/>
+	<girlfriend scale="0.6" x="339" scroll="1" y="-116"/>
+	<dad scale="0.5" x="274" y="105"/>
+	<boyfriend scale="0.5" x="730" y="-35"/>
+</stage>

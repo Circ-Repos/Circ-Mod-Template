@@ -36,7 +36,7 @@
 				3.84,
 				1,
 				"quad",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 12666.6666666667,
@@ -48,7 +48,7 @@
 				1,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -60,7 +60,7 @@
 				3.94,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 15333.3333333333,
@@ -72,7 +72,7 @@
 				1,
 				1,
 				"circ",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 17000,
@@ -84,7 +84,7 @@
 				4.04,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -96,7 +96,7 @@
 				1,
 				1,
 				"quad",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -108,7 +108,7 @@
 				3.94,
 				1,
 				"quad",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 22166.6666666667,
@@ -120,7 +120,7 @@
 				1,
 				1,
 				"quad",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 23833.3333333333,
@@ -132,7 +132,7 @@
 				4,
 				64,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -153,7 +153,7 @@
 				1,
 				1,
 				"circ",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 44666.6666666667,
@@ -165,7 +165,7 @@
 				4,
 				1,
 				"circ",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -213,7 +213,7 @@
 				1,
 				1,
 				"circ",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 55333.3333333333,
@@ -225,7 +225,7 @@
 				4,
 				1,
 				"circ",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -273,7 +273,7 @@
 				1,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 66166.6666666667,
@@ -285,7 +285,7 @@
 				2,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -306,7 +306,7 @@
 				4,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 88833.3333333333,
@@ -327,7 +327,7 @@
 				1,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"name": "Scroll Speed Change",
@@ -339,7 +339,7 @@
 				4,
 				1,
 				"expo",
-				"InOut",
+				"Out",
 				false
 			],
 			"time": 110166.666666667,

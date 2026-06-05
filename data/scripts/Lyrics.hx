@@ -8,6 +8,8 @@ json = Json.parse(Assets.getText(jsonPath));
 trace(songName);
 var data = [];
 function postCreate() {
+	if(songName == 'Zipperbomb' && PlayState.variation != 'Teto') return;
+
 	camOther = new FlxCamera();
 	camOther.bgColor = 0;
 	FlxG.cameras.add(camOther, false);
@@ -55,6 +57,8 @@ function postCreate() {
 }
 
 function update(elapsed) {
+	if(songName == 'Zipperbomb' && PlayState.variation != 'Teto') return;
+
 	for (j in data) {
 		if (!j.triggered && curStep >= j.timestamp) {
 			j.triggered = true;
@@ -65,6 +69,8 @@ function update(elapsed) {
 }
 
 function showLyric(j) {
+	if(songName == 'Zipperbomb' && PlayState.variation != 'Teto') return;
+
 	poop.text = StringTools.replace(j.lyric, "'", "");
 	poop.color = FlxColor.fromString(j.color);
 	poop.antialiasing = Options.antialiasing;
